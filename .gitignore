@@ -1,0 +1,16 @@
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+.sass-cache
+ehthumbs.db
+Thumbs.db
+
+node_modules
+dist
+coverage
+
+.env
+npm-error.log
+yarn-error.log
