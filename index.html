@@ -68,6 +68,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 20px;
+        margin-bottom: 20px;
       }
 
       .c-button {
@@ -172,7 +173,9 @@
       };
 
       const play = (number) => {
-        audioEl.src = `./sounds/${number}.mp3`;
+        const audio = document.createElement('audio');
+
+        audio.src = `./sounds/${number}.mp3`;
 
         audio.play();
       };
