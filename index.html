@@ -284,7 +284,11 @@
         }, intervalNumber);
       };
 
+      let initiated = false;
       const initMusic = () => {
+        if (initiated) {
+          return;
+        }
         setTimeout(() => {
           Object.keys(audioMap).forEach((key) => {
             audioMap[key].play();
@@ -292,6 +296,8 @@
             audioMap[key].currentTime = 0;
           });
         }, 100);
+
+        initiated = true;
       };
 
       const methodName = 'click';
