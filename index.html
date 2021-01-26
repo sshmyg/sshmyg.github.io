@@ -40,7 +40,7 @@
         id="input-interval"
         class="c-input"
       />
-      <audio src="" id="audio" class="c-audio"></audio>
+      <!-- <audio src="" id="audio" class="c-audio"></audio> -->
     </div>
     <style>
       * {
@@ -159,6 +159,21 @@
       let numbersList = createNumbers();
       let history = [];
 
+      numbersList.forEach((number) => {
+        const audio = document.createElement('audio');
+        const source = document.createElement('source');
+
+        audio.setAttribute('preload', 'auto');
+        audio.className = 'c-audio';
+        audio.id = 'sound-' + number;
+
+        source.src = `./sounds/${number}.mp3`;
+
+        audio.appendChild(source);
+
+        document.body.appendChild(audio);
+      });
+
       const getNumber = () => {
         if (numbersList.length === 0) {
           return;
@@ -173,11 +188,16 @@
       };
 
       const play = (number) => {
-        const audio = document.createElement('audio');
+        /* const audio = document.createElement('audio');
+        const source = document.createElement('source');
 
-        audio.src = `./sounds/${number}.mp3`;
+        source.src = `./sounds/${number}.mp3`;
 
-        audio.play();
+        audio.appendChild(source);
+
+        audio.play(); */
+
+        document.getElementById('sound-' + number).play();
       };
 
       const render = (number) => {
