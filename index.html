@@ -144,6 +144,10 @@
         }
       }
     </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"
+      crossorigin="anonymous"
+    ></script>
     <script>
       let intervalId;
       let repeatIntervalId;
@@ -154,7 +158,6 @@
       const repeatEl = document.getElementById('repeat');
       const historyEl = document.getElementById('history');
       const inputIntervalEl = document.getElementById('input-interval');
-      const audioMap = {};
 
       const createNumbers = () =>
         Array.from(Array(length), (_, i) => i + 1).sort(
@@ -163,11 +166,6 @@
 
       let numbersList = createNumbers();
       let history = [];
-
-      // Init audio
-      numbersList.forEach((number) => {
-        audioMap[number] = new Audio(`./sounds/${number}.mp3`);
-      });
 
       const getNumber = () => {
         if (numbersList.length === 0) {
@@ -183,7 +181,11 @@
       };
 
       const play = (number) => {
-        audioMap[number].play();
+        const sound = new Howl({
+          src: [`/sounds/${number}.mp3`],
+        });
+
+        sound.play();
       };
 
       const render = (number) => {
