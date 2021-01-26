@@ -8,43 +8,66 @@
   <body>
     <div class="main">
       <h1 id="number">Press Start</h1>
-      <button type="button" id="start" class="c-button">Start</button>
-      <button
-        type="button"
-        id="pause"
-        disabled="disabled"
-        class="c-button c-button__pause"
-      >
-        Pause
-      </button>
-      <button
-        type="button"
-        id="repeat"
-        class="c-button c-button__repeat"
-        disabled="disabled"
-      >
-        Repeat
-      </button>
-      <br />
-      <br />
+
+      <div class="l-buttons">
+        <button type="button" id="start" class="c-button">Start</button>
+        <button
+          type="button"
+          id="pause"
+          disabled="disabled"
+          class="c-button c-button__pause"
+        >
+          Pause
+        </button>
+        <button
+          type="button"
+          id="repeat"
+          class="c-button c-button__repeat"
+          disabled="disabled"
+        >
+          Repeat
+        </button>
+      </div>
+
       <div id="history"></div>
 
       Interval:
-      <input type="number" value="3" min="2" max="10" id="input-interval" />
+      <input
+        type="number"
+        value="3"
+        min="2"
+        max="10"
+        id="input-interval"
+        class="c-input"
+      />
+      <audio src="" id="audio" class="c-audio"></audio>
     </div>
     <style>
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         margin: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
+
       .main {
         text-align: center;
+        width: 30%;
+        margin: 0 auto;
       }
 
       #number {
-        font-size: 80px;
+        font-size: 60px;
         text-align: center;
         margin: 0 0 10px;
+      }
+
+      .l-buttons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
       }
 
       .c-button {
@@ -57,8 +80,8 @@
         cursor: pointer;
         outline-color: blueviolet;
         border-radius: 4px;
-        width: 100px;
-        margin: 0 10px;
+        width: 100%;
+        margin: 0;
       }
 
       .c-button.c-button__pause {
@@ -75,12 +98,15 @@
         cursor: not-allowed;
       }
 
+      .c-input {
+        width: 50px;
+      }
+
       #history {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-row-gap: 20px;
-        width: 30%;
-        margin: 0 auto 20px;
+        margin-bottom: 20px;
         justify-content: center;
       }
 
@@ -97,6 +123,20 @@
         font-size: 80%;
         margin: 0 auto;
       }
+
+      .c-audio {
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+
+      @media screen and (max-width: 768px) {
+        .main {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
     </style>
     <script>
       let intervalId;
@@ -108,12 +148,12 @@
       const repeatEl = document.getElementById('repeat');
       const historyEl = document.getElementById('history');
       const inputIntervalEl = document.getElementById('input-interval');
+      const audioEl = document.getElementById('audio');
 
       const createNumbers = () =>
         Array.from(Array(length), (_, i) => i + 1).sort(
           () => Math.random() - 0.5
         );
-      const audio = new Audio();
 
       let numbersList = createNumbers();
       let history = [];
@@ -132,7 +172,7 @@
       };
 
       const play = (number) => {
-        audio.src = `./sounds/${number}.mp3`;
+        audioEl.src = `./sounds/${number}.mp3`;
 
         audio.play();
       };
