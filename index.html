@@ -285,20 +285,22 @@
       };
 
       const initMusic = () => {
-        Object.keys(audioMap).forEach((key) => {
-          audioMap[key].play();
-          audioMap[key].pause();
-          audioMap[key].currentTime = 0;
-        });
+        setTimeout(() => {
+          Object.keys(audioMap).forEach((key) => {
+            audioMap[key].play();
+            audioMap[key].pause();
+            audioMap[key].currentTime = 0;
+          });
+        }, 100);
       };
 
-      const methodName = 'ontouchstart' in window ? 'touchstart' : 'click';
+      const methodName = 'click';
 
       startEl.addEventListener(methodName, start);
       pauseEl.addEventListener(methodName, pause);
       repeatEl.addEventListener(methodName, repeat);
 
-      document.documentElement.addEventListener(methodName, initMusic);
+      document.body.addEventListener(methodName, initMusic);
     </script>
   </body>
 </html>
