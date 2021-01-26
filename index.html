@@ -235,9 +235,11 @@
         }, intervalNumber);
       };
 
-      startEl.addEventListener('click', start);
-      pauseEl.addEventListener('click', pause);
-      repeatEl.addEventListener('click', repeat);
+      const methodName = 'ontouchend' in window ? 'touchend' : 'click';
+
+      startEl.addEventListener(methodName, start);
+      pauseEl.addEventListener(methodName, pause);
+      repeatEl.addEventListener(methodName, repeat);
     </script>
   </body>
 </html>
