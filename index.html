@@ -181,8 +181,15 @@
       };
 
       const play = (number) => {
+        Howler.autoUnlock = true;
+
         const sound = new Howl({
           src: [`/sounds/${number}.mp3`],
+          onplayerror: function () {
+            sound.once('unlock', function () {
+              sound.play();
+            });
+          },
         });
 
         sound.play();
