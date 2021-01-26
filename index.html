@@ -284,29 +284,11 @@
         }, intervalNumber);
       };
 
-      let initiated = false;
-      const initMusic = () => {
-        if (initiated) {
-          return;
-        }
-        setTimeout(() => {
-          Object.keys(audioMap).forEach((key) => {
-            audioMap[key].play();
-            audioMap[key].pause();
-            audioMap[key].currentTime = 0;
-          });
-        }, 100);
-
-        initiated = true;
-      };
-
-      const methodName = 'click';
+      const methodName = 'ontouchstart' in window ? 'touchstart' : 'click';
 
       startEl.addEventListener(methodName, start);
       pauseEl.addEventListener(methodName, pause);
       repeatEl.addEventListener(methodName, repeat);
-
-      document.body.addEventListener(methodName, initMusic);
     </script>
   </body>
 </html>
