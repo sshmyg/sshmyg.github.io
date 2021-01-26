@@ -47,9 +47,14 @@
         box-sizing: border-box;
       }
 
+      html {
+        height: 100%;
+      }
+
       body {
         margin: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: 100%;
       }
 
       .main {
@@ -149,7 +154,7 @@
       const repeatEl = document.getElementById('repeat');
       const historyEl = document.getElementById('history');
       const inputIntervalEl = document.getElementById('input-interval');
-      const audioEl = document.getElementById('audio');
+      const audioMap = {};
 
       const createNumbers = () =>
         Array.from(Array(length), (_, i) => i + 1).sort(
@@ -159,19 +164,9 @@
       let numbersList = createNumbers();
       let history = [];
 
+      // Init audio
       numbersList.forEach((number) => {
-        const audio = document.createElement('audio');
-        const source = document.createElement('source');
-
-        audio.setAttribute('preload', 'auto');
-        audio.className = 'c-audio';
-        audio.id = 'sound-' + number;
-
-        source.src = `./sounds/${number}.mp3`;
-
-        audio.appendChild(source);
-
-        document.body.appendChild(audio);
+        audioMap[number] = new Audio(`./sounds/${number}.mp3`);
       });
 
       const getNumber = () => {
@@ -188,16 +183,7 @@
       };
 
       const play = (number) => {
-        /* const audio = document.createElement('audio');
-        const source = document.createElement('source');
-
-        source.src = `./sounds/${number}.mp3`;
-
-        audio.appendChild(source);
-
-        audio.play(); */
-
-        document.getElementById('sound-' + number).play();
+        audioMap[number].play();
       };
 
       const render = (number) => {
@@ -298,11 +284,21 @@
         }, intervalNumber);
       };
 
-      const methodName = 'ontouchend' in window ? 'touchend' : 'click';
+      const initMusic = () => {
+        Object.keys(audioMap).forEach((key) => {
+          audioMap[key].play();
+          audioMap[key].pause();
+          audioMap[key].currentTime = 0;
+        });
+      };
+
+      const methodName = 'ontouchstart' in window ? 'touchstart' : 'click';
 
       startEl.addEventListener(methodName, start);
       pauseEl.addEventListener(methodName, pause);
       repeatEl.addEventListener(methodName, repeat);
+
+      document.documentElement.addEventListener(methodName, initMusic);
     </script>
   </body>
 </html>
