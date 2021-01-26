@@ -49,6 +49,7 @@
 
       html {
         height: 100%;
+        min-height: 100%;
       }
 
       body {
@@ -181,15 +182,8 @@
       };
 
       const play = (number) => {
-        Howler.autoUnlock = true;
-
         const sound = new Howl({
           src: [`/sounds/${number}.mp3`],
-          onplayerror: function () {
-            sound.once('unlock', function () {
-              sound.play();
-            });
-          },
         });
 
         sound.play();
@@ -293,11 +287,26 @@
         }, intervalNumber);
       };
 
-      const methodName = 'ontouchstart' in window ? 'touchstart' : 'click';
+      const methodName = 'ontouchend' in window ? 'touchend' : 'click';
 
       startEl.addEventListener(methodName, start);
       pauseEl.addEventListener(methodName, pause);
       repeatEl.addEventListener(methodName, repeat);
+
+      let isClicked = false;
+      document.body.addEventListener(methodName, () => {
+        if (isClicked) {
+          return;
+        }
+
+        const sound = new Howl({
+          src: [`/sounds/1.mp3`],
+        });
+
+        sound.play();
+
+        isClicked = true;
+      });
     </script>
   </body>
 </html>
