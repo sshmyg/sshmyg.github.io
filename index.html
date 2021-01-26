@@ -273,10 +273,7 @@
         repeatIntervalId = setInterval(() => {
           const number = history[indexCounter];
 
-          if (
-            indexCounter === length - 1 ||
-            indexCounter === history.length - 1
-          ) {
+          if (indexCounter >= length || indexCounter >= history.length) {
             pauseRepeat();
             repeatEl.setAttribute('disabled', 'disabled');
             return;
