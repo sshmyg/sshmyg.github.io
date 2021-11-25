@@ -9793,9 +9793,7 @@
               (null !== (t = null == e ? void 0 : e.response) && void 0 !== t
                 ? t
                 : {}
-              ).status &&
-              ((0, d.kT)(c.ZP.LOGIN_TOKEN_NAME),
-              window.location.replace('/login')),
+              ).status && ((0, d.kT)(c.ZP.LOGIN_TOKEN_NAME), console.log('1')),
             Promise.reject(e)
           );
         }
