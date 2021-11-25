@@ -1,0 +1,889 @@
+{
+  "general": {
+    "leave": "Leave",
+    "error": "Error",
+    "warning": "Warning",
+    "success": "Success",
+    "info": "Info",
+    "dataset": "Dataset",
+    "countries": "Countries",
+    "platforms": "Platforms",
+    "settings": "Settings",
+    "changePassword": "Change password",
+    "emailReports": "Email reports",
+    "apiDocumentation": "API documentation",
+    "help": "Help",
+    "logOut": "Log out",
+    "terms": "Terms and conditions",
+    "save": "Save",
+    "master": "Master",
+    "confirm": "Confirm",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "loading": "Loading",
+    "or": "Or",
+    "createNewVersion": "Create as new version",
+    "setAsMaster": "Set as master",
+    "none": "None",
+    "addFilter": "+ Add filter",
+    "chooseValues": "Choose values",
+    "delete": "Delete",
+    "export": "Export",
+    "search": "Search",
+    "other": "Other",
+    "pagination": "<bold>{{start}} - {{end}}</bold> of <bold>{{total}}</bold>",
+    "showing": "Showing",
+    "results": "results",
+    "all": "All",
+    "groups": "Groups",
+    "selected": "Selected",
+    "submit": "Submit",
+    "id": "Id",
+    "resetToDefault": "Reset to default",
+    "download": "Download",
+    "back": "Back",
+    "group": "Group",
+    "tvbeat": "TVBeat",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "exporting": "Exporting",
+    "daysOfWeek": "Days of week",
+    "customDateRange": "Custom date range",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday",
+    "last7days": "Last 7 days",
+    "last30days": "Last 30 days",
+    "monthToDate": "Month to date",
+    "lastMonth": "Last month",
+    "last3Months": "Last 3 months",
+    "last12Months": "Last 12 months",
+    "weekToDate": "Week to date",
+    "lastWeek": "Last week",
+    "yearToDate": "Year to date",
+    "next7Days": "Next 7 days",
+    "nextWeek": "Next week",
+    "next30days": "Next 30 days",
+    "next90days": "Next 90 days",
+    "nextMonth": "Next month",
+    "monday": "Monday",
+    "mondayShort": "Mo",
+    "tuesday": "Tuesday",
+    "tuesdayShort": "Tu",
+    "wednesday": "Wednesday",
+    "wednesdayShort": "We",
+    "thursday": "Thursday",
+    "thursdayShort": "Th",
+    "friday": "Friday",
+    "fridayShort": "Fr",
+    "saturday": "Saturday",
+    "saturdayShort": "Sa",
+    "sunday": "Sunday",
+    "sundayShort": "Su",
+    "days": "Days",
+    "week": "Week",
+    "metrics": "Metrics",
+    "intervals": "Intervals",
+    "both": "Both",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "options": "Options",
+    "bottom": "BOTTOM",
+    "top": "TOP",
+    "saved": "saved",
+    "custom": "custom",
+    "excel": "Excel",
+    "exclude": "Exclude",
+    "allExcept": "All except:",
+    "pdf": "Pdf",
+    "AND": "AND",
+    "OR": "OR",
+    "from": "From",
+    "to": "To",
+    "moreThan": "More than",
+    "lessThan": "Less than",
+    "switchUserGroup": "Switch user group",
+    "clickToFilter": "Click to filter data",
+    "barChart": "Bar chart",
+    "lineChart": "Line chart",
+    "emptyDescription": "No data to display. Try adjusting filters.",
+    "edit": "Edit",
+    "metadata": "Metadata",
+    "exportToPdf": "Export to PDF",
+    "exportToXls": "Export to Excel",
+    "version": "Version",
+    "date": "Date",
+    "yes": "Yes",
+    "userGroup": "User group",
+    "refresh": "Refresh",
+    "moreInfo": "More info",
+    "yesDelete": "Yes, delete it",
+    "goBack": "Go back",
+    "searchFor": "Search for",
+    "default": "default",
+    "makeDefault": "Make default"
+  },
+  "modals": {
+    "modalDownload": {
+      "title": "Your export is ready!",
+      "content": "Click the Download button to download the exported file."
+    },
+
+    "userGroupWarning": {
+      "title": "User group access",
+      "content-part-1": "The URL you are trying to open belongs to the a user group which you are not part of.",
+      "content-part-2": "Please be aware that the query results may not be the same as in the shared URL, due to different settings and global filters. The URL may not even open properly.",
+      "details": "If required, confirm the user group name with the person who has shared this URL and contact your admin to get an access."
+    }
+  },
+  "dataset": {
+    "datasetInfo": "Dataset info",
+    "lastProcessedTitle": "Last processed date for current data",
+    "lastProcessedContent": "This date represents the latest day of data that was processed and is available to use in the dashboard. The frequency of how often the data is processed and when it is available in the dash can differ depending on the dataset.",
+    "globalFiltersTitle": "Global filters",
+    "globalFiltersContent": "Global filters are applied as default across all data queries in the dashboard. This means that the data displayed in the  Research, Reports & Indexing modules, have those default filters applied automatically. These can be overridden where necessary - please contact us for more information.",
+    "campaignMetadataFiltersTitle": "Campaign metadata filters",
+    "campaignMetadataFiltersContent": "These filters are applied on all campaign related data queries in the Campaign module and it's related reports.",
+    "cumulativeMetricsTitle": "Cumulative metrics",
+    "cumulativeMetricsContent": "Switch to cumulative metrics - Cumulative metrics capture viewing from the start of the query to the selected interval."
+  },
+  "helper": {
+    "contactSupport": "Contact support",
+    "gettingStarted": "Getting started",
+    "skyMediaDocumentation": "SKY Media documentation",
+    "developerDocs": "Developer docs",
+    "tc": "Terms & Privacy",
+    "signIn": "Sign in"
+  },
+  "filter": {
+    "addToGroup": "Add to group",
+    "addToExistingGroup": "Add to existing group",
+    "createNewGroup": "Create a new group",
+    "confirmGroupDeleteContent": "Are you sure you want to remove this group?",
+    "customInterval": "Custom interval"
+  },
+  "errors": {
+    "common": "Some error occurred",
+    "required": "Field required",
+    "idsExist": "Group with those id's already exist",
+    "number": "Numbers only",
+    "wrong": "Something went wrong!",
+    "globalDescription": "An error occurred. Please try refreshing the page! If the problem persists contact support.",
+    "notFound": "Oops! Page not found.",
+    "notFoundDescription": "We can’t seem to find the page you are looking for. "
+  },
+  "nav": {
+    "inventoryManagement": "Inventory Management",
+    "audienceManagement": "Audience Measurement",
+    "reports": "Reports",
+    "historical": "Historical",
+    "operationalReports": "Operational reports",
+    "campaigns": "Campaigns",
+    "research": "Research",
+    "exporter": "Exporter",
+    "audiences": "Audiences",
+    "budgeting": "Budgeting",
+    "forecasting": "Forecasting",
+    "forecastManagement": "Forecast management",
+    "versions": "Versions",
+    "home": "Home",
+    "live": "Live",
+    "indexing": "Indexing",
+    "contentEvaluation": "Content evaluation",
+    "packageReport": "Package report",
+    "contentProviderReport": "Content provider report",
+    "subscriberReport": "Subscriber report",
+    "testReport": "Test report",
+    "showcaseReport": "Showcase report",
+    "sellThroughRate": "Sell through rate",
+    "customChartWidgets": "Custom chart widgets",
+    "timeSeriesTable": "Time series table",
+    "widgetTestReport": "Widget test report",
+    "budgetReports": "Budget reports",
+    "proposals": "Proposals",
+    "bookedCampaigns": "Booked campaigns"
+  },
+  "forecasting": {
+    "editForecastParams": "Edit Forecast Params",
+    "openInResearch": "Open in research",
+    "upcomingDays": "Upcoming {{counter}} days",
+    "forecastRange": "Upcoming {{upcoming}} Days ({{dayFrom}} - {{dayTo}})",
+    "totalInventory": "Total Inventory",
+    "totalForSelectedAlterations": "$t(forecasting.totalInventory) for Selected Alterations",
+    "forecastAlterations": "Forecast alterations",
+    "addAlteration": "Add alteration",
+    "reCalculate": "Re-calculate",
+    "alteration": "Alteration",
+    "parameters": "Parameters",
+    "owner": "Owner",
+    "dateModified": "Date modified",
+    "include": "Include",
+    "ownerDateModified": "Owner/date modified",
+    "includeInForecast": "Include in forecast",
+    "alterationsDefaultName": "Alteration #{{index}}",
+    "sizeOfChange": "Size of change",
+    "dateRange": "Date range",
+    "filters": "Filters",
+    "confirmDeleteAlteration": "Are you sure you want to delete this alteration?",
+    "editAlteration": "Edit alteration",
+    "editAlterationMessage": "Please click the 'Re-calculate' button to include this alteration in the forecast.",
+    "forecastSettings": "Forecast settings",
+    "dimensions": "Dimensions",
+    "measure": "Measure",
+    "saveVersion": "Save version",
+    "version": "Forecast version",
+    "compareVersion": "Compare version",
+    "query": "Query",
+    "filterDescription": "Choose your filters and click \"+ Apply\"",
+    "confirmDeleteVersion": "Are you sure you want to delete this version?",
+    "exportSuccessTitle": "Your export is ready",
+    "exportSuccessMessage": "Click <a href=\"{{link}}\">here</a> to download it.",
+    "exportErrorTitle": "Your export failed",
+    "exportErrorMessage": "The exporting process failed. Please try again. If the problem persists, contact our customer service and we will look into it.",
+    "newForecast": "New forecast",
+    "capacity": "Capacity (F)",
+    "reset": "Reset",
+    "edit": "Edit forecast",
+    "export": "Export",
+    "editParams": "Edit forecast parameters",
+    "openResearch": "Open in Research",
+    "delete": "Delete forecast",
+    "save": "Save forecast",
+    "outdatedMessage": "Please Save to re-calculate the forecast based on changed parameters.",
+    "recalculatingInProgressMessage": "Re-calculating the forecast",
+    "recalculatingInProgressDescription": "We are preparing the new forecast based on selected parameters. This might take a few minutes.",
+    "masterSetTitle": "Set this forecast as Master?",
+    "masterSetContent": "<p>You are about to set this forecast version as a Master version.</p> <p>Confirmation will have impact on the following items:</p> <ul> <li>Forecasted capacity numbers</li> <li>Forecasted delivered impressions</li> <li>Forecasted Fill rate</li> <li>Forecasted campaign delivery and the campaign end date</li> </ul> <p>Update will take around 10mins, once confirmed.</p> <p>Would you like to proceed?</p>",
+    "newForecastVersion": "New forecast version",
+    "versionName": "Forecast version name",
+    "copyVersion": "Copy from this forecast version",
+    "alterationQuery": "Alteration query",
+    "overviewTitle": "Forecast version overview",
+    "compare": "Compare",
+    "vs": "vs.",
+    "paramsTitle": "Forecast parameters",
+    "deleteAlterationTitle": "Delete this alteration?",
+    "deleteAlterationConfirmContent": "Are you sure you want to delete this alteration?",
+    "deleteVersionTitle": "Delete this forecast version?",
+    "deleteVersionConfirmContent": "Are you sure you want to delete this forecast version?",
+    "noAlteration": "No alteration added",
+    "resetTitle": "Reset changes?",
+    "resetContent": "Changes you made to the version so far will not be saved.",
+    "saveTitle": "This might take a while!",
+    "saveContent": "<p>Applying new parameters and alterations to the forecast will take couple of minutes.</p><p>Would you like to proceed?</p>",
+    "newVersionWarning": "You have pending changes which will be lost if you proceed to create a new forecast version.",
+    "setMasterWarning": "You have pending changes which will be automatically saved if you proceed.",
+    "leaveTitle": "Leave without saving?",
+    "leaveContent": "Changes you made to the version so far will not be saved."
+  },
+  "forms": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "title": "Title",
+    "description": "Description",
+    "query": "Query",
+    "dateRange": "Date range",
+    "deltaKey": "Size of change",
+    "metric": "Metric",
+    "metricPlaceholder": "Select metric",
+    "deltaValue": "Value",
+    "deltaValuePlaceholder": "e.g. 10000",
+    "alterationType": "Forecast alteration type",
+    "primary": "Primary",
+    "secondary": "Secondary",
+    "editQuery": "Edit query",
+    "versionName": "Version name",
+    "setAsMaster": "Set this version as <strong>Master</strong>"
+  },
+  "campaigns": {
+    "campaigns": "Campaigns",
+    "placements": "Placements",
+    "creatives": "Creatives",
+    "operator": "Operator",
+    "overview": "Overview",
+    "starts": "Starts in",
+    "ends": "Ends in",
+    "interval": "Active in",
+    "exportCampaigns": "Export campaigns",
+    "exportPlacements": "Export placements",
+    "exportCreatives": "Export creatives",
+    "campaignReport": "Campaign report",
+    "placementReport": "Placement report",
+    "extReport": "Ext. report",
+    "moreInfo": "More info",
+    "moreInfoFor": "More info for",
+    "active": "Active",
+    "in_active": "Inactive",
+    "cancelled": "Cancelled",
+    "completed": "Completed",
+    "testing": "Testing",
+    "emptyMessage": "No results to display. Please adjust your filters to get more results.",
+    "manageColumnsDescription": "Toggle campaign attributes and sort them via drag and drop",
+    "metricsAndMetadata": "Metrics / Metadata",
+    "goToFullReport": "Go to full report",
+    "impression": "Impressions",
+    "nameContains": "<strong>{{type}} name</strong> contains",
+    "smartView": "Smart view",
+    "manageColumns": "Manage columns",
+    "clearCheckedRows": "Clear checked rows",
+    "view": "Overview",
+    "selected": "Selected",
+    "all": "All",
+    "allAbove": "All above",
+    "forecastedImpressions": "Forecasted Impressions",
+    "targetImpressions": "Target Impressions",
+    "cpm": "CPM",
+    "forecastCompletionDate": "Forecast completion date",
+    "reportsDescription": "Booked Campaign report",
+    "name": "Name",
+    "progress": "Progress",
+    "elapsedTime": "Elapsed time",
+    "columns": {
+      "reach": "Reach #",
+      "frequency": "Freq.",
+      "impression": "Served Imp.",
+      "osi": "OSI",
+      "progress_percent": "Progress",
+      "elapsed_time_percent": "Elapsed time",
+      "ad": {
+        "advertiser": "Advertiser",
+        "client_type": "Client type",
+        "client_name": "Client name",
+        "prod_name": "Product name",
+        "agency": "Agency",
+        "d5_targetedaud": "Target audience",
+        "prod_gclsh": "Clash groups",
+        "prod_clsh": "Clash code"
+      },
+      "campaign": {
+        "name": "$t(campaigns.campaigns)",
+        "cmpgn_status": "Status",
+        "budget": "Budget",
+        "target_imp": "Target Imp.",
+        "start_date": "Start date",
+        "end_date": "End date",
+        "cpt": "CPM",
+        "ffdr": "FFDR",
+        "forecasted_impressions": "Forecasted Imp.",
+        "forecasted_completion": "Forecasted Comp. Date",
+        "exinv": "Excess inventory"
+      },
+      "placement": {
+        "name": "$t(campaigns.placements)",
+        "plac_status": "$t(campaigns.columns.campaign.cmpgn_status)",
+        "budget": "$t(campaigns.columns.campaign.budget)",
+        "target_imp": "$t(campaigns.columns.campaign.target_imp)",
+        "start_date": "$t(campaigns.columns.campaign.start_date)",
+        "end_date": "$t(campaigns.columns.campaign.end_date)",
+        "cpt": "$t(campaigns.columns.campaign.cpt)",
+        "ffdr": "$t(campaigns.columns.campaign.ffdr)",
+        "forecasted_impressions": "$t(campaigns.columns.campaign.forecasted_impressions)",
+        "forecasted_completion": "$t(campaigns.columns.campaign.forecasted_completion)",
+        "prim_traf": "Primary trafficker",
+        "sales_person": "Salesperson",
+        "cmpgn_exinv": "$t(campaigns.columns.campaign.exinv)",
+        "delivery_pacing_point": "Priority",
+        "delivery_pacing": "Pacing",
+        "countries_constraints": "Countries constraints",
+        "audience_constraints": "Audience constraints"
+      },
+      "creative": {
+        "name": "$t(campaigns.creatives)"
+      }
+    },
+    "modalGroups": {
+      "createTitle": "Add to group",
+      "editTitle": "Edit group"
+    },
+    "groups": {
+      "general": "General",
+      "delivery": "Delivery",
+      "targeting": "Targeting",
+      "pricing": "Pricing",
+      "forecast": "Forecast"
+    },
+    "warnings": {
+      "placement": "Missing Placement",
+      "creative": "Missing Creative",
+      "placementAndCreative": "Missing Placement and Creative"
+    }
+  },
+  "apps": {
+    "tabs": {
+      "overview": "Overview",
+      "channels": "Channels",
+      "devices": "Devices",
+      "mediaPartners": "Media Partners",
+      "content": "Content"
+    },
+    "dateRanges": {
+      "pastDays": "Past 7 days",
+      "pastWeeks": "Past weeks",
+      "pastMonths": "Past months"
+    },
+    "exportWidget": "Export widget",
+    "exportAll": "Export all",
+    "noConfig": "There is no config for such application",
+    "totals": "Grand Total",
+    "filters": "Filters",
+    "noFilters": "No filters",
+    "dateRange": "Date range",
+    "metrics": "Metrics",
+    "total": "Total",
+    "widgetLoadError": "Failed to load widget"
+  },
+  "research": {
+    "compare": "compare",
+    "createAudience": "Create new audience",
+    "allAudience": "All audience",
+    "chartType": "Chart type",
+    "avg": "avg",
+    "enableAvg": "Enable / disable averages for each series",
+    "trend": "Trend",
+    "averages": "Averages",
+    "none": "None",
+    "enableTrend": "Enable / disable trend for each series",
+    "trendTitle": "Trendlines",
+    "trendSubtitle": "Toggle trendline & averages",
+    "includeGroupsTitle": "Include Groups",
+    "includeGroupsSubtitle": "Include groups in the results",
+    "onlyGroups": "Only Groups",
+    "onlyValues": "Only {{dimensionName}}",
+    "addMetricsSubtitle": "Add and order metrics in table",
+    "editMetrics": "Edit metrics",
+    "formatNumbersTitle": "Format numbers",
+    "formatNumbersSubtitle": "Toggle format or unformatted numbers",
+    "durationTitle": "Duration metrics format",
+    "durationSubtitle": "Format duration metrics to minutes or hours",
+    "selectMetricsTitle": "Add/Order metrics in Table",
+    "selectMetricsSubtitle": "Select Metrics that you want to appear in the table. Drag & Drop to change the order in which the metrics appear in the table.",
+    "pagination": "results",
+    "dataLabelsTitle": "Data Labels",
+    "dataLabelsSubtitle": "Show data labels on data points",
+    "empty": "Select what you want to <bold>compare</bold>, chose a <bold>date range</bold>, add optional <bold>filters</bold> and click the <bold>Submit</bold> button",
+    "customAudience": "Custom audience",
+    "comparisonSummary": "{{topOrBottom}} {{dimensionLabel}} for {{fromDate}} - {{toDate}} ({{intervalLabel}})",
+    "comparisonSummaryShort": "{{topOrBottom}} {{dimensionLabel}} for {{fromDate}} {{toDate}} {{intervalLabel}}",
+    "comparisonSummaryBookmark": "Comparing: {{topOrBottom}} {{dimensionLabel}} for ({{intervalLabel}})",
+    "filtersTitle": "We are not able to show data for the selected filters.",
+    "filtersSubTitle": "Please try refreshing the page or choose different filters.",
+    "aggregationTitle": "To comply with privacy rules, audiences with reach less than <bold>{{number}}</bold> cannot be calculated. For more information please contact your administrator.",
+    "aggregationSubTitle": "Please try increasing the audience size of this query.",
+    "otherSubtitle": "'We are looking into this and will make it available as soon as possible",
+    "trendForLine": "<bold>Trend line for</bold> {{label}}",
+    "avgForLine": "<bold>Avg.</bold> per <bold>{{interval}}</bold> for {{label}}",
+    "bookmarksTitle": "Your bookmarks",
+    "bookmarksPlaceholder": "Enter Bookmark title",
+    "confirmBookmarkDelete": "Are you sure you want to delete this bookmark?",
+    "audience": {
+      "selectYourAudience": "Select your <bold>Audience</bold>",
+      "numberOfSubscribers": "<bold>{{size}}</bold>",
+      "percentOfSubscribers": "<bold>{{percent}}% - </bold>",
+      "calculating": "Calculating...",
+      "selectFilters": "Select the Audience filters below",
+      "addAudience": "+ Add <bold>Audience</bold>",
+      "fileSize": "File size: ",
+      "subscribersSize": "Num. of subscribers: ",
+      "dateRange": "Date range:",
+      "invert": "Invert",
+      "lessThanAggregation": "< than {{number}} users",
+      "subscribers": "subscribers"
+    },
+    "table": {
+      "moreResults": "There are {{numberOfValuesWithZero}} more results of which metrics are 0. <clickable>Click</clickable> to display all the results. "
+    },
+    "export": {
+      "chartAndTable": "Export chart and table",
+      "chart": "Export chart",
+      "table": "Export table"
+    },
+    "modalExport": {
+      "title": "Your export has started",
+      "subtitle": "The exporting process has successfully started. The file may take some time to generate. You will be able to download it when it&apos;s done."
+    },
+    "metadataSubTitle": "Include metadata columns",
+    "airTime": "Air time",
+    "title": "Research",
+    "subtitle": "Filter and drill down into data"
+  },
+  "tooltips": {
+    "reach": {
+      "title": "Subscriber #",
+      "message": "The total number of Subscriber IDs viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."
+    },
+    "reachPercent": {
+      "title": "Subscriber %",
+      "message": "The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."
+    },
+    "rating": {
+      "title": "Rating",
+      "message": "The average number of Subscriber IDs viewing at any given moment."
+    },
+    "ratingPercent": {
+      "title": "Rating %",
+      "message": "The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."
+    },
+    "averageDuration": {
+      "title": "Average Duration",
+      "message": "\n                <div style=\"display: flex;\">\n                    <div style=\"\">\n                        <p>The average viewing duration per reached viewer.</p>\n                        <p>The average duration is calculated based on the selected interval of the query which can be: Minute, Hour, Day, Total etc.</p>\n                        <p>Example: If i select the <strong>Week</strong> interval my average duration will be an average duration <strong>per week</strong>.</p>\n                        <p><a href=\"https://tvbeat.snazzydocs.com/docs/123.0/data-and-metrics?u=tvbeat&p=private#duration-metrics\" target=\"_blank\">READ MORE</a></p>\n                    </div>\n                    <div style=\"flex: 0 0 92px; margin-left: 12px;\">\n                        <img src=\"{{avgDurationImg}}\" style=\"width: 100%;\" />\n                    </div>\n                </div>\n                "
+    },
+    "avgDurAll": {
+      "title": "Average Duration All",
+      "message": "The average viewing duration across all Viewers."
+    },
+    "share": {
+      "title": "Share",
+      "message": "Viewing duration as a percentage of all viewing."
+    },
+    "totalDuration": {
+      "title": "Total Duration",
+      "message": "The total viewing time."
+    },
+    "ireach": {
+      "title": "Incremental Reach #",
+      "message": "Unique number of households that have viewed a specified time period of a given channel in a specific interval but they havent watched in a previous interval."
+    },
+    "ireachPercent": {
+      "title": "Incremental Reach %",
+      "message": "Incremental reach # expressed in %."
+    },
+    "osn-reach": {
+      "title": "Reach #",
+      "message": "The total number of Subscriber IDs viewing."
+    },
+    "osn-reachPercent": {
+      "title": "Reach %",
+      "message": "The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."
+    },
+    "osn-dreach": {
+      "title": "Device reach #",
+      "message": "Number of unique devices that were used by users to view a specified time period (>0 sec) of a given channel over another, broader specified time period."
+    },
+    "osn-ratingPercent": {
+      "title": "GRP %",
+      "message": "The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."
+    },
+    "osn-avgDurAll": {
+      "title": "ATS",
+      "message": "The average viewing duration across the total universe or target audience."
+    },
+    "croatia-reach": {
+      "title": "Reach",
+      "message": "The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."
+    },
+    "croatia-reachPercent": {
+      "title": "Reach %",
+      "message": "The total number of Viewers viewing, as a percentage of the total universe or target audience."
+    },
+    "slovenia-reach": {
+      "title": "Reach",
+      "message": "The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."
+    },
+    "slovenia-reachPercent": {
+      "title": "Reach %",
+      "message": "The total number of Viewers viewing, as a percentage of the total universe or target audience."
+    },
+    "uk-reach": {
+      "title": "Reach",
+      "message": "The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."
+    },
+    "uk-reachPercent": {
+      "title": "Reach %",
+      "message": "The total number of Viewers viewing, as a percentage of the total universe or target audience."
+    },
+    "uksky-reach": {
+      "title": "Reach",
+      "message": "The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."
+    },
+    "uksky-reachPercent": {
+      "title": "Reach %",
+      "message": "The total number of Viewers viewing, as a percentage of the total universe or target audience."
+    },
+    "croatia-rating": {
+      "title": "Rating",
+      "message": "The average number of Subscriber IDs viewing at any given moment."
+    },
+    "croatia-ratingPercent": {
+      "title": "Rating %",
+      "message": "The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."
+    },
+    "slovenia-rating": {
+      "title": "Rating",
+      "message": "The average number of Subscriber IDs viewing at any given moment."
+    },
+    "slovenia-ratingPercent": {
+      "title": "Rating %",
+      "message": "The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."
+    },
+    "uk-rating": {
+      "title": "Rating",
+      "message": "The average number of Subscriber IDs viewing at any given moment."
+    },
+    "uk-ratingPercent": {
+      "title": "Rating %",
+      "message": "The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."
+    },
+    "uksky-rating": {
+      "title": "Rating",
+      "message": "The average number of Subscriber IDs viewing at any given moment."
+    },
+    "uksky-ratingPercent": {
+      "title": "Rating %",
+      "message": "The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."
+    },
+    "sky_media-impression": {
+      "title": "Impression #",
+      "message": "The number of impressions served by FreeWheel."
+    },
+    "sky_media-impressionPercent": {
+      "title": "Impression %",
+      "message": "The number of impressions served, as a percentage of the total number of impressions served by FreeWheel."
+    },
+    "sky_media-moc": {
+      "title": "Missed Opportunities",
+      "message": "The total number of impressions which were available and have not been filled."
+    },
+    "sky_media-pc": {
+      "title": "Total Inventory",
+      "message": "Total number of opportunities that are available to be served."
+    },
+    "sky_media-fillRate": {
+      "title": "Fill Rate %",
+      "message": "The number of Freewheel impressions served, as a percentage of total inventory."
+    },
+    "sky_media-reach": {
+      "title": "Reach",
+      "message": "The number of unique users (All Sky platforms use Sky’s CustomerVisitorID , Opted out customers and non-sky platforms use FreeWheel’s UniqueIdentiferID)."
+    },
+    "sky_media-frequency": {
+      "title": "Frequency",
+      "message": "The average number of impressions viewed per unique user."
+    },
+    "sky_media-rch_factor": {
+      "title": "Reach Factor",
+      "message": "The factor by which each unique user is scaled, to account for impressions with no unique user ID."
+    },
+    "sky_media-revenue_g": {
+      "title": "Gross Value",
+      "message": "The total gross value calculated by multiplying the FreeWheel served impressions by the eCPM across any dimension."
+    },
+    "sky_media-ecpm_g": {
+      "title": "ECPM",
+      "message": "The effective CPM calculated by taking the average Gross CPM from all campaigns within the chosen dimensions."
+    },
+    "canalplus-reach": {
+      "title": "Reach #",
+      "message": "The total number of Subscriber IDs viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."
+    },
+    "canalplus-reachPercent": {
+      "title": "Reach %",
+      "message": "The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."
+    },
+    "canalplus-dreach": {
+      "title": "Device Reach",
+      "message": "Number of unique devices that were used by users to view a specified time period (>0 sec) of a given channel over another, broader specified time period."
+    },
+    "canalplus-rating": {
+      "title": "Rating",
+      "message": "\n                    <p>The Rating metric counts the average number of users that were watching each second.</p>\n                    <p>This is calculated by taking Total Duration and dividing it by the selected time period of the query.</p>\n                    <p>For example, if you have a Total Duration of 24000 hours and time period of 1 day (24 hours), then the Rating would be 1000. (24000/24)</p>\n                "
+    },
+    "canalplus-ratingPercent": {
+      "title": "Rating %",
+      "message": "\n                    <p>The Rating Percent metric takes the Rating value and shows it as a percentage of the Universe value for that query.</p>\n                    <p>If the query also uses a Target Audience, then the size of this audience will be used instead of the Universe.</p>\n                "
+    },
+    "canalplus-share": {
+      "title": "Share",
+      "message": "\n                    <p>Viewing duration in the chosen period as a percentage of all viewing in the period.</p>\n                    <p>Share takes the Total Duration value for each item and divides it by Total Duration value in row \"All\".</p>\n                    <p>For example, if one channel has 1000 hours Total Duration, and the \"All\" row has 10000 hours, then the share for that channel will be 10%.</p>\n                "
+    },
+    "canalplus-shareOnContent": {
+      "title": "Content Share",
+      "message": "\n                    <p>Content Share of each content is total duration for the content divided by the total duration of all viewing in the airtime of the content.</p><br>\n                    <p>Content Share is only available for Live content (filter by Live Mode), and is only calculated at an Emission level (select Content interval\n                    from the interval picker).</p>\n                    <p><a href=\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/418742295/Share+And+Content+Share\" target=\"_blank\">READ MORE</a></p>\n                 "
+    },
+    "canalplus-ratingOnContent": {
+      "title": "Content Rating",
+      "message": "\n                    <p>Content Rating is calculated as: <i>Total duration / duration of content</i></p><br>\n                    <p>Content Rating is only available for Linear content (excluding On Demand content), and is only calculated at an Emission level (select Content interval from the interval picker).</p>\n                    <p><a href=\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/418578439/Rating+Percent+and+Content+Rating\" target=\"_blank\">READ MORE</a></p>\n                "
+    },
+    "canalplus-freq": {
+      "title": "Frequency",
+      "message": "\n                    <p>Frequency is calculated as <i>Views / Reach</i></p>\n                    <p><a href=\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/970227770/Views+Frequency\" target=\"_blank\">READ MORE</a></p>\n                "
+    },
+    "canalplus-stream": {
+      "title": "Views",
+      "message": "\n                    <p>Views count the number of sessions.</p>\n                    <p><a href=\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/970227770/Views+Frequency\" target=\"_blank\">READ MORE</a></p>\n                "
+    },
+    "proximus-reach": {
+      "title": "Device Reach #",
+      "message": "The total number of Devices viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."
+    },
+    "proximus-reachPercent": {
+      "title": "Device Reach %",
+      "message": "The total number of Devices viewing, as a percentage of the total universe or target audience."
+    },
+    "proximus-rating": {
+      "title": "Rating",
+      "message": "The average number of Device viewing at any given moment."
+    },
+    "proximus-ratingPercent": {
+      "title": "Rating %",
+      "message": "The average number of Device viewing at any given moment, as a percentage of the total universe or target audience."
+    },
+    "proximus-averageDuration": {
+      "title": "Average Duration",
+      "message": "The average viewing duration per reached Device."
+    },
+    "proximus-avgDurAll": {
+      "title": "Average Duration All",
+      "message": "\n                <div style=\"display: flex;\">\n                    <div style=\"\">\n                        <p>The average viewing duration across all Devices.</p>\n                        <p>The average duration is calculated based on the selected interval of the query which can be: Minute, Hour, Day, Total etc.</p>\n                        <p>Example: If i select the <strong>Week</strong> interval my average duration will be an average duration <strong>per week</strong>.</p>\n                        <p><a href=\"https://tvbeat.snazzydocs.com/docs/123.0/data-and-metrics?u=tvbeat&p=private#duration-metrics\" target=\"_blank\">READ MORE</a></p>\n                    </div>\n                    <div style=\"flex: 0 0 92px; margin-left: 12px;\">\n                        <img src=\"{{avgDurationImg}}\" style=\"width: 100%;\" />\n                    </div>\n                </div>\n                "
+    },
+    "proximusfw-impression": {
+      "title": "Impression #",
+      "message": "The number of impressions served by FreeWheel."
+    },
+    "proximusfw-impressionPercent": {
+      "title": "Impression %",
+      "message": "The number of impressions served, as a percentage of the total number of impressions served by FreeWheel."
+    },
+    "proximusfw-mot": {
+      "title": "Missed Opportunities",
+      "message": "The total number of impressions which were available and have not been filled."
+    },
+    "proximusfw-pt": {
+      "title": "Capacity",
+      "message": "Total number of opportunities that are available to be served."
+    },
+    "proximusfw-fillRate": {
+      "title": "Fill Rate %",
+      "message": "The number of Freewheel impressions served, as a percentage of total inventory."
+    },
+    "proximusfw-reach": {
+      "title": "Reach",
+      "message": "The total number of unique subscriber IDs viewing."
+    },
+    "proximusfw-frequency": {
+      "title": "Frequency",
+      "message": "The average number of impressions viewed per unique subscriber."
+    },
+    "proximusfw-rch_factor": {
+      "title": "Reach Factor",
+      "message": "The factor by which each unique user is scaled, to account for impressions with no unique subscriber ID."
+    },
+    "proximusfw-revenue_g": {
+      "title": "Revenue",
+      "message": "The total revenue (gross value) calculated by multiplying the FreeWheel served impressions by the Advertiser CPM across any dimension."
+    },
+    "proximusfw-ecpm_g": {
+      "title": "Advertiser CPM",
+      "message": "The Advertiser CPM is effective CPM calculated by taking the average Advertiser CPM from all campaigns within the chosen dimensions."
+    },
+    "proximusfw-moleftadt": {
+      "title": "Drop-Off",
+      "message": "This occurs when a user stops watching and closes the stream partway through a break. These opportunities will not be counted towards Unserved Inventory."
+    },
+    "proximusfw-monoadt": {
+      "title": "Missed opportunities",
+      "message": "The total number of impressions which were available and have not been filled. These opportunities make up Unserved Inventory."
+    },
+    "advancedSearch": {
+      "title": "Advanced Search",
+      "message": "<p><strong>Multi string and partial matching:</strong><br />ex.: “breaking s01” would match “<strong>Breaking</strong> Bad <strong>S01</strong>E04”</p><p><strong>“Starts with” matching (using ^ symbol):</strong><br />ex.: “^breaking” would match “<strong>Breaking</strong> Bad S01E04” or any value that starts with that search string.</p><p>Please note that the search string is NOT case sensitive and ignores diacritics.</p>"
+    },
+    "audienceInverse": { "message": "Inverts the audience selection" },
+    "resetStuckExportsButton": {
+      "message": "Set <strong>Failed</strong> status on exports that have a status <strong>In Progress</strong> or <strong>Waiting</strong>. This is used when exporter gets stuck because some exports fail to finalise."
+    },
+    "campaignLate": {
+      "title": "Campaign started late!",
+      "message": "The create date of the campaign was less than 3 business days before the campaign start date."
+    },
+    "emission": {
+      "title": "Content",
+      "message": "This interval will breakdown content by individual airings. The same content can have many airings which are marked by airtime"
+    },
+    "updateDimensionOrder": { "message": "Update Dimension Order" },
+    "updateGroups": { "message": "Update Groups" },
+    "campaign_label": {
+      "title": "Campaign",
+      "message": "The campaign ID and campaign name taken from FreeWheel."
+    },
+    "sky_media-campaign_budget": {
+      "title": "Budget",
+      "message": "The gross booked budget allocated to the campaign taken from Landmark."
+    },
+    "sky_media-campaign_cpm": {
+      "title": "CPM",
+      "message": "The gross CPM of the campaign taken from Landmark."
+    },
+    "sky_media-campaign_reach": {
+      "title": "Reach",
+      "message": "The number of unique users (All Sky platforms use Sky’s CustomerVisitorID , Opted out customers and non-sky platforms use FreeWheel’s UniqueIdentiferID)."
+    },
+    "sky_media-campaign_frequency": {
+      "title": "Frequency",
+      "message": "The average number of impressions viewed per unique user."
+    },
+    "sky_media-campaign_servedImpressions": {
+      "title": "Served Impressions",
+      "message": "The average number of impressions viewed per unique user."
+    },
+    "sky_media-campaign_targetImpressions": {
+      "title": "Target Impressions",
+      "message": "The total number of impressions allocated to the campaign taken from FreeWheel."
+    },
+    "sky_media-campaign_elapsedTimePercentage": {
+      "title": "Elapsed Time",
+      "message": "% of elapsed time between Start and End date"
+    },
+    "sky_media-campaign_progressPercentage": {
+      "title": "Progress % / Delivered %",
+      "message": "Total delivered impressions for a active campaign expressed as a percentage using Served Impressions / Target Impressions."
+    },
+    "sky_media-campaign_osi": {
+      "title": "OSI",
+      "message": "On Schedule Indicator indicates whether your campaign is on schedule."
+    },
+    "sky_media-campaign_ffdr": {
+      "title": "FFDR",
+      "message": "A measure of how much budget the campaign is expected to deliver by the end of its dates. It is expressed as a percentage of its booked budget."
+    },
+    "sky_media-campaign_campaign.exinv": {
+      "title": "Excess Inventory",
+      "message": "Excess Inventory taken from the FreeWheel API expressed as a percentage. This ensure a campaign paces ahead of its pacing curve."
+    },
+    "sky_media-campaign_createDate": {
+      "title": "Create Date",
+      "message": "The date the campaign was created within Landmark."
+    },
+    "lastProcessedDate": {
+      "title": "Last processed date for current data",
+      "message": "This date represents the latest day of data that was processed and is available to use in the dashboard. The frequency of how often the data is processed and when it is available in the dash can differ depending on the dataset."
+    },
+    "globalFilters": {
+      "title": "Global filters",
+      "message": "Global filters are applied as default across all data queries in the dashboard. This means that the data displayed in the  Research, Reports & Indexing modules, have those default filters applied automatically. These can be overridden where necessary - please contact us for more information."
+    },
+    "campaignMetadataFilters": {
+      "title": "Campaign metadata filters",
+      "message": "These filters are applied on all campaign related data queries in the Campaign module and it's related reports."
+    },
+    "cumulativeMetrics": {
+      "title": "Cumulative metrics",
+      "message": "Switch to cumulative metrics - Cumulative metrics capture viewing from the start of the query to the selected interval."
+    },
+    "historicalDimension": {
+      "message": "This dimension is based on <strong>historical metadata</strong>, and will filter only subscribers that had this meta value in the given time range, regardless of viewing behavior."
+    },
+    "intervals": {
+      "message": "This interval will breakdown content by individual airings. The same content can have many airings which are marked by airtime"
+    },
+    "forecasted_impressions": {
+      "title": "Forecasted Impressions",
+      "message": "A moving estimate of the expected impressions to be delivered for the campaign"
+    },
+    "forecasted_completion": {
+      "title": "Forecasted Completion Date",
+      "message": "A moving estimate of the expected completion date for the campaign"
+    }
+  }
+}

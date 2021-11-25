@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdashv4=self.webpackChunkdashv4||[]).push([[297],{98297:function(s,e,a){a.r(e),e.default=a.p+"static/media/svg-sprite-editor-symbol.cae88c58.svg"}}]);
