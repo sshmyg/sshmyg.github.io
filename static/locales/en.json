@@ -81,7 +81,8 @@
     "saturdayShort": "Sa",
     "sunday": "Sunday",
     "sundayShort": "Su",
-    "days": "Days",
+    "days_one": "Day",
+    "days_other": "Days",
     "week": "Week",
     "metrics": "Metrics",
     "intervals": "Intervals",
@@ -122,7 +123,8 @@
     "goBack": "Go back",
     "searchFor": "Search for",
     "default": "default",
-    "makeDefault": "Make default"
+    "makeDefault": "Make default",
+    "selectTo": "select TO date"
   },
   "modals": {
     "modalDownload": {

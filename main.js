@@ -6,17 +6,17 @@
       'use strict';
       n.d(t, {
         Z: function () {
-          return c;
+          return u;
         },
       });
       var r = n(22928),
         i = (n(67294), n(6339)),
-        o = n(9216),
-        a = n(68718),
+        a = n(9216),
+        o = n(68718),
         s = JSON.parse(
-          '{"general":{"leave":"Leave","error":"Error","warning":"Warning","success":"Success","info":"Info","dataset":"Dataset","countries":"Countries","platforms":"Platforms","settings":"Settings","changePassword":"Change password","emailReports":"Email reports","apiDocumentation":"API documentation","help":"Help","logOut":"Log out","terms":"Terms and conditions","save":"Save","master":"Master","confirm":"Confirm","ok":"Ok","cancel":"Cancel","apply":"Apply","loading":"Loading","or":"Or","createNewVersion":"Create as new version","setAsMaster":"Set as master","none":"None","addFilter":"+ Add filter","chooseValues":"Choose values","delete":"Delete","export":"Export","search":"Search","other":"Other","pagination":"<bold>{{start}} - {{end}}</bold> of <bold>{{total}}</bold>","showing":"Showing","results":"results","all":"All","groups":"Groups","selected":"Selected","submit":"Submit","id":"Id","resetToDefault":"Reset to default","download":"Download","back":"Back","group":"Group","tvbeat":"TVBeat","showMore":"Show more","showLess":"Show less","exporting":"Exporting","daysOfWeek":"Days of week","customDateRange":"Custom date range","today":"Today","tomorrow":"Tomorrow","yesterday":"Yesterday","last7days":"Last 7 days","last30days":"Last 30 days","monthToDate":"Month to date","lastMonth":"Last month","last3Months":"Last 3 months","last12Months":"Last 12 months","weekToDate":"Week to date","lastWeek":"Last week","yearToDate":"Year to date","next7Days":"Next 7 days","nextWeek":"Next week","next30days":"Next 30 days","next90days":"Next 90 days","nextMonth":"Next month","monday":"Monday","mondayShort":"Mo","tuesday":"Tuesday","tuesdayShort":"Tu","wednesday":"Wednesday","wednesdayShort":"We","thursday":"Thursday","thursdayShort":"Th","friday":"Friday","fridayShort":"Fr","saturday":"Saturday","saturdayShort":"Sa","sunday":"Sunday","sundayShort":"Su","days":"Days","week":"Week","metrics":"Metrics","intervals":"Intervals","both":"Both","hours":"Hours","minutes":"Minutes","options":"Options","bottom":"BOTTOM","top":"TOP","saved":"saved","custom":"custom","excel":"Excel","exclude":"Exclude","allExcept":"All except:","pdf":"Pdf","AND":"AND","OR":"OR","from":"From","to":"To","moreThan":"More than","lessThan":"Less than","switchUserGroup":"Switch user group","clickToFilter":"Click to filter data","barChart":"Bar chart","lineChart":"Line chart","emptyDescription":"No data to display. Try adjusting filters.","edit":"Edit","metadata":"Metadata","exportToPdf":"Export to PDF","exportToXls":"Export to Excel","version":"Version","date":"Date","yes":"Yes","userGroup":"User group","refresh":"Refresh","moreInfo":"More info","yesDelete":"Yes, delete it","goBack":"Go back","searchFor":"Search for","default":"default","makeDefault":"Make default"},"modals":{"modalDownload":{"title":"Your export is ready!","content":"Click the Download button to download the exported file."},"userGroupWarning":{"title":"User group access","content-part-1":"The URL you are trying to open belongs to the a user group which you are not part of.","content-part-2":"Please be aware that the query results may not be the same as in the shared URL, due to different settings and global filters. The URL may not even open properly.","details":"If required, confirm the user group name with the person who has shared this URL and contact your admin to get an access."}},"dataset":{"datasetInfo":"Dataset info","lastProcessedTitle":"Last processed date for current data","lastProcessedContent":"This date represents the latest day of data that was processed and is available to use in the dashboard. The frequency of how often the data is processed and when it is available in the dash can differ depending on the dataset.","globalFiltersTitle":"Global filters","globalFiltersContent":"Global filters are applied as default across all data queries in the dashboard. This means that the data displayed in the  Research, Reports & Indexing modules, have those default filters applied automatically. These can be overridden where necessary - please contact us for more information.","campaignMetadataFiltersTitle":"Campaign metadata filters","campaignMetadataFiltersContent":"These filters are applied on all campaign related data queries in the Campaign module and it\'s related reports.","cumulativeMetricsTitle":"Cumulative metrics","cumulativeMetricsContent":"Switch to cumulative metrics - Cumulative metrics capture viewing from the start of the query to the selected interval."},"helper":{"contactSupport":"Contact support","gettingStarted":"Getting started","skyMediaDocumentation":"SKY Media documentation","developerDocs":"Developer docs","tc":"Terms & Privacy","signIn":"Sign in"},"filter":{"addToGroup":"Add to group","addToExistingGroup":"Add to existing group","createNewGroup":"Create a new group","confirmGroupDeleteContent":"Are you sure you want to remove this group?","customInterval":"Custom interval"},"errors":{"common":"Some error occurred","required":"Field required","idsExist":"Group with those id\'s already exist","number":"Numbers only","wrong":"Something went wrong!","globalDescription":"An error occurred. Please try refreshing the page! If the problem persists contact support.","notFound":"Oops! Page not found.","notFoundDescription":"We can’t seem to find the page you are looking for. "},"nav":{"inventoryManagement":"Inventory Management","audienceManagement":"Audience Measurement","reports":"Reports","historical":"Historical","operationalReports":"Operational reports","campaigns":"Campaigns","research":"Research","exporter":"Exporter","audiences":"Audiences","budgeting":"Budgeting","forecasting":"Forecasting","forecastManagement":"Forecast management","versions":"Versions","home":"Home","live":"Live","indexing":"Indexing","contentEvaluation":"Content evaluation","packageReport":"Package report","contentProviderReport":"Content provider report","subscriberReport":"Subscriber report","testReport":"Test report","showcaseReport":"Showcase report","sellThroughRate":"Sell through rate","customChartWidgets":"Custom chart widgets","timeSeriesTable":"Time series table","widgetTestReport":"Widget test report","budgetReports":"Budget reports","proposals":"Proposals","bookedCampaigns":"Booked campaigns"},"forecasting":{"editForecastParams":"Edit Forecast Params","openInResearch":"Open in research","upcomingDays":"Upcoming {{counter}} days","forecastRange":"Upcoming {{upcoming}} Days ({{dayFrom}} - {{dayTo}})","totalInventory":"Total Inventory","totalForSelectedAlterations":"$t(forecasting.totalInventory) for Selected Alterations","forecastAlterations":"Forecast alterations","addAlteration":"Add alteration","reCalculate":"Re-calculate","alteration":"Alteration","parameters":"Parameters","owner":"Owner","dateModified":"Date modified","include":"Include","ownerDateModified":"Owner/date modified","includeInForecast":"Include in forecast","alterationsDefaultName":"Alteration #{{index}}","sizeOfChange":"Size of change","dateRange":"Date range","filters":"Filters","confirmDeleteAlteration":"Are you sure you want to delete this alteration?","editAlteration":"Edit alteration","editAlterationMessage":"Please click the \'Re-calculate\' button to include this alteration in the forecast.","forecastSettings":"Forecast settings","dimensions":"Dimensions","measure":"Measure","saveVersion":"Save version","version":"Forecast version","compareVersion":"Compare version","query":"Query","filterDescription":"Choose your filters and click \\"+ Apply\\"","confirmDeleteVersion":"Are you sure you want to delete this version?","exportSuccessTitle":"Your export is ready","exportSuccessMessage":"Click <a href=\\"{{link}}\\">here</a> to download it.","exportErrorTitle":"Your export failed","exportErrorMessage":"The exporting process failed. Please try again. If the problem persists, contact our customer service and we will look into it.","newForecast":"New forecast","capacity":"Capacity (F)","reset":"Reset","edit":"Edit forecast","export":"Export","editParams":"Edit forecast parameters","openResearch":"Open in Research","delete":"Delete forecast","save":"Save forecast","outdatedMessage":"Please Save to re-calculate the forecast based on changed parameters.","recalculatingInProgressMessage":"Re-calculating the forecast","recalculatingInProgressDescription":"We are preparing the new forecast based on selected parameters. This might take a few minutes.","masterSetTitle":"Set this forecast as Master?","masterSetContent":"<p>You are about to set this forecast version as a Master version.</p> <p>Confirmation will have impact on the following items:</p> <ul> <li>Forecasted capacity numbers</li> <li>Forecasted delivered impressions</li> <li>Forecasted Fill rate</li> <li>Forecasted campaign delivery and the campaign end date</li> </ul> <p>Update will take around 10mins, once confirmed.</p> <p>Would you like to proceed?</p>","newForecastVersion":"New forecast version","versionName":"Forecast version name","copyVersion":"Copy from this forecast version","alterationQuery":"Alteration query","overviewTitle":"Forecast version overview","compare":"Compare","vs":"vs.","paramsTitle":"Forecast parameters","deleteAlterationTitle":"Delete this alteration?","deleteAlterationConfirmContent":"Are you sure you want to delete this alteration?","deleteVersionTitle":"Delete this forecast version?","deleteVersionConfirmContent":"Are you sure you want to delete this forecast version?","noAlteration":"No alteration added","resetTitle":"Reset changes?","resetContent":"Changes you made to the version so far will not be saved.","saveTitle":"This might take a while!","saveContent":"<p>Applying new parameters and alterations to the forecast will take couple of minutes.</p><p>Would you like to proceed?</p>","newVersionWarning":"You have pending changes which will be lost if you proceed to create a new forecast version.","setMasterWarning":"You have pending changes which will be automatically saved if you proceed.","leaveTitle":"Leave without saving?","leaveContent":"Changes you made to the version so far will not be saved."},"forms":{"email":"Email","password":"Password","name":"Name","title":"Title","description":"Description","query":"Query","dateRange":"Date range","deltaKey":"Size of change","metric":"Metric","metricPlaceholder":"Select metric","deltaValue":"Value","deltaValuePlaceholder":"e.g. 10000","alterationType":"Forecast alteration type","primary":"Primary","secondary":"Secondary","editQuery":"Edit query","versionName":"Version name","setAsMaster":"Set this version as <strong>Master</strong>"},"campaigns":{"campaigns":"Campaigns","placements":"Placements","creatives":"Creatives","operator":"Operator","overview":"Overview","starts":"Starts in","ends":"Ends in","interval":"Active in","exportCampaigns":"Export campaigns","exportPlacements":"Export placements","exportCreatives":"Export creatives","campaignReport":"Campaign report","placementReport":"Placement report","extReport":"Ext. report","moreInfo":"More info","moreInfoFor":"More info for","active":"Active","in_active":"Inactive","cancelled":"Cancelled","completed":"Completed","testing":"Testing","emptyMessage":"No results to display. Please adjust your filters to get more results.","manageColumnsDescription":"Toggle campaign attributes and sort them via drag and drop","metricsAndMetadata":"Metrics / Metadata","goToFullReport":"Go to full report","impression":"Impressions","nameContains":"<strong>{{type}} name</strong> contains","smartView":"Smart view","manageColumns":"Manage columns","clearCheckedRows":"Clear checked rows","view":"Overview","selected":"Selected","all":"All","allAbove":"All above","forecastedImpressions":"Forecasted Impressions","targetImpressions":"Target Impressions","cpm":"CPM","forecastCompletionDate":"Forecast completion date","reportsDescription":"Booked Campaign report","name":"Name","progress":"Progress","elapsedTime":"Elapsed time","columns":{"reach":"Reach #","frequency":"Freq.","impression":"Served Imp.","osi":"OSI","progress_percent":"Progress","elapsed_time_percent":"Elapsed time","ad":{"advertiser":"Advertiser","client_type":"Client type","client_name":"Client name","prod_name":"Product name","agency":"Agency","d5_targetedaud":"Target audience","prod_gclsh":"Clash groups","prod_clsh":"Clash code"},"campaign":{"name":"$t(campaigns.campaigns)","cmpgn_status":"Status","budget":"Budget","target_imp":"Target Imp.","start_date":"Start date","end_date":"End date","cpt":"CPM","ffdr":"FFDR","forecasted_impressions":"Forecasted Imp.","forecasted_completion":"Forecasted Comp. Date","exinv":"Excess inventory"},"placement":{"name":"$t(campaigns.placements)","plac_status":"$t(campaigns.columns.campaign.cmpgn_status)","budget":"$t(campaigns.columns.campaign.budget)","target_imp":"$t(campaigns.columns.campaign.target_imp)","start_date":"$t(campaigns.columns.campaign.start_date)","end_date":"$t(campaigns.columns.campaign.end_date)","cpt":"$t(campaigns.columns.campaign.cpt)","ffdr":"$t(campaigns.columns.campaign.ffdr)","forecasted_impressions":"$t(campaigns.columns.campaign.forecasted_impressions)","forecasted_completion":"$t(campaigns.columns.campaign.forecasted_completion)","prim_traf":"Primary trafficker","sales_person":"Salesperson","cmpgn_exinv":"$t(campaigns.columns.campaign.exinv)","delivery_pacing_point":"Priority","delivery_pacing":"Pacing","countries_constraints":"Countries constraints","audience_constraints":"Audience constraints"},"creative":{"name":"$t(campaigns.creatives)"}},"modalGroups":{"createTitle":"Add to group","editTitle":"Edit group"},"groups":{"general":"General","delivery":"Delivery","targeting":"Targeting","pricing":"Pricing","forecast":"Forecast"},"warnings":{"placement":"Missing Placement","creative":"Missing Creative","placementAndCreative":"Missing Placement and Creative"}},"apps":{"tabs":{"overview":"Overview","channels":"Channels","devices":"Devices","mediaPartners":"Media Partners","content":"Content"},"dateRanges":{"pastDays":"Past 7 days","pastWeeks":"Past weeks","pastMonths":"Past months"},"exportWidget":"Export widget","exportAll":"Export all","noConfig":"There is no config for such application","totals":"Grand Total","filters":"Filters","noFilters":"No filters","dateRange":"Date range","metrics":"Metrics","total":"Total","widgetLoadError":"Failed to load widget"},"research":{"compare":"compare","createAudience":"Create new audience","allAudience":"All audience","chartType":"Chart type","avg":"avg","enableAvg":"Enable / disable averages for each series","trend":"Trend","averages":"Averages","none":"None","enableTrend":"Enable / disable trend for each series","trendTitle":"Trendlines","trendSubtitle":"Toggle trendline & averages","includeGroupsTitle":"Include Groups","includeGroupsSubtitle":"Include groups in the results","onlyGroups":"Only Groups","onlyValues":"Only {{dimensionName}}","addMetricsSubtitle":"Add and order metrics in table","editMetrics":"Edit metrics","formatNumbersTitle":"Format numbers","formatNumbersSubtitle":"Toggle format or unformatted numbers","durationTitle":"Duration metrics format","durationSubtitle":"Format duration metrics to minutes or hours","selectMetricsTitle":"Add/Order metrics in Table","selectMetricsSubtitle":"Select Metrics that you want to appear in the table. Drag & Drop to change the order in which the metrics appear in the table.","pagination":"results","dataLabelsTitle":"Data Labels","dataLabelsSubtitle":"Show data labels on data points","empty":"Select what you want to <bold>compare</bold>, chose a <bold>date range</bold>, add optional <bold>filters</bold> and click the <bold>Submit</bold> button","customAudience":"Custom audience","comparisonSummary":"{{topOrBottom}} {{dimensionLabel}} for {{fromDate}} - {{toDate}} ({{intervalLabel}})","comparisonSummaryShort":"{{topOrBottom}} {{dimensionLabel}} for {{fromDate}} {{toDate}} {{intervalLabel}}","comparisonSummaryBookmark":"Comparing: {{topOrBottom}} {{dimensionLabel}} for ({{intervalLabel}})","filtersTitle":"We are not able to show data for the selected filters.","filtersSubTitle":"Please try refreshing the page or choose different filters.","aggregationTitle":"To comply with privacy rules, audiences with reach less than <bold>{{number}}</bold> cannot be calculated. For more information please contact your administrator.","aggregationSubTitle":"Please try increasing the audience size of this query.","otherSubtitle":"\'We are looking into this and will make it available as soon as possible","trendForLine":"<bold>Trend line for</bold> {{label}}","avgForLine":"<bold>Avg.</bold> per <bold>{{interval}}</bold> for {{label}}","bookmarksTitle":"Your bookmarks","bookmarksPlaceholder":"Enter Bookmark title","confirmBookmarkDelete":"Are you sure you want to delete this bookmark?","audience":{"selectYourAudience":"Select your <bold>Audience</bold>","numberOfSubscribers":"<bold>{{size}}</bold>","percentOfSubscribers":"<bold>{{percent}}% - </bold>","calculating":"Calculating...","selectFilters":"Select the Audience filters below","addAudience":"+ Add <bold>Audience</bold>","fileSize":"File size: ","subscribersSize":"Num. of subscribers: ","dateRange":"Date range:","invert":"Invert","lessThanAggregation":"< than {{number}} users","subscribers":"subscribers"},"table":{"moreResults":"There are {{numberOfValuesWithZero}} more results of which metrics are 0. <clickable>Click</clickable> to display all the results. "},"export":{"chartAndTable":"Export chart and table","chart":"Export chart","table":"Export table"},"modalExport":{"title":"Your export has started","subtitle":"The exporting process has successfully started. The file may take some time to generate. You will be able to download it when it&apos;s done."},"metadataSubTitle":"Include metadata columns","airTime":"Air time","title":"Research","subtitle":"Filter and drill down into data"},"tooltips":{"reach":{"title":"Subscriber #","message":"The total number of Subscriber IDs viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"reachPercent":{"title":"Subscriber %","message":"The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."},"rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"averageDuration":{"title":"Average Duration","message":"\\n                <div style=\\"display: flex;\\">\\n                    <div style=\\"\\">\\n                        <p>The average viewing duration per reached viewer.</p>\\n                        <p>The average duration is calculated based on the selected interval of the query which can be: Minute, Hour, Day, Total etc.</p>\\n                        <p>Example: If i select the <strong>Week</strong> interval my average duration will be an average duration <strong>per week</strong>.</p>\\n                        <p><a href=\\"https://tvbeat.snazzydocs.com/docs/123.0/data-and-metrics?u=tvbeat&p=private#duration-metrics\\" target=\\"_blank\\">READ MORE</a></p>\\n                    </div>\\n                    <div style=\\"flex: 0 0 92px; margin-left: 12px;\\">\\n                        <img src=\\"{{avgDurationImg}}\\" style=\\"width: 100%;\\" />\\n                    </div>\\n                </div>\\n                "},"avgDurAll":{"title":"Average Duration All","message":"The average viewing duration across all Viewers."},"share":{"title":"Share","message":"Viewing duration as a percentage of all viewing."},"totalDuration":{"title":"Total Duration","message":"The total viewing time."},"ireach":{"title":"Incremental Reach #","message":"Unique number of households that have viewed a specified time period of a given channel in a specific interval but they havent watched in a previous interval."},"ireachPercent":{"title":"Incremental Reach %","message":"Incremental reach # expressed in %."},"osn-reach":{"title":"Reach #","message":"The total number of Subscriber IDs viewing."},"osn-reachPercent":{"title":"Reach %","message":"The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."},"osn-dreach":{"title":"Device reach #","message":"Number of unique devices that were used by users to view a specified time period (>0 sec) of a given channel over another, broader specified time period."},"osn-ratingPercent":{"title":"GRP %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"osn-avgDurAll":{"title":"ATS","message":"The average viewing duration across the total universe or target audience."},"croatia-reach":{"title":"Reach","message":"The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"croatia-reachPercent":{"title":"Reach %","message":"The total number of Viewers viewing, as a percentage of the total universe or target audience."},"slovenia-reach":{"title":"Reach","message":"The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"slovenia-reachPercent":{"title":"Reach %","message":"The total number of Viewers viewing, as a percentage of the total universe or target audience."},"uk-reach":{"title":"Reach","message":"The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"uk-reachPercent":{"title":"Reach %","message":"The total number of Viewers viewing, as a percentage of the total universe or target audience."},"uksky-reach":{"title":"Reach","message":"The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"uksky-reachPercent":{"title":"Reach %","message":"The total number of Viewers viewing, as a percentage of the total universe or target audience."},"croatia-rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"croatia-ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"slovenia-rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"slovenia-ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"uk-rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"uk-ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"uksky-rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"uksky-ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"sky_media-impression":{"title":"Impression #","message":"The number of impressions served by FreeWheel."},"sky_media-impressionPercent":{"title":"Impression %","message":"The number of impressions served, as a percentage of the total number of impressions served by FreeWheel."},"sky_media-moc":{"title":"Missed Opportunities","message":"The total number of impressions which were available and have not been filled."},"sky_media-pc":{"title":"Total Inventory","message":"Total number of opportunities that are available to be served."},"sky_media-fillRate":{"title":"Fill Rate %","message":"The number of Freewheel impressions served, as a percentage of total inventory."},"sky_media-reach":{"title":"Reach","message":"The number of unique users (All Sky platforms use Sky’s CustomerVisitorID , Opted out customers and non-sky platforms use FreeWheel’s UniqueIdentiferID)."},"sky_media-frequency":{"title":"Frequency","message":"The average number of impressions viewed per unique user."},"sky_media-rch_factor":{"title":"Reach Factor","message":"The factor by which each unique user is scaled, to account for impressions with no unique user ID."},"sky_media-revenue_g":{"title":"Gross Value","message":"The total gross value calculated by multiplying the FreeWheel served impressions by the eCPM across any dimension."},"sky_media-ecpm_g":{"title":"ECPM","message":"The effective CPM calculated by taking the average Gross CPM from all campaigns within the chosen dimensions."},"canalplus-reach":{"title":"Reach #","message":"The total number of Subscriber IDs viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"canalplus-reachPercent":{"title":"Reach %","message":"The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."},"canalplus-dreach":{"title":"Device Reach","message":"Number of unique devices that were used by users to view a specified time period (>0 sec) of a given channel over another, broader specified time period."},"canalplus-rating":{"title":"Rating","message":"\\n                    <p>The Rating metric counts the average number of users that were watching each second.</p>\\n                    <p>This is calculated by taking Total Duration and dividing it by the selected time period of the query.</p>\\n                    <p>For example, if you have a Total Duration of 24000 hours and time period of 1 day (24 hours), then the Rating would be 1000. (24000/24)</p>\\n                "},"canalplus-ratingPercent":{"title":"Rating %","message":"\\n                    <p>The Rating Percent metric takes the Rating value and shows it as a percentage of the Universe value for that query.</p>\\n                    <p>If the query also uses a Target Audience, then the size of this audience will be used instead of the Universe.</p>\\n                "},"canalplus-share":{"title":"Share","message":"\\n                    <p>Viewing duration in the chosen period as a percentage of all viewing in the period.</p>\\n                    <p>Share takes the Total Duration value for each item and divides it by Total Duration value in row \\"All\\".</p>\\n                    <p>For example, if one channel has 1000 hours Total Duration, and the \\"All\\" row has 10000 hours, then the share for that channel will be 10%.</p>\\n                "},"canalplus-shareOnContent":{"title":"Content Share","message":"\\n                    <p>Content Share of each content is total duration for the content divided by the total duration of all viewing in the airtime of the content.</p><br>\\n                    <p>Content Share is only available for Live content (filter by Live Mode), and is only calculated at an Emission level (select Content interval\\n                    from the interval picker).</p>\\n                    <p><a href=\\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/418742295/Share+And+Content+Share\\" target=\\"_blank\\">READ MORE</a></p>\\n                 "},"canalplus-ratingOnContent":{"title":"Content Rating","message":"\\n                    <p>Content Rating is calculated as: <i>Total duration / duration of content</i></p><br>\\n                    <p>Content Rating is only available for Linear content (excluding On Demand content), and is only calculated at an Emission level (select Content interval from the interval picker).</p>\\n                    <p><a href=\\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/418578439/Rating+Percent+and+Content+Rating\\" target=\\"_blank\\">READ MORE</a></p>\\n                "},"canalplus-freq":{"title":"Frequency","message":"\\n                    <p>Frequency is calculated as <i>Views / Reach</i></p>\\n                    <p><a href=\\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/970227770/Views+Frequency\\" target=\\"_blank\\">READ MORE</a></p>\\n                "},"canalplus-stream":{"title":"Views","message":"\\n                    <p>Views count the number of sessions.</p>\\n                    <p><a href=\\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/970227770/Views+Frequency\\" target=\\"_blank\\">READ MORE</a></p>\\n                "},"proximus-reach":{"title":"Device Reach #","message":"The total number of Devices viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"proximus-reachPercent":{"title":"Device Reach %","message":"The total number of Devices viewing, as a percentage of the total universe or target audience."},"proximus-rating":{"title":"Rating","message":"The average number of Device viewing at any given moment."},"proximus-ratingPercent":{"title":"Rating %","message":"The average number of Device viewing at any given moment, as a percentage of the total universe or target audience."},"proximus-averageDuration":{"title":"Average Duration","message":"The average viewing duration per reached Device."},"proximus-avgDurAll":{"title":"Average Duration All","message":"\\n                <div style=\\"display: flex;\\">\\n                    <div style=\\"\\">\\n                        <p>The average viewing duration across all Devices.</p>\\n                        <p>The average duration is calculated based on the selected interval of the query which can be: Minute, Hour, Day, Total etc.</p>\\n                        <p>Example: If i select the <strong>Week</strong> interval my average duration will be an average duration <strong>per week</strong>.</p>\\n                        <p><a href=\\"https://tvbeat.snazzydocs.com/docs/123.0/data-and-metrics?u=tvbeat&p=private#duration-metrics\\" target=\\"_blank\\">READ MORE</a></p>\\n                    </div>\\n                    <div style=\\"flex: 0 0 92px; margin-left: 12px;\\">\\n                        <img src=\\"{{avgDurationImg}}\\" style=\\"width: 100%;\\" />\\n                    </div>\\n                </div>\\n                "},"proximusfw-impression":{"title":"Impression #","message":"The number of impressions served by FreeWheel."},"proximusfw-impressionPercent":{"title":"Impression %","message":"The number of impressions served, as a percentage of the total number of impressions served by FreeWheel."},"proximusfw-mot":{"title":"Missed Opportunities","message":"The total number of impressions which were available and have not been filled."},"proximusfw-pt":{"title":"Capacity","message":"Total number of opportunities that are available to be served."},"proximusfw-fillRate":{"title":"Fill Rate %","message":"The number of Freewheel impressions served, as a percentage of total inventory."},"proximusfw-reach":{"title":"Reach","message":"The total number of unique subscriber IDs viewing."},"proximusfw-frequency":{"title":"Frequency","message":"The average number of impressions viewed per unique subscriber."},"proximusfw-rch_factor":{"title":"Reach Factor","message":"The factor by which each unique user is scaled, to account for impressions with no unique subscriber ID."},"proximusfw-revenue_g":{"title":"Revenue","message":"The total revenue (gross value) calculated by multiplying the FreeWheel served impressions by the Advertiser CPM across any dimension."},"proximusfw-ecpm_g":{"title":"Advertiser CPM","message":"The Advertiser CPM is effective CPM calculated by taking the average Advertiser CPM from all campaigns within the chosen dimensions."},"proximusfw-moleftadt":{"title":"Drop-Off","message":"This occurs when a user stops watching and closes the stream partway through a break. These opportunities will not be counted towards Unserved Inventory."},"proximusfw-monoadt":{"title":"Missed opportunities","message":"The total number of impressions which were available and have not been filled. These opportunities make up Unserved Inventory."},"advancedSearch":{"title":"Advanced Search","message":"<p><strong>Multi string and partial matching:</strong><br />ex.: “breaking s01” would match “<strong>Breaking</strong> Bad <strong>S01</strong>E04”</p><p><strong>“Starts with” matching (using ^ symbol):</strong><br />ex.: “^breaking” would match “<strong>Breaking</strong> Bad S01E04” or any value that starts with that search string.</p><p>Please note that the search string is NOT case sensitive and ignores diacritics.</p>"},"audienceInverse":{"message":"Inverts the audience selection"},"resetStuckExportsButton":{"message":"Set <strong>Failed</strong> status on exports that have a status <strong>In Progress</strong> or <strong>Waiting</strong>. This is used when exporter gets stuck because some exports fail to finalise."},"campaignLate":{"title":"Campaign started late!","message":"The create date of the campaign was less than 3 business days before the campaign start date."},"emission":{"title":"Content","message":"This interval will breakdown content by individual airings. The same content can have many airings which are marked by airtime"},"updateDimensionOrder":{"message":"Update Dimension Order"},"updateGroups":{"message":"Update Groups"},"campaign_label":{"title":"Campaign","message":"The campaign ID and campaign name taken from FreeWheel."},"sky_media-campaign_budget":{"title":"Budget","message":"The gross booked budget allocated to the campaign taken from Landmark."},"sky_media-campaign_cpm":{"title":"CPM","message":"The gross CPM of the campaign taken from Landmark."},"sky_media-campaign_reach":{"title":"Reach","message":"The number of unique users (All Sky platforms use Sky’s CustomerVisitorID , Opted out customers and non-sky platforms use FreeWheel’s UniqueIdentiferID)."},"sky_media-campaign_frequency":{"title":"Frequency","message":"The average number of impressions viewed per unique user."},"sky_media-campaign_servedImpressions":{"title":"Served Impressions","message":"The average number of impressions viewed per unique user."},"sky_media-campaign_targetImpressions":{"title":"Target Impressions","message":"The total number of impressions allocated to the campaign taken from FreeWheel."},"sky_media-campaign_elapsedTimePercentage":{"title":"Elapsed Time","message":"% of elapsed time between Start and End date"},"sky_media-campaign_progressPercentage":{"title":"Progress % / Delivered %","message":"Total delivered impressions for a active campaign expressed as a percentage using Served Impressions / Target Impressions."},"sky_media-campaign_osi":{"title":"OSI","message":"On Schedule Indicator indicates whether your campaign is on schedule."},"sky_media-campaign_ffdr":{"title":"FFDR","message":"A measure of how much budget the campaign is expected to deliver by the end of its dates. It is expressed as a percentage of its booked budget."},"sky_media-campaign_campaign.exinv":{"title":"Excess Inventory","message":"Excess Inventory taken from the FreeWheel API expressed as a percentage. This ensure a campaign paces ahead of its pacing curve."},"sky_media-campaign_createDate":{"title":"Create Date","message":"The date the campaign was created within Landmark."},"lastProcessedDate":{"title":"Last processed date for current data","message":"This date represents the latest day of data that was processed and is available to use in the dashboard. The frequency of how often the data is processed and when it is available in the dash can differ depending on the dataset."},"globalFilters":{"title":"Global filters","message":"Global filters are applied as default across all data queries in the dashboard. This means that the data displayed in the  Research, Reports & Indexing modules, have those default filters applied automatically. These can be overridden where necessary - please contact us for more information."},"campaignMetadataFilters":{"title":"Campaign metadata filters","message":"These filters are applied on all campaign related data queries in the Campaign module and it\'s related reports."},"cumulativeMetrics":{"title":"Cumulative metrics","message":"Switch to cumulative metrics - Cumulative metrics capture viewing from the start of the query to the selected interval."},"historicalDimension":{"message":"This dimension is based on <strong>historical metadata</strong>, and will filter only subscribers that had this meta value in the given time range, regardless of viewing behavior."},"intervals":{"message":"This interval will breakdown content by individual airings. The same content can have many airings which are marked by airtime"},"forecasted_impressions":{"title":"Forecasted Impressions","message":"A moving estimate of the expected impressions to be delivered for the campaign"},"forecasted_completion":{"title":"Forecasted Completion Date","message":"A moving estimate of the expected completion date for the campaign"}}}'
+          '{"general":{"leave":"Leave","error":"Error","warning":"Warning","success":"Success","info":"Info","dataset":"Dataset","countries":"Countries","platforms":"Platforms","settings":"Settings","changePassword":"Change password","emailReports":"Email reports","apiDocumentation":"API documentation","help":"Help","logOut":"Log out","terms":"Terms and conditions","save":"Save","master":"Master","confirm":"Confirm","ok":"Ok","cancel":"Cancel","apply":"Apply","loading":"Loading","or":"Or","createNewVersion":"Create as new version","setAsMaster":"Set as master","none":"None","addFilter":"+ Add filter","chooseValues":"Choose values","delete":"Delete","export":"Export","search":"Search","other":"Other","pagination":"<bold>{{start}} - {{end}}</bold> of <bold>{{total}}</bold>","showing":"Showing","results":"results","all":"All","groups":"Groups","selected":"Selected","submit":"Submit","id":"Id","resetToDefault":"Reset to default","download":"Download","back":"Back","group":"Group","tvbeat":"TVBeat","showMore":"Show more","showLess":"Show less","exporting":"Exporting","daysOfWeek":"Days of week","customDateRange":"Custom date range","today":"Today","tomorrow":"Tomorrow","yesterday":"Yesterday","last7days":"Last 7 days","last30days":"Last 30 days","monthToDate":"Month to date","lastMonth":"Last month","last3Months":"Last 3 months","last12Months":"Last 12 months","weekToDate":"Week to date","lastWeek":"Last week","yearToDate":"Year to date","next7Days":"Next 7 days","nextWeek":"Next week","next30days":"Next 30 days","next90days":"Next 90 days","nextMonth":"Next month","monday":"Monday","mondayShort":"Mo","tuesday":"Tuesday","tuesdayShort":"Tu","wednesday":"Wednesday","wednesdayShort":"We","thursday":"Thursday","thursdayShort":"Th","friday":"Friday","fridayShort":"Fr","saturday":"Saturday","saturdayShort":"Sa","sunday":"Sunday","sundayShort":"Su","days_one":"Day","days_other":"Days","week":"Week","metrics":"Metrics","intervals":"Intervals","both":"Both","hours":"Hours","minutes":"Minutes","options":"Options","bottom":"BOTTOM","top":"TOP","saved":"saved","custom":"custom","excel":"Excel","exclude":"Exclude","allExcept":"All except:","pdf":"Pdf","AND":"AND","OR":"OR","from":"From","to":"To","moreThan":"More than","lessThan":"Less than","switchUserGroup":"Switch user group","clickToFilter":"Click to filter data","barChart":"Bar chart","lineChart":"Line chart","emptyDescription":"No data to display. Try adjusting filters.","edit":"Edit","metadata":"Metadata","exportToPdf":"Export to PDF","exportToXls":"Export to Excel","version":"Version","date":"Date","yes":"Yes","userGroup":"User group","refresh":"Refresh","moreInfo":"More info","yesDelete":"Yes, delete it","goBack":"Go back","searchFor":"Search for","default":"default","makeDefault":"Make default","selectTo":"select TO date"},"modals":{"modalDownload":{"title":"Your export is ready!","content":"Click the Download button to download the exported file."},"userGroupWarning":{"title":"User group access","content-part-1":"The URL you are trying to open belongs to the a user group which you are not part of.","content-part-2":"Please be aware that the query results may not be the same as in the shared URL, due to different settings and global filters. The URL may not even open properly.","details":"If required, confirm the user group name with the person who has shared this URL and contact your admin to get an access."}},"dataset":{"datasetInfo":"Dataset info","lastProcessedTitle":"Last processed date for current data","lastProcessedContent":"This date represents the latest day of data that was processed and is available to use in the dashboard. The frequency of how often the data is processed and when it is available in the dash can differ depending on the dataset.","globalFiltersTitle":"Global filters","globalFiltersContent":"Global filters are applied as default across all data queries in the dashboard. This means that the data displayed in the  Research, Reports & Indexing modules, have those default filters applied automatically. These can be overridden where necessary - please contact us for more information.","campaignMetadataFiltersTitle":"Campaign metadata filters","campaignMetadataFiltersContent":"These filters are applied on all campaign related data queries in the Campaign module and it\'s related reports.","cumulativeMetricsTitle":"Cumulative metrics","cumulativeMetricsContent":"Switch to cumulative metrics - Cumulative metrics capture viewing from the start of the query to the selected interval."},"helper":{"contactSupport":"Contact support","gettingStarted":"Getting started","skyMediaDocumentation":"SKY Media documentation","developerDocs":"Developer docs","tc":"Terms & Privacy","signIn":"Sign in"},"filter":{"addToGroup":"Add to group","addToExistingGroup":"Add to existing group","createNewGroup":"Create a new group","confirmGroupDeleteContent":"Are you sure you want to remove this group?","customInterval":"Custom interval"},"errors":{"common":"Some error occurred","required":"Field required","idsExist":"Group with those id\'s already exist","number":"Numbers only","wrong":"Something went wrong!","globalDescription":"An error occurred. Please try refreshing the page! If the problem persists contact support.","notFound":"Oops! Page not found.","notFoundDescription":"We can’t seem to find the page you are looking for. "},"nav":{"inventoryManagement":"Inventory Management","audienceManagement":"Audience Measurement","reports":"Reports","historical":"Historical","operationalReports":"Operational reports","campaigns":"Campaigns","research":"Research","exporter":"Exporter","audiences":"Audiences","budgeting":"Budgeting","forecasting":"Forecasting","forecastManagement":"Forecast management","versions":"Versions","home":"Home","live":"Live","indexing":"Indexing","contentEvaluation":"Content evaluation","packageReport":"Package report","contentProviderReport":"Content provider report","subscriberReport":"Subscriber report","testReport":"Test report","showcaseReport":"Showcase report","sellThroughRate":"Sell through rate","customChartWidgets":"Custom chart widgets","timeSeriesTable":"Time series table","widgetTestReport":"Widget test report","budgetReports":"Budget reports","proposals":"Proposals","bookedCampaigns":"Booked campaigns"},"forecasting":{"editForecastParams":"Edit Forecast Params","openInResearch":"Open in research","upcomingDays":"Upcoming {{counter}} days","forecastRange":"Upcoming {{upcoming}} Days ({{dayFrom}} - {{dayTo}})","totalInventory":"Total Inventory","totalForSelectedAlterations":"$t(forecasting.totalInventory) for Selected Alterations","forecastAlterations":"Forecast alterations","addAlteration":"Add alteration","reCalculate":"Re-calculate","alteration":"Alteration","parameters":"Parameters","owner":"Owner","dateModified":"Date modified","include":"Include","ownerDateModified":"Owner/date modified","includeInForecast":"Include in forecast","alterationsDefaultName":"Alteration #{{index}}","sizeOfChange":"Size of change","dateRange":"Date range","filters":"Filters","confirmDeleteAlteration":"Are you sure you want to delete this alteration?","editAlteration":"Edit alteration","editAlterationMessage":"Please click the \'Re-calculate\' button to include this alteration in the forecast.","forecastSettings":"Forecast settings","dimensions":"Dimensions","measure":"Measure","saveVersion":"Save version","version":"Forecast version","compareVersion":"Compare version","query":"Query","filterDescription":"Choose your filters and click \\"+ Apply\\"","confirmDeleteVersion":"Are you sure you want to delete this version?","exportSuccessTitle":"Your export is ready","exportSuccessMessage":"Click <a href=\\"{{link}}\\">here</a> to download it.","exportErrorTitle":"Your export failed","exportErrorMessage":"The exporting process failed. Please try again. If the problem persists, contact our customer service and we will look into it.","newForecast":"New forecast","capacity":"Capacity (F)","reset":"Reset","edit":"Edit forecast","export":"Export","editParams":"Edit forecast parameters","openResearch":"Open in Research","delete":"Delete forecast","save":"Save forecast","outdatedMessage":"Please Save to re-calculate the forecast based on changed parameters.","recalculatingInProgressMessage":"Re-calculating the forecast","recalculatingInProgressDescription":"We are preparing the new forecast based on selected parameters. This might take a few minutes.","masterSetTitle":"Set this forecast as Master?","masterSetContent":"<p>You are about to set this forecast version as a Master version.</p> <p>Confirmation will have impact on the following items:</p> <ul> <li>Forecasted capacity numbers</li> <li>Forecasted delivered impressions</li> <li>Forecasted Fill rate</li> <li>Forecasted campaign delivery and the campaign end date</li> </ul> <p>Update will take around 10mins, once confirmed.</p> <p>Would you like to proceed?</p>","newForecastVersion":"New forecast version","versionName":"Forecast version name","copyVersion":"Copy from this forecast version","alterationQuery":"Alteration query","overviewTitle":"Forecast version overview","compare":"Compare","vs":"vs.","paramsTitle":"Forecast parameters","deleteAlterationTitle":"Delete this alteration?","deleteAlterationConfirmContent":"Are you sure you want to delete this alteration?","deleteVersionTitle":"Delete this forecast version?","deleteVersionConfirmContent":"Are you sure you want to delete this forecast version?","noAlteration":"No alteration added","resetTitle":"Reset changes?","resetContent":"Changes you made to the version so far will not be saved.","saveTitle":"This might take a while!","saveContent":"<p>Applying new parameters and alterations to the forecast will take couple of minutes.</p><p>Would you like to proceed?</p>","newVersionWarning":"You have pending changes which will be lost if you proceed to create a new forecast version.","setMasterWarning":"You have pending changes which will be automatically saved if you proceed.","leaveTitle":"Leave without saving?","leaveContent":"Changes you made to the version so far will not be saved."},"forms":{"email":"Email","password":"Password","name":"Name","title":"Title","description":"Description","query":"Query","dateRange":"Date range","deltaKey":"Size of change","metric":"Metric","metricPlaceholder":"Select metric","deltaValue":"Value","deltaValuePlaceholder":"e.g. 10000","alterationType":"Forecast alteration type","primary":"Primary","secondary":"Secondary","editQuery":"Edit query","versionName":"Version name","setAsMaster":"Set this version as <strong>Master</strong>"},"campaigns":{"campaigns":"Campaigns","placements":"Placements","creatives":"Creatives","operator":"Operator","overview":"Overview","starts":"Starts in","ends":"Ends in","interval":"Active in","exportCampaigns":"Export campaigns","exportPlacements":"Export placements","exportCreatives":"Export creatives","campaignReport":"Campaign report","placementReport":"Placement report","extReport":"Ext. report","moreInfo":"More info","moreInfoFor":"More info for","active":"Active","in_active":"Inactive","cancelled":"Cancelled","completed":"Completed","testing":"Testing","emptyMessage":"No results to display. Please adjust your filters to get more results.","manageColumnsDescription":"Toggle campaign attributes and sort them via drag and drop","metricsAndMetadata":"Metrics / Metadata","goToFullReport":"Go to full report","impression":"Impressions","nameContains":"<strong>{{type}} name</strong> contains","smartView":"Smart view","manageColumns":"Manage columns","clearCheckedRows":"Clear checked rows","view":"Overview","selected":"Selected","all":"All","allAbove":"All above","forecastedImpressions":"Forecasted Impressions","targetImpressions":"Target Impressions","cpm":"CPM","forecastCompletionDate":"Forecast completion date","reportsDescription":"Booked Campaign report","name":"Name","progress":"Progress","elapsedTime":"Elapsed time","columns":{"reach":"Reach #","frequency":"Freq.","impression":"Served Imp.","osi":"OSI","progress_percent":"Progress","elapsed_time_percent":"Elapsed time","ad":{"advertiser":"Advertiser","client_type":"Client type","client_name":"Client name","prod_name":"Product name","agency":"Agency","d5_targetedaud":"Target audience","prod_gclsh":"Clash groups","prod_clsh":"Clash code"},"campaign":{"name":"$t(campaigns.campaigns)","cmpgn_status":"Status","budget":"Budget","target_imp":"Target Imp.","start_date":"Start date","end_date":"End date","cpt":"CPM","ffdr":"FFDR","forecasted_impressions":"Forecasted Imp.","forecasted_completion":"Forecasted Comp. Date","exinv":"Excess inventory"},"placement":{"name":"$t(campaigns.placements)","plac_status":"$t(campaigns.columns.campaign.cmpgn_status)","budget":"$t(campaigns.columns.campaign.budget)","target_imp":"$t(campaigns.columns.campaign.target_imp)","start_date":"$t(campaigns.columns.campaign.start_date)","end_date":"$t(campaigns.columns.campaign.end_date)","cpt":"$t(campaigns.columns.campaign.cpt)","ffdr":"$t(campaigns.columns.campaign.ffdr)","forecasted_impressions":"$t(campaigns.columns.campaign.forecasted_impressions)","forecasted_completion":"$t(campaigns.columns.campaign.forecasted_completion)","prim_traf":"Primary trafficker","sales_person":"Salesperson","cmpgn_exinv":"$t(campaigns.columns.campaign.exinv)","delivery_pacing_point":"Priority","delivery_pacing":"Pacing","countries_constraints":"Countries constraints","audience_constraints":"Audience constraints"},"creative":{"name":"$t(campaigns.creatives)"}},"modalGroups":{"createTitle":"Add to group","editTitle":"Edit group"},"groups":{"general":"General","delivery":"Delivery","targeting":"Targeting","pricing":"Pricing","forecast":"Forecast"},"warnings":{"placement":"Missing Placement","creative":"Missing Creative","placementAndCreative":"Missing Placement and Creative"}},"apps":{"tabs":{"overview":"Overview","channels":"Channels","devices":"Devices","mediaPartners":"Media Partners","content":"Content"},"dateRanges":{"pastDays":"Past 7 days","pastWeeks":"Past weeks","pastMonths":"Past months"},"exportWidget":"Export widget","exportAll":"Export all","noConfig":"There is no config for such application","totals":"Grand Total","filters":"Filters","noFilters":"No filters","dateRange":"Date range","metrics":"Metrics","total":"Total","widgetLoadError":"Failed to load widget"},"research":{"compare":"compare","createAudience":"Create new audience","allAudience":"All audience","chartType":"Chart type","avg":"avg","enableAvg":"Enable / disable averages for each series","trend":"Trend","averages":"Averages","none":"None","enableTrend":"Enable / disable trend for each series","trendTitle":"Trendlines","trendSubtitle":"Toggle trendline & averages","includeGroupsTitle":"Include Groups","includeGroupsSubtitle":"Include groups in the results","onlyGroups":"Only Groups","onlyValues":"Only {{dimensionName}}","addMetricsSubtitle":"Add and order metrics in table","editMetrics":"Edit metrics","formatNumbersTitle":"Format numbers","formatNumbersSubtitle":"Toggle format or unformatted numbers","durationTitle":"Duration metrics format","durationSubtitle":"Format duration metrics to minutes or hours","selectMetricsTitle":"Add/Order metrics in Table","selectMetricsSubtitle":"Select Metrics that you want to appear in the table. Drag & Drop to change the order in which the metrics appear in the table.","pagination":"results","dataLabelsTitle":"Data Labels","dataLabelsSubtitle":"Show data labels on data points","empty":"Select what you want to <bold>compare</bold>, chose a <bold>date range</bold>, add optional <bold>filters</bold> and click the <bold>Submit</bold> button","customAudience":"Custom audience","comparisonSummary":"{{topOrBottom}} {{dimensionLabel}} for {{fromDate}} - {{toDate}} ({{intervalLabel}})","comparisonSummaryShort":"{{topOrBottom}} {{dimensionLabel}} for {{fromDate}} {{toDate}} {{intervalLabel}}","comparisonSummaryBookmark":"Comparing: {{topOrBottom}} {{dimensionLabel}} for ({{intervalLabel}})","filtersTitle":"We are not able to show data for the selected filters.","filtersSubTitle":"Please try refreshing the page or choose different filters.","aggregationTitle":"To comply with privacy rules, audiences with reach less than <bold>{{number}}</bold> cannot be calculated. For more information please contact your administrator.","aggregationSubTitle":"Please try increasing the audience size of this query.","otherSubtitle":"\'We are looking into this and will make it available as soon as possible","trendForLine":"<bold>Trend line for</bold> {{label}}","avgForLine":"<bold>Avg.</bold> per <bold>{{interval}}</bold> for {{label}}","bookmarksTitle":"Your bookmarks","bookmarksPlaceholder":"Enter Bookmark title","confirmBookmarkDelete":"Are you sure you want to delete this bookmark?","audience":{"selectYourAudience":"Select your <bold>Audience</bold>","numberOfSubscribers":"<bold>{{size}}</bold>","percentOfSubscribers":"<bold>{{percent}}% - </bold>","calculating":"Calculating...","selectFilters":"Select the Audience filters below","addAudience":"+ Add <bold>Audience</bold>","fileSize":"File size: ","subscribersSize":"Num. of subscribers: ","dateRange":"Date range:","invert":"Invert","lessThanAggregation":"< than {{number}} users","subscribers":"subscribers"},"table":{"moreResults":"There are {{numberOfValuesWithZero}} more results of which metrics are 0. <clickable>Click</clickable> to display all the results. "},"export":{"chartAndTable":"Export chart and table","chart":"Export chart","table":"Export table"},"modalExport":{"title":"Your export has started","subtitle":"The exporting process has successfully started. The file may take some time to generate. You will be able to download it when it&apos;s done."},"metadataSubTitle":"Include metadata columns","airTime":"Air time","title":"Research","subtitle":"Filter and drill down into data"},"tooltips":{"reach":{"title":"Subscriber #","message":"The total number of Subscriber IDs viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"reachPercent":{"title":"Subscriber %","message":"The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."},"rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"averageDuration":{"title":"Average Duration","message":"\\n                <div style=\\"display: flex;\\">\\n                    <div style=\\"\\">\\n                        <p>The average viewing duration per reached viewer.</p>\\n                        <p>The average duration is calculated based on the selected interval of the query which can be: Minute, Hour, Day, Total etc.</p>\\n                        <p>Example: If i select the <strong>Week</strong> interval my average duration will be an average duration <strong>per week</strong>.</p>\\n                        <p><a href=\\"https://tvbeat.snazzydocs.com/docs/123.0/data-and-metrics?u=tvbeat&p=private#duration-metrics\\" target=\\"_blank\\">READ MORE</a></p>\\n                    </div>\\n                    <div style=\\"flex: 0 0 92px; margin-left: 12px;\\">\\n                        <img src=\\"{{avgDurationImg}}\\" style=\\"width: 100%;\\" />\\n                    </div>\\n                </div>\\n                "},"avgDurAll":{"title":"Average Duration All","message":"The average viewing duration across all Viewers."},"share":{"title":"Share","message":"Viewing duration as a percentage of all viewing."},"totalDuration":{"title":"Total Duration","message":"The total viewing time."},"ireach":{"title":"Incremental Reach #","message":"Unique number of households that have viewed a specified time period of a given channel in a specific interval but they havent watched in a previous interval."},"ireachPercent":{"title":"Incremental Reach %","message":"Incremental reach # expressed in %."},"osn-reach":{"title":"Reach #","message":"The total number of Subscriber IDs viewing."},"osn-reachPercent":{"title":"Reach %","message":"The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."},"osn-dreach":{"title":"Device reach #","message":"Number of unique devices that were used by users to view a specified time period (>0 sec) of a given channel over another, broader specified time period."},"osn-ratingPercent":{"title":"GRP %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"osn-avgDurAll":{"title":"ATS","message":"The average viewing duration across the total universe or target audience."},"croatia-reach":{"title":"Reach","message":"The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"croatia-reachPercent":{"title":"Reach %","message":"The total number of Viewers viewing, as a percentage of the total universe or target audience."},"slovenia-reach":{"title":"Reach","message":"The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"slovenia-reachPercent":{"title":"Reach %","message":"The total number of Viewers viewing, as a percentage of the total universe or target audience."},"uk-reach":{"title":"Reach","message":"The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"uk-reachPercent":{"title":"Reach %","message":"The total number of Viewers viewing, as a percentage of the total universe or target audience."},"uksky-reach":{"title":"Reach","message":"The total number of Viewers viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"uksky-reachPercent":{"title":"Reach %","message":"The total number of Viewers viewing, as a percentage of the total universe or target audience."},"croatia-rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"croatia-ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"slovenia-rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"slovenia-ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"uk-rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"uk-ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"uksky-rating":{"title":"Rating","message":"The average number of Subscriber IDs viewing at any given moment."},"uksky-ratingPercent":{"title":"Rating %","message":"The average number of Subscriber IDs viewing at any given moment, as a percentage of the total universe or target audience."},"sky_media-impression":{"title":"Impression #","message":"The number of impressions served by FreeWheel."},"sky_media-impressionPercent":{"title":"Impression %","message":"The number of impressions served, as a percentage of the total number of impressions served by FreeWheel."},"sky_media-moc":{"title":"Missed Opportunities","message":"The total number of impressions which were available and have not been filled."},"sky_media-pc":{"title":"Total Inventory","message":"Total number of opportunities that are available to be served."},"sky_media-fillRate":{"title":"Fill Rate %","message":"The number of Freewheel impressions served, as a percentage of total inventory."},"sky_media-reach":{"title":"Reach","message":"The number of unique users (All Sky platforms use Sky’s CustomerVisitorID , Opted out customers and non-sky platforms use FreeWheel’s UniqueIdentiferID)."},"sky_media-frequency":{"title":"Frequency","message":"The average number of impressions viewed per unique user."},"sky_media-rch_factor":{"title":"Reach Factor","message":"The factor by which each unique user is scaled, to account for impressions with no unique user ID."},"sky_media-revenue_g":{"title":"Gross Value","message":"The total gross value calculated by multiplying the FreeWheel served impressions by the eCPM across any dimension."},"sky_media-ecpm_g":{"title":"ECPM","message":"The effective CPM calculated by taking the average Gross CPM from all campaigns within the chosen dimensions."},"canalplus-reach":{"title":"Reach #","message":"The total number of Subscriber IDs viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"canalplus-reachPercent":{"title":"Reach %","message":"The total number of Subscriber IDs viewing, as a percentage of the total universe or target audience."},"canalplus-dreach":{"title":"Device Reach","message":"Number of unique devices that were used by users to view a specified time period (>0 sec) of a given channel over another, broader specified time period."},"canalplus-rating":{"title":"Rating","message":"\\n                    <p>The Rating metric counts the average number of users that were watching each second.</p>\\n                    <p>This is calculated by taking Total Duration and dividing it by the selected time period of the query.</p>\\n                    <p>For example, if you have a Total Duration of 24000 hours and time period of 1 day (24 hours), then the Rating would be 1000. (24000/24)</p>\\n                "},"canalplus-ratingPercent":{"title":"Rating %","message":"\\n                    <p>The Rating Percent metric takes the Rating value and shows it as a percentage of the Universe value for that query.</p>\\n                    <p>If the query also uses a Target Audience, then the size of this audience will be used instead of the Universe.</p>\\n                "},"canalplus-share":{"title":"Share","message":"\\n                    <p>Viewing duration in the chosen period as a percentage of all viewing in the period.</p>\\n                    <p>Share takes the Total Duration value for each item and divides it by Total Duration value in row \\"All\\".</p>\\n                    <p>For example, if one channel has 1000 hours Total Duration, and the \\"All\\" row has 10000 hours, then the share for that channel will be 10%.</p>\\n                "},"canalplus-shareOnContent":{"title":"Content Share","message":"\\n                    <p>Content Share of each content is total duration for the content divided by the total duration of all viewing in the airtime of the content.</p><br>\\n                    <p>Content Share is only available for Live content (filter by Live Mode), and is only calculated at an Emission level (select Content interval\\n                    from the interval picker).</p>\\n                    <p><a href=\\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/418742295/Share+And+Content+Share\\" target=\\"_blank\\">READ MORE</a></p>\\n                 "},"canalplus-ratingOnContent":{"title":"Content Rating","message":"\\n                    <p>Content Rating is calculated as: <i>Total duration / duration of content</i></p><br>\\n                    <p>Content Rating is only available for Linear content (excluding On Demand content), and is only calculated at an Emission level (select Content interval from the interval picker).</p>\\n                    <p><a href=\\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/418578439/Rating+Percent+and+Content+Rating\\" target=\\"_blank\\">READ MORE</a></p>\\n                "},"canalplus-freq":{"title":"Frequency","message":"\\n                    <p>Frequency is calculated as <i>Views / Reach</i></p>\\n                    <p><a href=\\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/970227770/Views+Frequency\\" target=\\"_blank\\">READ MORE</a></p>\\n                "},"canalplus-stream":{"title":"Views","message":"\\n                    <p>Views count the number of sessions.</p>\\n                    <p><a href=\\"https://tvbeat.atlassian.net/wiki/spaces/CAN/pages/970227770/Views+Frequency\\" target=\\"_blank\\">READ MORE</a></p>\\n                "},"proximus-reach":{"title":"Device Reach #","message":"The total number of Devices viewing. Capping and zapping methodology for validating viewing sessions can be found in the help section in the top right menu in the dashboard."},"proximus-reachPercent":{"title":"Device Reach %","message":"The total number of Devices viewing, as a percentage of the total universe or target audience."},"proximus-rating":{"title":"Rating","message":"The average number of Device viewing at any given moment."},"proximus-ratingPercent":{"title":"Rating %","message":"The average number of Device viewing at any given moment, as a percentage of the total universe or target audience."},"proximus-averageDuration":{"title":"Average Duration","message":"The average viewing duration per reached Device."},"proximus-avgDurAll":{"title":"Average Duration All","message":"\\n                <div style=\\"display: flex;\\">\\n                    <div style=\\"\\">\\n                        <p>The average viewing duration across all Devices.</p>\\n                        <p>The average duration is calculated based on the selected interval of the query which can be: Minute, Hour, Day, Total etc.</p>\\n                        <p>Example: If i select the <strong>Week</strong> interval my average duration will be an average duration <strong>per week</strong>.</p>\\n                        <p><a href=\\"https://tvbeat.snazzydocs.com/docs/123.0/data-and-metrics?u=tvbeat&p=private#duration-metrics\\" target=\\"_blank\\">READ MORE</a></p>\\n                    </div>\\n                    <div style=\\"flex: 0 0 92px; margin-left: 12px;\\">\\n                        <img src=\\"{{avgDurationImg}}\\" style=\\"width: 100%;\\" />\\n                    </div>\\n                </div>\\n                "},"proximusfw-impression":{"title":"Impression #","message":"The number of impressions served by FreeWheel."},"proximusfw-impressionPercent":{"title":"Impression %","message":"The number of impressions served, as a percentage of the total number of impressions served by FreeWheel."},"proximusfw-mot":{"title":"Missed Opportunities","message":"The total number of impressions which were available and have not been filled."},"proximusfw-pt":{"title":"Capacity","message":"Total number of opportunities that are available to be served."},"proximusfw-fillRate":{"title":"Fill Rate %","message":"The number of Freewheel impressions served, as a percentage of total inventory."},"proximusfw-reach":{"title":"Reach","message":"The total number of unique subscriber IDs viewing."},"proximusfw-frequency":{"title":"Frequency","message":"The average number of impressions viewed per unique subscriber."},"proximusfw-rch_factor":{"title":"Reach Factor","message":"The factor by which each unique user is scaled, to account for impressions with no unique subscriber ID."},"proximusfw-revenue_g":{"title":"Revenue","message":"The total revenue (gross value) calculated by multiplying the FreeWheel served impressions by the Advertiser CPM across any dimension."},"proximusfw-ecpm_g":{"title":"Advertiser CPM","message":"The Advertiser CPM is effective CPM calculated by taking the average Advertiser CPM from all campaigns within the chosen dimensions."},"proximusfw-moleftadt":{"title":"Drop-Off","message":"This occurs when a user stops watching and closes the stream partway through a break. These opportunities will not be counted towards Unserved Inventory."},"proximusfw-monoadt":{"title":"Missed opportunities","message":"The total number of impressions which were available and have not been filled. These opportunities make up Unserved Inventory."},"advancedSearch":{"title":"Advanced Search","message":"<p><strong>Multi string and partial matching:</strong><br />ex.: “breaking s01” would match “<strong>Breaking</strong> Bad <strong>S01</strong>E04”</p><p><strong>“Starts with” matching (using ^ symbol):</strong><br />ex.: “^breaking” would match “<strong>Breaking</strong> Bad S01E04” or any value that starts with that search string.</p><p>Please note that the search string is NOT case sensitive and ignores diacritics.</p>"},"audienceInverse":{"message":"Inverts the audience selection"},"resetStuckExportsButton":{"message":"Set <strong>Failed</strong> status on exports that have a status <strong>In Progress</strong> or <strong>Waiting</strong>. This is used when exporter gets stuck because some exports fail to finalise."},"campaignLate":{"title":"Campaign started late!","message":"The create date of the campaign was less than 3 business days before the campaign start date."},"emission":{"title":"Content","message":"This interval will breakdown content by individual airings. The same content can have many airings which are marked by airtime"},"updateDimensionOrder":{"message":"Update Dimension Order"},"updateGroups":{"message":"Update Groups"},"campaign_label":{"title":"Campaign","message":"The campaign ID and campaign name taken from FreeWheel."},"sky_media-campaign_budget":{"title":"Budget","message":"The gross booked budget allocated to the campaign taken from Landmark."},"sky_media-campaign_cpm":{"title":"CPM","message":"The gross CPM of the campaign taken from Landmark."},"sky_media-campaign_reach":{"title":"Reach","message":"The number of unique users (All Sky platforms use Sky’s CustomerVisitorID , Opted out customers and non-sky platforms use FreeWheel’s UniqueIdentiferID)."},"sky_media-campaign_frequency":{"title":"Frequency","message":"The average number of impressions viewed per unique user."},"sky_media-campaign_servedImpressions":{"title":"Served Impressions","message":"The average number of impressions viewed per unique user."},"sky_media-campaign_targetImpressions":{"title":"Target Impressions","message":"The total number of impressions allocated to the campaign taken from FreeWheel."},"sky_media-campaign_elapsedTimePercentage":{"title":"Elapsed Time","message":"% of elapsed time between Start and End date"},"sky_media-campaign_progressPercentage":{"title":"Progress % / Delivered %","message":"Total delivered impressions for a active campaign expressed as a percentage using Served Impressions / Target Impressions."},"sky_media-campaign_osi":{"title":"OSI","message":"On Schedule Indicator indicates whether your campaign is on schedule."},"sky_media-campaign_ffdr":{"title":"FFDR","message":"A measure of how much budget the campaign is expected to deliver by the end of its dates. It is expressed as a percentage of its booked budget."},"sky_media-campaign_campaign.exinv":{"title":"Excess Inventory","message":"Excess Inventory taken from the FreeWheel API expressed as a percentage. This ensure a campaign paces ahead of its pacing curve."},"sky_media-campaign_createDate":{"title":"Create Date","message":"The date the campaign was created within Landmark."},"lastProcessedDate":{"title":"Last processed date for current data","message":"This date represents the latest day of data that was processed and is available to use in the dashboard. The frequency of how often the data is processed and when it is available in the dash can differ depending on the dataset."},"globalFilters":{"title":"Global filters","message":"Global filters are applied as default across all data queries in the dashboard. This means that the data displayed in the  Research, Reports & Indexing modules, have those default filters applied automatically. These can be overridden where necessary - please contact us for more information."},"campaignMetadataFilters":{"title":"Campaign metadata filters","message":"These filters are applied on all campaign related data queries in the Campaign module and it\'s related reports."},"cumulativeMetrics":{"title":"Cumulative metrics","message":"Switch to cumulative metrics - Cumulative metrics capture viewing from the start of the query to the selected interval."},"historicalDimension":{"message":"This dimension is based on <strong>historical metadata</strong>, and will filter only subscribers that had this meta value in the given time range, regardless of viewing behavior."},"intervals":{"message":"This interval will breakdown content by individual airings. The same content can have many airings which are marked by airtime"},"forecasted_impressions":{"title":"Forecasted Impressions","message":"A moving estimate of the expected impressions to be delivered for the campaign"},"forecasted_completion":{"title":"Forecasted Completion Date","message":"A moving estimate of the expected completion date for the campaign"}}}'
         );
-      o.Z.use(a.Db).init({
+      a.Z.use(o.Db).init({
         lng: 'en',
         fallbackLng: 'en',
         ns: ['translations'],
@@ -24,12 +24,12 @@
         resources: { en: { translations: s } },
       });
       var l,
-        u = o.Z;
-      function c(e) {
+        c = a.Z;
+      function u(e) {
         var t = e.children;
         return (0, r.Z)(
           i.a,
-          { i18n: u },
+          { i18n: c },
           void 0,
           l ||
             (l = (0, r.Z)(
@@ -52,18 +52,18 @@
       'use strict';
       var r,
         i = n(22928),
-        o = n(67294),
-        a = n(56032);
+        a = n(67294),
+        o = n(56032);
       t.Z = {
         Default: function () {
           return (
             r ||
             (r = (0, i.Z)(
-              o.Fragment,
+              a.Fragment,
               {},
               void 0,
               (0, i.Z)(
-                a.U,
+                o.U,
                 { title: 'Accordion title' },
                 void 0,
                 (0, i.Z)(
@@ -76,7 +76,7 @@
               (0, i.Z)('br', {}),
               (0, i.Z)('br', {}),
               (0, i.Z)(
-                a.U,
+                o.U,
                 { defaultIsOpen: !0, title: 'Accordion title' },
                 void 0,
                 (0, i.Z)('p', {}, void 0, 'This accordion open by default')
@@ -90,32 +90,32 @@
       'use strict';
       n.d(t, {
         U: function () {
-          return c;
+          return u;
         },
       });
       var r = n(22928),
         i = n(70885),
-        o = n(67294),
-        a = n(69088),
+        a = n(67294),
+        o = n(69088),
         s = 'Accordion_accordion__1pwVk',
         l = 'Accordion_accordionTitle__2ftcc',
-        u = 'Accordion_accordionContent__1N7EU',
-        c = (0, o.forwardRef)(function (e, t) {
+        c = 'Accordion_accordionContent__1N7EU',
+        u = (0, a.forwardRef)(function (e, t) {
           var n = e.title,
-            c = e.children,
+            u = e.children,
             d = e.defaultIsOpen,
             m = void 0 !== d && d,
-            p = (0, o.useState)(m),
+            p = (0, a.useState)(m),
             g = (0, i.Z)(p, 2),
             f = g[0],
             v = g[1],
-            h = (0, o.useCallback)(function () {
+            h = (0, a.useCallback)(function () {
               return v(function (e) {
                 return !e;
               });
             }, []);
           return (
-            (0, o.useImperativeHandle)(
+            (0, a.useImperativeHandle)(
               t,
               function () {
                 return {
@@ -146,7 +146,7 @@
                 },
                 void 0,
                 n,
-                (0, r.Z)(a.J, {
+                (0, r.Z)(o.J, {
                   color: '#000',
                   size: '0.75rem',
                   name: f ? 'icon-more-open' : 'icon-more-closed',
@@ -155,15 +155,15 @@
               f
                 ? (0, r.Z)(
                     'div',
-                    { 'data-testid': 'id-accordion-content', className: u },
+                    { 'data-testid': 'id-accordion-content', className: c },
                     void 0,
-                    c
+                    u
                   )
                 : null
             )
           );
         });
-      c.displayName = 'Accordion';
+      u.displayName = 'Accordion';
     },
     4174: function (e, t, n) {
       'use strict';
@@ -178,13 +178,13 @@
       'use strict';
       var r,
         i = n(22928),
-        o = (n(67294), n(34594));
+        a = (n(67294), n(34594));
       t.Z = {
         Default: function () {
           return (
             r ||
             (r = (0, i.Z)(
-              o.x,
+              a.x,
               {},
               void 0,
               (0, i.Z)(
@@ -207,33 +207,33 @@
       });
       var r = n(22928),
         i = (n(67294), n(94184)),
-        o = n.n(i),
-        a = n(71364),
+        a = n.n(i),
+        o = n(71364),
         s = function (e) {
           var t = e.children,
             n = e.className;
-          return (0, r.Z)('div', { className: o()(a.Z.box, n) }, void 0, t);
+          return (0, r.Z)('div', { className: a()(o.Z.box, n) }, void 0, t);
         };
     },
     11402: function (e, t, n) {
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s,
         l = n(22928),
-        u = n(67294),
-        c = n(76373);
+        c = n(67294),
+        u = n(76373);
       t.Z = {
         Default: function () {
           return (
             r ||
             (r = (0, l.Z)(
-              u.Fragment,
+              c.Fragment,
               {},
               void 0,
-              (0, l.Z)(c.z, {}, void 0, 'Default')
+              (0, l.Z)(u.z, {}, void 0, 'Default')
             ))
           );
         },
@@ -241,37 +241,37 @@
           return (
             i ||
             (i = (0, l.Z)(
-              u.Fragment,
+              c.Fragment,
               {},
               void 0,
-              (0, l.Z)(c.z, {}, void 0, 'Default'),
-              (0, l.Z)(c.z, { disabled: !0 }, void 0, 'Default'),
+              (0, l.Z)(u.z, {}, void 0, 'Default'),
+              (0, l.Z)(u.z, { disabled: !0 }, void 0, 'Default'),
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
-              (0, l.Z)(c.z, { color: 'primary' }, void 0, 'Primary'),
+              (0, l.Z)(u.z, { color: 'primary' }, void 0, 'Primary'),
               '   ',
               (0, l.Z)(
-                c.z,
+                u.z,
                 { disabled: !0, color: 'primary' },
                 void 0,
                 'Primary disabled'
               ),
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
-              (0, l.Z)(c.z, { color: 'secondary' }, void 0, 'Secondary'),
+              (0, l.Z)(u.z, { color: 'secondary' }, void 0, 'Secondary'),
               '   ',
               (0, l.Z)(
-                c.z,
+                u.z,
                 { disabled: !0, color: 'secondary' },
                 void 0,
                 'Secondary disabled'
               ),
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
-              (0, l.Z)(c.z, { color: 'danger' }, void 0, 'Danger'),
+              (0, l.Z)(u.z, { color: 'danger' }, void 0, 'Danger'),
               '   ',
               (0, l.Z)(
-                c.z,
+                u.z,
                 { disabled: !0, color: 'danger' },
                 void 0,
                 'Danger disabled'
@@ -281,16 +281,16 @@
         },
         WithVariant: function () {
           return (
-            o ||
-            (o = (0, l.Z)(
-              u.Fragment,
+            a ||
+            (a = (0, l.Z)(
+              c.Fragment,
               {},
               void 0,
-              (0, l.Z)(c.z, { variant: 'outlined' }, void 0, 'Default'),
+              (0, l.Z)(u.z, { variant: 'outlined' }, void 0, 'Default'),
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
               (0, l.Z)(
-                c.z,
+                u.z,
                 { color: 'primary', variant: 'outlined' },
                 void 0,
                 'Primary'
@@ -298,7 +298,7 @@
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
               (0, l.Z)(
-                c.z,
+                u.z,
                 { color: 'secondary', variant: 'outlined' },
                 void 0,
                 'Secondary'
@@ -306,7 +306,7 @@
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
               (0, l.Z)(
-                c.z,
+                u.z,
                 { color: 'danger', variant: 'outlined' },
                 void 0,
                 'Danger'
@@ -316,13 +316,13 @@
         },
         WithPolymorphicIcon: function () {
           return (
-            a ||
-            (a = (0, l.Z)(
-              u.Fragment,
+            o ||
+            (o = (0, l.Z)(
+              c.Fragment,
               {},
               void 0,
               (0, l.Z)(
-                c.z,
+                u.z,
                 { as: 'a', href: 'https://google.com', variant: 'outlined' },
                 void 0,
                 'Default'
@@ -330,7 +330,7 @@
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
               (0, l.Z)(
-                c.z,
+                u.z,
                 { as: 'div', color: 'primary', variant: 'outlined' },
                 void 0,
                 'Primary'
@@ -342,14 +342,14 @@
           return (
             s ||
             (s = (0, l.Z)(
-              u.Fragment,
+              c.Fragment,
               {},
               void 0,
-              (0, l.Z)(c.z, { isLoading: !0 }, void 0, 'Default'),
+              (0, l.Z)(u.z, { isLoading: !0 }, void 0, 'Default'),
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
               (0, l.Z)(
-                c.z,
+                u.z,
                 { isLoading: !0, color: 'secondary', variant: 'contained' },
                 void 0,
                 'Default'
@@ -357,7 +357,7 @@
               (0, l.Z)('br', {}),
               (0, l.Z)('br', {}),
               (0, l.Z)(
-                c.z,
+                u.z,
                 { isLoading: !0, color: 'primary', variant: 'outlined' },
                 void 0,
                 'Primary'
@@ -376,12 +376,12 @@
       });
       var r,
         i = n(87462),
-        o = n(22928),
-        a = n(4942),
+        a = n(22928),
+        o = n(4942),
         s = n(45987),
         l = n(67294),
-        u = n(94184),
-        c = n.n(u),
+        c = n(94184),
+        u = n.n(c),
         d = n(44957),
         m = {
           button: 'Button_button__3QF_k',
@@ -408,23 +408,23 @@
         g = function (e) {
           var t = e.as,
             n = e.color,
-            u = e.variant,
-            g = void 0 === u ? 'contained' : u,
+            c = e.variant,
+            g = void 0 === c ? 'contained' : c,
             f = e.size,
             v = void 0 === f ? 'small' : f,
             h = e.className,
             b = e.type,
             y = e.isLoading,
-            T = void 0 !== y && y,
-            _ = e.children,
+            _ = void 0 !== y && y,
+            T = e.children,
             M = (0, s.Z)(e, p),
-            N = c()(
+            N = u()(
               m.button,
               h,
               m[n || ''],
               m[g],
               m[v],
-              (0, a.Z)({}, m.loading, T)
+              (0, o.Z)({}, m.loading, _)
             ),
             w = t || 'button';
           return l.createElement(
@@ -433,7 +433,7 @@
               type: t ? void 0 : b || 'button',
               className: N,
             }),
-            T ? r || (r = (0, o.Z)(d.$, { color: 'currentColor' })) : _
+            _ ? r || (r = (0, a.Z)(d.$, { color: 'currentColor' })) : T
           );
         };
     },
@@ -450,12 +450,12 @@
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s,
         l,
-        u,
         c,
+        u,
         d,
         m,
         p,
@@ -465,8 +465,8 @@
         h,
         b,
         y = n(70885),
-        T = n(22928),
-        _ = n(67294),
+        _ = n(22928),
+        T = n(67294),
         M = n(47684),
         N = n(45901),
         w = n(74435),
@@ -486,38 +486,38 @@
         };
       t.Z = {
         WithSimpleChartsTooltip: function () {
-          return (0, T.Z)(
-            _.Fragment,
+          return (0, _.Z)(
+            T.Fragment,
             {},
             void 0,
-            r || (r = (0, T.Z)(N.a, { title: 'Chart title' })),
-            i || (i = (0, T.Z)('br', {})),
-            o || (o = (0, T.Z)('br', {})),
-            a ||
-              (a = (0, T.Z)(N.a, {
+            r || (r = (0, _.Z)(N.a, { title: 'Chart title' })),
+            i || (i = (0, _.Z)('br', {})),
+            a || (a = (0, _.Z)('br', {})),
+            o ||
+              (o = (0, _.Z)(N.a, {
                 title:
                   'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet expedita dolores aspernatur quidem asperiores maiores quo consectetur ipsum hic voluptate deleniti id sapiente, voluptatem suscipit excepturi itaque minima. In, eaque?',
                 description:
                   'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet expedita dolores aspernatur quidem asperiores maiores quo consectetur ipsum hic voluptate deleniti id sapiente, voluptatem suscipit excepturi itaque minima. In, eaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet expedita dolores aspernatur quidem asperiores maiores quo consectetur ipsum hic voluptate deleniti id sapiente, voluptatem suscipit excepturi itaque minima. In, eaque?',
               })),
-            s || (s = (0, T.Z)('br', {})),
-            l || (l = (0, T.Z)('br', {})),
-            u ||
-              (u = (0, T.Z)(N.a, {
+            s || (s = (0, _.Z)('br', {})),
+            l || (l = (0, _.Z)('br', {})),
+            c ||
+              (c = (0, _.Z)(N.a, {
                 title: 'Chart title',
                 description: 'Chart description',
               })),
-            c || (c = (0, T.Z)('br', {})),
-            d || (d = (0, T.Z)('br', {})),
+            u || (u = (0, _.Z)('br', {})),
+            d || (d = (0, _.Z)('br', {})),
             m ||
-              (m = (0, T.Z)(N.a, {
+              (m = (0, _.Z)(N.a, {
                 title: 'Chart title',
                 description: 'Chart description',
                 onClick: C,
               })),
-            p || (p = (0, T.Z)('br', {})),
-            g || (g = (0, T.Z)('br', {})),
-            (0, T.Z)(N.a, {
+            p || (p = (0, _.Z)('br', {})),
+            g || (g = (0, _.Z)('br', {})),
+            (0, _.Z)(N.a, {
               title:
                 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet expedita dolores aspernatur quidem asperiores maiores quo consectetur ipsum hic voluptate deleniti id sapiente, voluptatem suscipit excepturi itaque minima. In, eaque?',
               list: [
@@ -528,15 +528,15 @@
                 },
               ],
             }),
-            f || (f = (0, T.Z)('br', {})),
-            v || (v = (0, T.Z)('br', {})),
-            (0, T.Z)(N.a, {
+            f || (f = (0, _.Z)('br', {})),
+            v || (v = (0, _.Z)('br', {})),
+            (0, _.Z)(N.a, {
               title: 'Chart title',
               list: [{ label: 'Label 1', value: 'Value 1' }],
             }),
-            h || (h = (0, T.Z)('br', {})),
-            b || (b = (0, T.Z)('br', {})),
-            (0, T.Z)(N.a, {
+            h || (h = (0, _.Z)('br', {})),
+            b || (b = (0, _.Z)('br', {})),
+            (0, _.Z)(N.a, {
               title: 'Chart title',
               description: 'Chart description',
               list: [
@@ -554,27 +554,27 @@
           );
         },
         WithCustomTooltip: function () {
-          var e = (0, _.useState)(null),
+          var e = (0, T.useState)(null),
             t = (0, y.Z)(e, 2),
             n = t[0],
             r = t[1],
-            i = (0, _.useCallback)(function (e) {
+            i = (0, T.useCallback)(function (e) {
               r(e);
             }, []),
-            o = (0, _.useCallback)(function (e) {
+            a = (0, T.useCallback)(function (e) {
               return function () {
                 console.log('Tooltip click', e);
               };
             }, []);
-          return (0, T.Z)(
-            _.Fragment,
+          return (0, _.Z)(
+            T.Fragment,
             {},
             void 0,
-            (0, T.Z)(M.G, { options: Z, callback: i }),
-            (0, T.Z)(w.O, { chart: n }, void 0, function (e) {
+            (0, _.Z)(M.G, { options: Z, callback: i }),
+            (0, _.Z)(w.O, { chart: n }, void 0, function (e) {
               var t = e.x,
                 n = e.y;
-              return (0, T.Z)(N.a, {
+              return (0, _.Z)(N.a, {
                 title: 'Chart title',
                 list: [
                   { label: 'Label X', value: t },
@@ -582,7 +582,7 @@
                   { label: 'Label 3', value: 'Value 3' },
                   { label: 'Label 4', value: 'Value 4' },
                 ],
-                onClick: o(e),
+                onClick: a(e),
               });
             })
           );
@@ -598,13 +598,13 @@
       });
       var r = n(87462),
         i = n(45987),
-        o = n(67294),
-        a = n(78840),
-        s = n.n(a),
+        a = n(67294),
+        o = n(78840),
+        s = n.n(o),
         l = n(23960),
-        u = n.n(l),
-        c = n(93783),
-        d = n.n(c),
+        c = n.n(l),
+        u = n(93783),
+        d = n.n(u),
         m = n(75708),
         p = n.n(m),
         g = n(61873),
@@ -615,48 +615,48 @@
           n = e.seriesTypes;
         function r(e, t, n) {
           var r,
-            o,
             a,
+            o,
             s = [],
             l = [],
-            u = [],
-            c = [];
-          (r = i(e, t, 12)), (o = i(e, t, 26));
+            c = [],
+            u = [];
+          (r = i(e, t, 12)), (a = i(e, t, 26));
           for (var d = 0; d < r.length; d++)
-            null == o[d][1]
+            null == a[d][1]
               ? s.push([e[d], null])
-              : s.push([e[d], r[d][1] - o[d][1]]);
-          for (d = 0; d < s.length; d++) l.push(s[d][0]), u.push(s[d][1]);
-          a = i(l, u, 9);
+              : s.push([e[d], r[d][1] - a[d][1]]);
+          for (d = 0; d < s.length; d++) l.push(s[d][0]), c.push(s[d][1]);
+          o = i(l, c, 9);
           for (d = 0; d < s.length; d++)
             null == s[d][1]
-              ? c.push([s[d][0], null])
-              : c.push([s[d][0], s[d][1] - a[d][1]]);
-          return [s, a, c];
+              ? u.push([s[d][0], null])
+              : u.push([s[d][0], s[d][1] - o[d][1]]);
+          return [s, o, u];
         }
         function i(e, t, n) {
           for (
             var r,
               i = !1,
-              a = n,
-              s = 2 / (a + 1),
+              o = n,
+              s = 2 / (o + 1),
               l = [],
-              u = [],
-              c = t.length,
+              c = [],
+              u = t.length,
               d = (e[0], 0);
-            d < c;
+            d < u;
             d++
           )
-            t[d - 1] && u.push(t[d]),
-              a == u.length
+            t[d - 1] && c.push(t[d]),
+              o == c.length
                 ? ((r = t[d]),
-                  (i = i ? r * s + i * (1 - s) : o(u)),
+                  (i = i ? r * s + i * (1 - s) : a(c)),
                   l.push([e[d], i]),
-                  u.splice(0, 1))
+                  c.splice(0, 1))
                 : l.push([e[d], null]);
           return l;
         }
-        function o(e) {
+        function a(e) {
           for (var t = 0, n = e.length, r = n; r--; ) t += e[r];
           return t / n;
         }
@@ -689,13 +689,13 @@
             SMA: function (e, t, n) {
               return (function (e, t, n) {
                 for (
-                  var r = [], i = [], a = t.length, s = (e[0], 0);
-                  s < a;
+                  var r = [], i = [], o = t.length, s = (e[0], 0);
+                  s < o;
                   s++
                 )
                   r.push(t[s]),
                     n == r.length
-                      ? (i.push([e[s], o(r)]), r.splice(0, 1))
+                      ? (i.push([e[s], a(r)]), r.splice(0, 1))
                       : i.push([e[s], null]);
                 return i;
               })(e, t, n);
@@ -707,29 +707,29 @@
               return (function (e, t, n) {
                 var r,
                   i = [],
-                  o = 0,
                   a = 0,
+                  o = 0,
                   s = 0,
                   l = 0,
-                  u = 0,
                   c = 0,
+                  u = 0,
                   d = 0,
                   m = 0,
                   p = 0,
                   g = 0;
                 r = e.length;
                 for (var f = 0; f < r; f++)
-                  (o += e[f] * t[f]),
+                  (a += e[f] * t[f]),
                     (s += e[f]),
                     (l += t[f]),
-                    (u += Math.pow(e[f], 2)),
+                    (c += Math.pow(e[f], 2)),
                     (d += e[f]),
                     (p += t[f]);
-                (o *= r),
-                  (a = s * l),
-                  (u *= r),
-                  (c = Math.pow(d, 2)),
-                  (g = (p - (m = (o - a) / (u - c)) * d) / r),
+                (a *= r),
+                  (o = s * l),
+                  (c *= r),
+                  (u = Math.pow(d, 2)),
+                  (g = (p - (m = (a - o) / (c - u)) * d) / r),
                   i.push([e[0], m * e[0] + g]);
                 var v = m * e[r - 1] + g;
                 return i.push([e[r - 1], v]), i;
@@ -761,14 +761,14 @@
             },
           }));
       })(s()),
-        u()(s()),
+        c()(s()),
         d()(s()),
         (window.Highcharts = s());
-      var h = o.forwardRef(function (e, t) {
+      var h = a.forwardRef(function (e, t) {
         var n = e.options,
-          a = (0, i.Z)(e, v);
+          o = (0, i.Z)(e, v);
         return (
-          (0, o.useMemo)(function () {
+          (0, a.useMemo)(function () {
             s().setOptions({
               title: { text: '' },
               subtitle: { text: '' },
@@ -878,9 +878,9 @@
             });
           }, []),
           n
-            ? o.createElement(
+            ? a.createElement(
                 p(),
-                (0, r.Z)({ highcharts: s(), options: n, ref: t }, a)
+                (0, r.Z)({ highcharts: s(), options: n, ref: t }, o)
               )
             : null
         );
@@ -891,20 +891,20 @@
       'use strict';
       n.d(t, {
         a: function () {
-          return T;
+          return _;
         },
         l: function () {
-          return _;
+          return T;
         },
       });
       var r,
         i = n(22928),
-        o = n(67294),
-        a = n(97762),
+        a = n(67294),
+        o = n(97762),
         s = n(86485),
         l = n(64517),
-        u = 'Charts_chartsTooltipLayout__3w-qy',
-        c = 'Charts_chartsTooltipTitle__3yw0U line-clamp',
+        c = 'Charts_chartsTooltipLayout__3w-qy',
+        u = 'Charts_chartsTooltipTitle__3yw0U line-clamp',
         d = 'Charts_chartsTooltipDescription__1T0gl line-clamp',
         m = 'Charts_chartsTooltipContent__vTU31',
         p = 'Charts_chartsTooltipList__30Wd_',
@@ -914,35 +914,35 @@
         h = 'Charts_chartsTooltipFooter__1Ucss',
         b = 'Charts_chartsTooltipFooterButton__SnGA8',
         y = 'Charts_chartsTooltipFooterButtonImg__WIwXR',
-        T = function (e) {
+        _ = function (e) {
           var t = e.title,
             n = e.description,
-            a = e.list,
-            T = e.borderColor,
-            _ = e.onClick,
+            o = e.list,
+            _ = e.borderColor,
+            T = e.onClick,
             M = (0, s.$G)().t,
-            N = (0, o.useMemo)(
+            N = (0, a.useMemo)(
               function () {
-                return { borderLeftColor: T };
+                return { borderLeftColor: _ };
               },
-              [T]
+              [_]
             );
           return (0, i.Z)(
             'div',
-            { className: u },
+            { className: c },
             void 0,
             (0, i.Z)(
               'div',
               { style: N, className: m },
               void 0,
-              (0, i.Z)('h1', { className: c }, void 0, t),
+              (0, i.Z)('h1', { className: u }, void 0, t),
               n ? (0, i.Z)('span', { className: d }, void 0, n) : null,
-              null != a && a.length
+              null != o && o.length
                 ? (0, i.Z)(
                     'ul',
                     { className: p },
                     void 0,
-                    a.map(function (e, t) {
+                    o.map(function (e, t) {
                       var n = e.label,
                         r = e.value;
                       return (0,
@@ -951,14 +951,14 @@
                   )
                 : null
             ),
-            _
+            T
               ? (0, i.Z)(
                   'div',
                   { className: h },
                   void 0,
                   (0, i.Z)(
                     l.z,
-                    { className: b, onClick: _ },
+                    { className: b, onClick: T },
                     void 0,
                     (0, i.Z)(
                       'svg',
@@ -982,8 +982,8 @@
               : null
           );
         },
-        _ = function (e) {
-          return (0, a.renderToString)(o.createElement(T, e)).replace(
+        T = function (e) {
+          return (0, o.renderToString)(a.createElement(_, e)).replace(
             'data-reactroot=""',
             ''
           );
@@ -998,8 +998,8 @@
       });
       var r = n(70885),
         i = n(67294),
-        o = n(73935),
-        a = function (e) {
+        a = n(73935),
+        o = function (e) {
           return 'highcharts-custom-tooltip-'.concat(e);
         },
         s = function (e) {
@@ -1007,9 +1007,9 @@
             n = e.children,
             s = (0, i.useRef)(!1),
             l = (0, i.useState)(null),
-            u = (0, r.Z)(l, 2),
-            c = u[0],
-            d = u[1];
+            c = (0, r.Z)(l, 2),
+            u = c[0],
+            d = c[1];
           (0, i.useEffect)(
             function () {
               if (t) {
@@ -1026,7 +1026,7 @@
                           ]),
                           t.tooltip.hide(0)),
                         d(this),
-                        '<div id="'.concat(a(t.index), '"></div>')
+                        '<div id="'.concat(o(t.index), '"></div>')
                       );
                     },
                     useHTML: !0,
@@ -1036,15 +1036,15 @@
             },
             [t]
           );
-          var m = t && document.getElementById(a(t.index));
-          return m && c ? (0, o.createPortal)(n(c), m) : null;
+          var m = t && document.getElementById(o(t.index));
+          return m && u ? (0, a.createPortal)(n(u), m) : null;
         };
     },
     6182: function (e, t, n) {
       'use strict';
       var r = n(22928),
         i = (n(67294), n(76219)),
-        o = function (e, t) {
+        a = function (e, t) {
           console.log(t);
         };
       t.Z = {
@@ -1055,7 +1055,7 @@
               { children: 'Item 1', value: 1 },
               { children: 'Item 2', value: 2 },
             ],
-            onChange: o,
+            onChange: a,
           });
         },
       };
@@ -1069,12 +1069,12 @@
       });
       var r = n(4942),
         i = n(22928),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
         l = n(86485),
-        u = n(20348),
-        c = n(97570),
+        c = n(20348),
+        u = n(97570),
         d = 'CheckboxList_checkboxListRow__11yfq',
         m = 'CheckboxList_disabled__1C7tb',
         p = 'CheckboxList_checkboxListLabel__34RCE',
@@ -1082,18 +1082,18 @@
         f = function (e) {
           var t = e.height,
             n = void 0 === t ? '100%' : t,
-            a = e.list,
-            f = void 0 === a ? [] : a,
+            o = e.list,
+            f = void 0 === o ? [] : o,
             v = e.onChange,
             h = e.excludeSelected,
             b = (0, l.$G)().t,
-            y = (0, o.useMemo)(
+            y = (0, a.useMemo)(
               function () {
                 return { height: n };
               },
               [n]
             ),
-            T = (0, o.useCallback)(
+            _ = (0, a.useCallback)(
               function (e) {
                 return function (t) {
                   v(t, e);
@@ -1101,11 +1101,11 @@
               },
               [v]
             ),
-            _ = (0, o.useCallback)(
+            T = (0, a.useCallback)(
               function (e) {
                 var t = f[e];
                 return t
-                  ? (0, i.Z)(c.o, {
+                  ? (0, i.Z)(u.o, {
                       id: 'value-'.concat(t.value),
                       name: 'value-'.concat(t.value),
                       'data-testid': 'id-checkbox-list-item-'.concat(e),
@@ -1114,7 +1114,7 @@
                       classNameLabel: h && t.checked ? g : p,
                       checked: t.checked,
                       disabled: t.disabled,
-                      onChange: T(t),
+                      onChange: _(t),
                     })
                   : (0, i.Z)(
                       'div',
@@ -1124,12 +1124,12 @@
                       '...'
                     );
               },
-              [T, f, b, h]
+              [_, f, b, h]
             );
-          return (0, i.Z)(u.OO, {
+          return (0, i.Z)(c.OO, {
             style: y,
             totalCount: f.length,
-            itemContent: _,
+            itemContent: T,
           });
         };
     },
@@ -1146,12 +1146,12 @@
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s,
         l,
-        u,
         c,
+        u,
         d,
         m,
         p,
@@ -1166,12 +1166,12 @@
             void 0,
             r || (r = (0, g.Z)(v.A, {})),
             i || (i = (0, g.Z)(v.A, { count: 0 })),
-            o || (o = (0, g.Z)('br', {})),
             a || (a = (0, g.Z)('br', {})),
+            o || (o = (0, g.Z)('br', {})),
             s || (s = (0, g.Z)(v.A, { count: 10 })),
             l || (l = (0, g.Z)('br', {})),
-            u || (u = (0, g.Z)('br', {})),
-            c || (c = (0, g.Z)(v.A, { count: 100 })),
+            c || (c = (0, g.Z)('br', {})),
+            u || (u = (0, g.Z)(v.A, { count: 100 })),
             d || (d = (0, g.Z)('br', {})),
             m || (m = (0, g.Z)('br', {})),
             p || (p = (0, g.Z)(v.A, { count: 1e3 }))
@@ -1188,8 +1188,8 @@
       });
       var r = n(22928),
         i = (n(67294), n(94184)),
-        o = n.n(i),
-        a = {
+        a = n.n(i),
+        o = {
           counter: 'Counter_counter__2d6O8',
           small: 'Counter_small__ZyX57',
           middle: 'Counter_middle__3W_eQ',
@@ -1204,7 +1204,7 @@
                 'span',
                 {
                   'data-testid': 'id-counter',
-                  className: o()(a.counter, a[s], n),
+                  className: a()(o.counter, o[s], n),
                 },
                 void 0,
                 t
@@ -1225,13 +1225,13 @@
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s = n(22928),
         l = (n(67294), n(59242)),
-        u = n.n(l),
-        c = n(16666),
-        d = n.n(c),
+        c = n.n(l),
+        u = n(16666),
+        d = n.n(u),
         m = n(87598),
         p = n(61873);
       t.Z = {
@@ -1253,7 +1253,7 @@
               'dd',
               {},
               void 0,
-              u()(
+              c()(
                 p.hT.parseISO,
                 d()(2, p.hT.format)(d().placeholder, m.Hu.ISO_LONG)
               )('20201010')
@@ -1271,13 +1271,13 @@
               'dd',
               {},
               void 0,
-              u()(
+              c()(
                 p.hT.parseISO,
                 d()(2, p.hT.format)(d().placeholder, m.Hu.ISO_LONG)
               )('20201010Z')
             ),
-            o ||
-              (o = (0, s.Z)(
+            a ||
+              (a = (0, s.Z)(
                 'dt',
                 {},
                 void 0,
@@ -1295,13 +1295,13 @@
               'dd',
               {},
               void 0,
-              u()(
+              c()(
                 p.hT.parseISO,
                 d()(2, p.hT.format)(d().placeholder, m.Hu.ISO_LONG)
               )('2018-11-13T00:00:00Z')
             ),
-            a ||
-              (a = (0, s.Z)(
+            o ||
+              (o = (0, s.Z)(
                 'dt',
                 {},
                 void 0,
@@ -1313,7 +1313,7 @@
               'dd',
               {},
               void 0,
-              u()(
+              c()(
                 p.hT.parseISO,
                 p.hT.getUTCDate,
                 d()(3, p.hT.format)(d().placeholder, m.Hu.ISO_LONG, {
@@ -1325,14 +1325,39 @@
         },
       };
     },
+    87717: function (e, t, n) {
+      'use strict';
+      n.d(t, {
+        C: function () {
+          return l;
+        },
+      });
+      var r = n(22928),
+        i = n(45987),
+        a = n(67294),
+        o = n(61873),
+        s = ['from', 'to'],
+        l = function (e) {
+          var t = e.from,
+            n = e.to,
+            l = (0, i.Z)(e, s),
+            c = (0, a.useMemo)(
+              function () {
+                return (0, o.rx)(t, n, l);
+              },
+              [t, n, l]
+            );
+          return (0, r.Z)(a.Fragment, {}, void 0, c);
+        };
+    },
     2452: function (e, t, n) {
       'use strict';
       var r = n(22928),
         i = n(87462),
-        o = n(67294),
-        a = n(53324),
-        s = (0, o.forwardRef)(function (e, t) {
-          return o.createElement(
+        a = n(67294),
+        o = n(53324),
+        s = (0, a.forwardRef)(function (e, t) {
+          return a.createElement(
             'button',
             (0, i.Z)({}, e, { ref: t }),
             'I am the trigger!'
@@ -1341,7 +1366,7 @@
       (s.displayName = 'Trigger'),
         (t.Z = {
           Default: function () {
-            return (0, r.Z)(a.Dw, {
+            return (0, r.Z)(o.Dw, {
               value: [new Date(), new Date()],
               toggleComponentClass: s,
             });
@@ -1352,17 +1377,17 @@
       'use strict';
       n.d(t, {
         Dw: function () {
-          return c;
+          return u;
         },
       });
       var r = n(87462),
         i = n(42982),
-        o = n(70885),
-        a = n(67294),
+        a = n(70885),
+        o = n(67294),
         s = n(38921),
         l = n.n(s),
-        u = n(61873),
-        c =
+        c = n(61873),
+        u =
           (l().afterToday,
           l().before,
           l().allowedRange,
@@ -1370,20 +1395,20 @@
             var t = e.value,
               n = e.onClose,
               s = e.onSelect,
-              c = (0, a.useRef)(null),
-              d = (0, a.useRef)(0),
-              m = (0, a.useState)(t),
-              p = (0, o.Z)(m, 2),
+              u = (0, o.useRef)(null),
+              d = (0, o.useRef)(0),
+              m = (0, o.useState)(t),
+              p = (0, a.Z)(m, 2),
               g = p[0],
               f = p[1],
-              v = (0, a.useMemo)(
+              v = (0, o.useMemo)(
                 function () {
                   if (!g) return [];
                   var e =
-                    2 === g.length && u.hT.isEqual.apply(u.hT, (0, i.Z)(g));
+                    2 === g.length && c.hT.isEqual.apply(c.hT, (0, i.Z)(g));
                   return [
                     {
-                      label: g[0] && u.hT.format(g[0]),
+                      label: g[0] && c.hT.format(g[0]),
                       value: [new Date(), new Date()],
                     },
                   ].concat(
@@ -1392,7 +1417,7 @@
                         ? []
                         : [
                             {
-                              label: g[1] && u.hT.format(g[1]),
+                              label: g[1] && c.hT.format(g[1]),
                               value: [new Date(), new Date()],
                             },
                           ]
@@ -1401,18 +1426,18 @@
                 },
                 [g]
               ),
-              h = (0, a.useCallback)(
+              h = (0, o.useCallback)(
                 function () {
                   var e,
                     t,
                     r = g || [],
-                    i = (0, o.Z)(r, 2),
-                    a = i[0],
+                    i = (0, a.Z)(r, 2),
+                    o = i[0],
                     s = i[1];
-                  a &&
+                  o &&
                     s &&
-                    (null == c ||
-                      null === (e = c.current) ||
+                    (null == u ||
+                      null === (e = u.current) ||
                       void 0 === e ||
                       null === (t = e.updateValue) ||
                       void 0 === t ||
@@ -1422,7 +1447,7 @@
                 },
                 [g, n]
               ),
-              b = (0, a.useCallback)(
+              b = (0, o.useCallback)(
                 function (e, t) {
                   2 !== d.current ? (d.current += 1) : (d.current = 1),
                     f(function (t) {
@@ -1455,9 +1480,9 @@
                 },
                 [s]
               );
-            return a.createElement(
+            return o.createElement(
               l(),
-              (0, r.Z)({ ref: c, format: 'MMM DD, YYYY' }, e, {
+              (0, r.Z)({ ref: u, format: 'MMM DD, YYYY' }, e, {
                 showWeekNumbers: !0,
                 isoWeek: !0,
                 appearance: 'subtle',
@@ -1468,85 +1493,94 @@
             );
           });
     },
-    8448: function (e, t, n) {
+    33282: function (e, t, n) {
       'use strict';
       n.d(t, {
         Z: function () {
-          return Y;
+          return ae;
         },
       });
       var r,
         i,
-        o = n(22928),
-        a = n(67294),
-        s = n(92667),
-        l = n(74416),
-        u = n(4942),
-        c = n(70885),
-        d = n(63738),
-        m = n.n(d),
-        p = n(94184),
-        g = n.n(p),
-        f = n(61873),
-        v = n(87598),
-        h = 'NavBar_navBar__123ZK',
-        b = 'NavBar_navBarContent__WAZfA',
-        y = function (e) {
+        a = n(22928),
+        o = n(87462),
+        s = n(70885),
+        l = n(67294),
+        c = n(61873),
+        u = n(94184),
+        d = n.n(u),
+        m = n(86485),
+        p = n(64517),
+        g = n(87717),
+        f = n(12051),
+        v = n(74416),
+        h = n(4942),
+        b = n(63738),
+        y = n.n(b),
+        _ = n(41609),
+        T = n.n(_),
+        M = n(87598),
+        N = n(73270),
+        w = 'NavBar_navBar__123ZK',
+        C = 'NavBar_navBarContent__WAZfA',
+        Z = function (e) {
           var t = e.month,
             n = e.onPreviousClick,
             r = e.onNextClick,
             i = e.showPreviousButton,
-            l = e.showNextButton,
-            u = (0, a.useMemo)(
+            o = e.showNextButton,
+            s = (0, l.useMemo)(
               function () {
-                return f.hT.format(
+                return c.hT.format(
                   t,
-                  ''.concat(v.Hu.LONG_MONTH, ' ').concat(v.Hu.LONG_YEAR)
+                  ''.concat(M.Hu.LONG_MONTH, ' ').concat(M.Hu.LONG_YEAR)
                 );
               },
               [t]
             ),
-            c = (0, a.useCallback)(
+            u = (0, l.useCallback)(
               function () {
                 return n();
               },
               [n]
             ),
-            d = (0, a.useCallback)(
+            d = (0, l.useCallback)(
               function () {
                 return r();
               },
               [r]
             );
-          return (0, o.Z)(
+          return (0, a.Z)(
             'div',
-            { className: h },
+            { className: w },
             void 0,
-            (0, o.Z)(s.JO, {
+            (0, a.Z)(N.JO, {
               as: 'button',
               disabled: !i,
               category: 'modern',
               name: 'chevron_left',
-              onClick: c,
+              onClick: u,
             }),
-            (0, o.Z)('div', { className: b }, void 0, u),
-            (0, o.Z)(s.JO, {
+            (0, a.Z)('div', { className: C }, void 0, s),
+            (0, a.Z)(N.JO, {
               as: 'button',
-              disabled: !l,
+              disabled: !o,
               category: 'modern',
               name: 'chevron_right',
               onClick: d,
             })
           );
         },
-        T = 'Calendar_dateRangePickerWrapper__38niK',
-        _ = 'Calendar_dateRangePicker__2eW4A',
-        M = 'Calendar_dateRangePickerWithWeekNumbers__3DY3P',
-        N = 'Calendar_dateRangePickerLeft__4Iz0N',
-        w = 'Calendar_dateRangePickerSelectDirectionLeft__31175',
-        C = 'Calendar_dateRangePickerSelectDirectionRight__-sU5Y',
-        Z = 'Calendar_dateRangePickerRight__34WEb';
-      function D(e, t) {
+        D = 'DateRangePickerCalendar_dateRangePickerWrapper__Zr0-b',
+        E = 'DateRangePickerCalendar_dateRangePicker__3fPbr',
+        I = 'DateRangePickerCalendar_dateRangePickerWithWeekNumbers__1immO',
+        O = 'DateRangePickerCalendar_dateRangePickerLeft__3f_Tl',
+        L = 'DateRangePickerCalendar_dateRangePickerHalfRangeSelected__HIDc6',
+        S = 'DateRangePickerCalendar_dateRangePickerSelectDirectionLeft__37_sV',
+        A =
+          'DateRangePickerCalendar_dateRangePickerSelectDirectionRight__1Xwdx',
+        k = 'DateRangePickerCalendar_dateRangePickerRight__SMyja';
+      function P(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var r = Object.getOwnPropertySymbols(e);
@@ -1558,16 +1592,16 @@
         }
         return n;
       }
-      function E(e) {
+      function j(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
-            ? D(Object(n), !0).forEach(function (t) {
-                (0, u.Z)(e, t, n[t]);
+            ? P(Object(n), !0).forEach(function (t) {
+                (0, h.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : D(Object(n)).forEach(function (t) {
+            : P(Object(n)).forEach(function (t) {
                 Object.defineProperty(
                   e,
                   t,
@@ -1577,187 +1611,407 @@
         }
         return e;
       }
-      var I,
-        O,
-        L,
-        A,
-        S,
-        k,
-        j,
-        P,
+      var R,
         x,
-        R,
         z,
-        F = { from: void 0, to: void 0, enteredTo: void 0 },
-        U = function (e) {
-          var t = e.value,
-            n = void 0 === t ? [] : t,
-            s = e.showWeekNumbers,
-            l = void 0 !== s && s,
-            d = e.fixedWeeks,
-            p = void 0 === d || d,
-            v = (0, a.useState)(function () {
-              return { from: n[0], to: n[1], enteredTo: void 0 };
-            }),
-            h = (0, c.Z)(v, 2),
-            b = h[0],
-            D = b.from,
-            I = b.to,
-            O = b.enteredTo,
-            L = h[1],
-            A = (0, a.useMemo)(
+        F,
+        U,
+        G,
+        Y,
+        V,
+        W,
+        B,
+        H,
+        q,
+        Q,
+        J,
+        X,
+        $,
+        K = { from: void 0, to: void 0 },
+        ee = function (e) {
+          var t = e.className,
+            n = e.from,
+            o = e.to,
+            u = e.showWeekNumbers,
+            m = void 0 !== u && u,
+            p = e.fixedWeeks,
+            g = void 0 === p || p,
+            f = e.disabledDays,
+            v = e.onChange,
+            _ = (0, l.useState)(),
+            M = (0, s.Z)(_, 2),
+            N = M[0],
+            w = M[1],
+            C = (0, l.useMemo)(
               function () {
-                return { start: D, end: I };
+                return { start: n, end: o };
               },
-              [D, I]
+              [n, o]
             ),
-            S = (0, a.useMemo)(
+            P = (0, l.useMemo)(
               function () {
-                return O && (D || I)
-                  ? D
-                    ? f.hT.isBefore(O, D)
+                return N && (n || o)
+                  ? n
+                    ? c.hT.isBefore(N, n)
                       ? -1
                       : 1
-                    : I
-                    ? f.hT.isBefore(O, I)
+                    : o
+                    ? c.hT.isBefore(N, o)
                       ? -1
                       : 1
                     : void 0
                   : 0;
               },
-              [O, D, I]
+              [N, n, o]
             ),
-            k = (0, a.useMemo)(
+            R = (0, l.useMemo)(
               function () {
-                return g()(
-                  _,
-                  (0, u.Z)({}, M, l),
-                  (0, u.Z)({}, w, -1 === S),
-                  (0, u.Z)({}, C, 1 === S)
+                return d()(
+                  E,
+                  (0, h.Z)({}, L, !n || !o),
+                  (0, h.Z)({}, I, m),
+                  (0, h.Z)({}, S, -1 === P),
+                  (0, h.Z)({}, A, 1 === P)
                 );
               },
-              [S, l]
+              [n, P, m, o]
             ),
-            j = (0, a.useMemo)(
+            x = (0, l.useMemo)(
               function () {
-                return !D && I ? f.hT.subMonths(new Date(), 1) : D;
+                return !n && o ? c.hT.subMonths(new Date(), 1) : n;
               },
-              [D, I]
+              [n, o]
             ),
-            P = (0, a.useMemo)(
+            z = (0, l.useMemo)(
               function () {
-                return (!D && !I) || (D && !I)
-                  ? f.hT.addMonths(new Date(), 1)
-                  : I;
+                return (!n && !o) ||
+                  (n && !o) ||
+                  (n &&
+                    o &&
+                    ((e = n),
+                    (t = o),
+                    c.hT.isSameMonth(e, t) && c.hT.isSameYear(e, t))) ||
+                  (n &&
+                    o &&
+                    (function (e, t) {
+                      return (
+                        c.hT.isSameDay(e, t) &&
+                        c.hT.isSameMonth(e, t) &&
+                        c.hT.isSameYear(e, t)
+                      );
+                    })(n, o))
+                  ? c.hT.addMonths(o || new Date(), 1)
+                  : o;
+                var e, t;
               },
-              [D, I]
+              [n, o]
             ),
-            x = (0, a.useCallback)(function (e) {
-              L(function (t) {
-                var n =
-                    (!t.from && !t.to) || (!t.from && t.to) || (t.from && t.to)
-                      ? 'from'
-                      : 'to',
-                  r = E(
-                    E({}, t.from && t.to ? F : t),
-                    {},
-                    (0, u.Z)(
-                      { enteredTo: t.from || t.to ? void 0 : t.enteredTo },
-                      n,
-                      e
-                    )
-                  );
-                return r.from && r.to && f.hT.isBefore(r.to, r.from)
-                  ? E(E({}, r), {}, { from: r.to, to: r.from })
-                  : r;
-              });
-            }, []),
-            R = (0, a.useCallback)(
+            F = (0, l.useCallback)(
               function (e) {
-                ((D && !I) || (!D && I)) &&
-                  L(function (t) {
-                    return E(E({}, t), {}, { enteredTo: e });
-                  });
+                return (
+                  !(f && !T()(f)) ||
+                  b.DateUtils.isDayInRange(e, {
+                    from: null == f ? void 0 : f.before,
+                    to: null == f ? void 0 : f.after,
+                  })
+                );
               },
-              [D, I]
+              [f]
+            ),
+            U = (0, l.useCallback)(
+              function (e) {
+                if (F(e)) {
+                  var t = (!n && !o) || (!n && o) || (n && o) ? 'from' : 'to',
+                    r = j(
+                      j({}, n && o ? K : { from: n, to: o }),
+                      {},
+                      (0, h.Z)({}, t, e)
+                    );
+                  r.from &&
+                    r.to &&
+                    c.hT.isBefore(r.to, r.from) &&
+                    (r = { from: r.to, to: r.from }),
+                    w(function (e) {
+                      return n || o ? void 0 : e;
+                    }),
+                    v(r);
+                }
+              },
+              [n, F, v, o]
+            ),
+            G = (0, l.useCallback)(
+              function (e) {
+                F(e) && ((n && !o) || (!n && o)) && w(e);
+              },
+              [n, F, o]
             );
-          return (0, o.Z)(
+          return (0, a.Z)(
             'div',
-            { className: T },
+            { className: d()(D, t) },
             void 0,
-            (0, o.Z)(m(), {
-              className: g()(k, N),
-              fixedWeeks: p,
-              showWeekNumbers: l,
-              firstDayOfWeek: f.hT.getDatasetWeekStart(),
-              selectedDays: [D, { from: D || O, to: I || O }],
-              modifiers: A,
-              toMonth: j,
-              initialMonth: j,
-              navbarElement: y,
-              captionElement: r || (r = (0, o.Z)(a.Fragment, {})),
-              onDayClick: x,
-              onDayMouseEnter: R,
+            (0, a.Z)(y(), {
+              className: d()(R, O),
+              fixedWeeks: g,
+              showWeekNumbers: m,
+              firstDayOfWeek: c.hT.getDatasetWeekStart(),
+              disabledDays: f,
+              selectedDays: [n, { from: n || N, to: o || N }],
+              modifiers: C,
+              toMonth: x,
+              initialMonth: x,
+              navbarElement: Z,
+              captionElement: r || (r = (0, a.Z)(l.Fragment, {})),
+              onDayClick: U,
+              onDayMouseEnter: G,
             }),
-            (0, o.Z)(m(), {
-              className: g()(k, Z),
-              fixedWeeks: p,
-              showWeekNumbers: l,
-              firstDayOfWeek: f.hT.getDatasetWeekStart(),
-              selectedDays: [{ from: D || O, to: I || O }, I],
-              modifiers: A,
-              fromMonth: P,
-              initialMonth: P,
-              navbarElement: y,
-              captionElement: i || (i = (0, o.Z)(a.Fragment, {})),
-              onDayClick: x,
-              onDayMouseEnter: R,
+            (0, a.Z)(y(), {
+              className: d()(R, k),
+              fixedWeeks: g,
+              showWeekNumbers: m,
+              firstDayOfWeek: c.hT.getDatasetWeekStart(),
+              disabledDays: f,
+              selectedDays: [{ from: n || N, to: o || N }, o],
+              modifiers: C,
+              fromMonth: z,
+              initialMonth: z,
+              navbarElement: Z,
+              captionElement: i || (i = (0, a.Z)(l.Fragment, {})),
+              onDayClick: U,
+              onDayMouseEnter: G,
             })
           );
         },
-        G = function (e) {
+        te = {
+          dateRangePickerDropdown:
+            'DateRangePicker_dateRangePickerDropdown__2G3V3',
+          dateRangePickerDropdownModifier:
+            'DateRangePicker_dateRangePickerDropdownModifier__1lR6w',
+          dateRangePickerWrapper:
+            'DateRangePicker_dateRangePickerWrapper__K-tuM',
+          dateRangePickerFooter: 'DateRangePicker_dateRangePickerFooter__3qtcB',
+          dateRangePickerFooterContent:
+            'DateRangePicker_dateRangePickerFooterContent__2Cjz0',
+          dateRangePickerFooterMark:
+            'DateRangePicker_dateRangePickerFooterMark__29WCI',
+          dateRangePickerFooterButtonCancel:
+            'DateRangePicker_dateRangePickerFooterButtonCancel__30htx',
+        },
+        ne = function (e) {
           var t = e.value,
             n = void 0 === t ? [] : t,
-            r = (0, a.useCallback)(
+            r = e.disabledDays,
+            i = e.onChange,
+            o = (0, m.$G)().t,
+            u = (0, l.useState)(n),
+            h = (0, s.Z)(u, 2),
+            b = h[0],
+            y = h[1],
+            _ = (0, l.useMemo)(
+              function () {
+                return b[0] && b[1]
+                  ? c.hT.differenceInDays(b[1], b[0]) + 1
+                  : void 0;
+              },
+              [b]
+            ),
+            T = (0, l.useCallback)(
               function (e) {
-                return a.createElement(
-                  s.WA,
-                  e,
-                  (0, o.Z)(s.C0, { from: n[0], to: n[1] })
-                );
+                return (0, a.Z)(f.e, {
+                  iconCategory: 'modern',
+                  iconName: 'date_range',
+                  content: (0, a.Z)(g.C, { from: n[0], to: n[1] }),
+                  className: te.dateRangePickerTrigger,
+                  onClick: e.toggle,
+                });
               },
               [n]
+            ),
+            M = (0, l.useCallback)(function (e, t) {
+              return e.every(function (e, n) {
+                var r = t[n];
+                return !(!e || !r) && ((!e && !r) || c.hT.isEqual(e, r));
+              });
+            }, []),
+            N = (0, l.useCallback)(function (e) {
+              var t = e.from,
+                n = e.to;
+              y([t, n]);
+            }, []),
+            w = (0, l.useCallback)(
+              function (e) {
+                return function () {
+                  y(n), i(n), e.toggle();
+                };
+              },
+              [i, n]
+            ),
+            C = (0, l.useCallback)(
+              function (e) {
+                return function () {
+                  M(b, n) || i(b), e.toggle();
+                };
+              },
+              [M, b, n, i]
+            ),
+            Z = (0, l.useCallback)(
+              function () {
+                M(b, n) || i(b);
+              },
+              [M, b, n, i]
             );
-          return (0, o.Z)(
-            l.L,
-            { hideOnClick: !1, Trigger: r },
+          return (0, a.Z)(
+            v.L,
+            {
+              hideOnClick: !1,
+              Trigger: T,
+              className: d()(
+                te.dateRangePickerDropdown,
+                te.dateRangePickerDropdownModifier
+              ),
+              onBlur: Z,
+            },
             void 0,
-            (0, o.Z)(U, { value: n })
+            function (e) {
+              return (0, a.Z)(
+                'div',
+                { className: te.dateRangePickerWrapper },
+                void 0,
+                (0, a.Z)(ee, {
+                  from: b[0],
+                  to: b[1],
+                  disabledDays: r,
+                  onChange: N,
+                }),
+                (0, a.Z)(
+                  'footer',
+                  { className: te.dateRangePickerFooter },
+                  void 0,
+                  (0, a.Z)(
+                    'div',
+                    { className: te.dateRangePickerFooterContent },
+                    void 0,
+                    (0, a.Z)(g.C, { from: b[0], to: b[1] }),
+                    b[0] && !b[1]
+                      ? (0, a.Z)(
+                          'span',
+                          { className: te.dateRangePickerFooterMark },
+                          void 0,
+                          ' ',
+                          '- ',
+                          o('general.selectTo')
+                        )
+                      : null,
+                    _
+                      ? ' ('
+                          .concat(_, ' ')
+                          .concat(
+                            o('general.days', { count: _ }).toLowerCase(),
+                            ')'
+                          )
+                      : null
+                  ),
+                  (0, a.Z)(
+                    p.z,
+                    {
+                      className: te.dateRangePickerFooterButtonCancel,
+                      onClick: w(e),
+                    },
+                    void 0,
+                    o('general.cancel')
+                  ),
+                  (0, a.Z)(
+                    p.z,
+                    { color: 'primary', onClick: C(e) },
+                    void 0,
+                    o('general.apply')
+                  )
+                )
+              );
+            }
           );
         },
-        Y = {
+        re = function (e) {
+          var t = (0, l.useState)(e.value),
+            n = (0, s.Z)(t, 2),
+            r = n[0],
+            i = n[1];
+          return l.createElement(
+            ne,
+            (0, o.Z)({}, e, { value: r, onChange: i })
+          );
+        },
+        ie = function (e) {
+          var t = (0, l.useState)(function () {
+              return { from: e.from, to: e.to };
+            }),
+            n = (0, s.Z)(t, 2),
+            r = n[0],
+            i = n[1];
+          return l.createElement(ee, (0, o.Z)({}, e, r, { onChange: i }));
+        },
+        ae = {
           Default: function () {
-            return (0, o.Z)(G, { value: [new Date()] });
+            return (0, a.Z)(re, { value: [new Date()] });
           },
           DateRangePickerCalendar: function () {
-            return (0, o.Z)(
-              a.Fragment,
+            return (0, a.Z)(
+              l.Fragment,
               {},
               void 0,
-              I || (I = (0, o.Z)('h3', {}, void 0, 'Initial (from, to)')),
-              (0, o.Z)(U, { value: [new Date(), new Date(2021, 11, 23)] }),
-              O || (O = (0, o.Z)('br', {})),
-              L || (L = (0, o.Z)('br', {})),
-              A || (A = (0, o.Z)('h3', {}, void 0, 'Initial (from)')),
-              (0, o.Z)(U, { value: [new Date()] }),
-              S || (S = (0, o.Z)('br', {})),
-              k || (k = (0, o.Z)('br', {})),
-              j || (j = (0, o.Z)('h3', {}, void 0, 'Initial (to)')),
-              (0, o.Z)(U, { value: [void 0, new Date()] }),
-              P || (P = (0, o.Z)('br', {})),
-              x || (x = (0, o.Z)('br', {})),
-              R || (R = (0, o.Z)('h3', {}, void 0, 'Initial (empty)')),
-              z || (z = (0, o.Z)(U, {}))
+              R ||
+                (R = (0, a.Z)(
+                  'h3',
+                  {},
+                  void 0,
+                  'Initial (from, to - same day)'
+                )),
+              (0, a.Z)(ie, { from: new Date(), to: new Date() }),
+              x ||
+                (x = (0, a.Z)(
+                  'h3',
+                  {},
+                  void 0,
+                  'Initial (from, to - same month)'
+                )),
+              (0, a.Z)(ie, {
+                from: new Date(),
+                to: c.hT.addDays(new Date(), 5),
+              }),
+              z || (z = (0, a.Z)('h3', {}, void 0, 'Initial (from, to)')),
+              (0, a.Z)(ie, {
+                from: new Date(),
+                to: c.hT.addMonths(new Date(), 2),
+              }),
+              F || (F = (0, a.Z)('br', {})),
+              U || (U = (0, a.Z)('br', {})),
+              G || (G = (0, a.Z)('h3', {}, void 0, 'Initial (from)')),
+              (0, a.Z)(ie, { from: new Date() }),
+              Y || (Y = (0, a.Z)('br', {})),
+              V || (V = (0, a.Z)('br', {})),
+              W || (W = (0, a.Z)('h3', {}, void 0, 'Initial (to)')),
+              (0, a.Z)(ie, { to: new Date() }),
+              B || (B = (0, a.Z)('br', {})),
+              H || (H = (0, a.Z)('br', {})),
+              q || (q = (0, a.Z)('h3', {}, void 0, 'Initial (empty)')),
+              Q || (Q = (0, a.Z)(ie, {}))
+            );
+          },
+          WithDisabledDates: function () {
+            var e = (0, l.useMemo)(function () {
+              return {
+                before: new Date(),
+                after: c.hT.addWeeks(new Date(), 3),
+              };
+            }, []);
+            return (0, a.Z)(
+              l.Fragment,
+              {},
+              void 0,
+              (0, a.Z)(re, { value: [new Date()], disabledDays: e }),
+              J || (J = (0, a.Z)('br', {})),
+              X || (X = (0, a.Z)('br', {})),
+              $ || ($ = (0, a.Z)('br', {})),
+              (0, a.Z)(ie, { from: new Date(), disabledDays: e })
             );
           },
         };
@@ -1766,12 +2020,12 @@
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s,
         l,
-        u,
         c,
+        u,
         d,
         m,
         p,
@@ -1781,8 +2035,8 @@
         h,
         b,
         y,
-        T,
         _,
+        T,
         M,
         N,
         w,
@@ -1793,53 +2047,53 @@
         I,
         O,
         L,
-        A,
         S,
+        A,
         k,
-        j,
         P,
-        x = n(22928),
-        R = n(67294),
+        j,
+        R = n(22928),
+        x = n(67294),
         z = n(64517),
         F = n(34061),
         U = function (e) {
           var t = e.toggle;
-          return (0, x.Z)(z.z, { onClick: t }, void 0, 'Click me');
+          return (0, R.Z)(z.z, { onClick: t }, void 0, 'Click me');
         };
       t.Z = {
         Default: function () {
           return (
             r ||
-            (r = (0, x.Z)(
-              R.Fragment,
+            (r = (0, R.Z)(
+              x.Fragment,
               {},
               void 0,
-              (0, x.Z)(
+              (0, R.Z)(
                 F.L,
                 { width: '20rem', Trigger: U },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)(
-                  R.Fragment,
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)(
+                  x.Fragment,
                   {},
                   void 0,
-                  (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                  (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
                 )
               ),
-              (0, x.Z)('br', {}),
-              (0, x.Z)('br', {}),
-              (0, x.Z)(
+              (0, R.Z)('br', {}),
+              (0, R.Z)('br', {}),
+              (0, R.Z)(
                 F.L,
                 { width: '20rem', Trigger: U },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)(
-                  R.Fragment,
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)(
+                  x.Fragment,
                   {},
                   void 0,
-                  (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                  (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
                 )
               )
             ))
@@ -1848,23 +2102,23 @@
         VisibleByDefault: function () {
           return (
             i ||
-            (i = (0, x.Z)(
+            (i = (0, R.Z)(
               F.L,
               { width: '20rem', Trigger: U, defaultVisibility: !0 },
               void 0,
-              (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-              (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-              (0, x.Z)(
-                R.Fragment,
+              (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+              (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+              (0, R.Z)(
+                x.Fragment,
                 {},
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               )
             ))
           );
         },
         WithAlign: function () {
-          return (0, x.Z)(
+          return (0, R.Z)(
             'div',
             {
               style: {
@@ -1877,94 +2131,94 @@
               },
             },
             void 0,
-            o ||
-              (o = (0, x.Z)(
+            a ||
+              (a = (0, R.Z)(
                 F.L,
                 { width: '20rem', Trigger: U },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)(
-                  R.Fragment,
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)(
+                  x.Fragment,
                   {},
                   void 0,
-                  (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                  (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
                 )
               )),
-            a || (a = (0, x.Z)('br', {})),
-            s || (s = (0, x.Z)('br', {})),
+            o || (o = (0, R.Z)('br', {})),
+            s || (s = (0, R.Z)('br', {})),
             l ||
-              (l = (0, x.Z)(
+              (l = (0, R.Z)(
                 F.L,
                 { width: '20rem', Trigger: U, align: 'bottom-right' },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)(
-                  R.Fragment,
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)(
+                  x.Fragment,
                   {},
                   void 0,
-                  (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                  (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
                 )
               )),
-            u || (u = (0, x.Z)('br', {})),
-            c || (c = (0, x.Z)('br', {})),
+            c || (c = (0, R.Z)('br', {})),
+            u || (u = (0, R.Z)('br', {})),
             d ||
-              (d = (0, x.Z)(
+              (d = (0, R.Z)(
                 F.L,
                 { width: '20rem', Trigger: U, align: 'bottom-left' },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)(
-                  R.Fragment,
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)(
+                  x.Fragment,
                   {},
                   void 0,
-                  (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                  (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
                 )
               )),
-            m || (m = (0, x.Z)('br', {})),
-            p || (p = (0, x.Z)('br', {})),
+            m || (m = (0, R.Z)('br', {})),
+            p || (p = (0, R.Z)('br', {})),
             g ||
-              (g = (0, x.Z)(
+              (g = (0, R.Z)(
                 F.L,
                 { width: '20rem', Trigger: U, align: 'top' },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)(
-                  R.Fragment,
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)(
+                  x.Fragment,
                   {},
                   void 0,
-                  (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                  (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
                 )
               )),
-            f || (f = (0, x.Z)('br', {})),
-            v || (v = (0, x.Z)('br', {})),
+            f || (f = (0, R.Z)('br', {})),
+            v || (v = (0, R.Z)('br', {})),
             h ||
-              (h = (0, x.Z)(
+              (h = (0, R.Z)(
                 F.L,
                 { width: '20rem', Trigger: U, align: 'top-right' },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               )),
-            b || (b = (0, x.Z)('br', {})),
-            y || (y = (0, x.Z)('br', {})),
-            T ||
-              (T = (0, x.Z)(
+            b || (b = (0, R.Z)('br', {})),
+            y || (y = (0, R.Z)('br', {})),
+            _ ||
+              (_ = (0, R.Z)(
                 F.L,
                 { width: '20rem', Trigger: U, align: 'top-left' },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               ))
           );
         },
         WithPortals: function () {
-          return (0, x.Z)(
+          return (0, R.Z)(
             'div',
             {
               style: {
@@ -1977,19 +2231,19 @@
               },
             },
             void 0,
-            _ ||
-              (_ = (0, x.Z)(
+            T ||
+              (T = (0, R.Z)(
                 F.L,
                 { usePortals: !0, width: '20rem', Trigger: U },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               )),
-            M || (M = (0, x.Z)('br', {})),
-            N || (N = (0, x.Z)('br', {})),
+            M || (M = (0, R.Z)('br', {})),
+            N || (N = (0, R.Z)('br', {})),
             w ||
-              (w = (0, x.Z)(
+              (w = (0, R.Z)(
                 F.L,
                 {
                   usePortals: !0,
@@ -1998,14 +2252,14 @@
                   align: 'bottom-right',
                 },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               )),
-            C || (C = (0, x.Z)('br', {})),
-            Z || (Z = (0, x.Z)('br', {})),
+            C || (C = (0, R.Z)('br', {})),
+            Z || (Z = (0, R.Z)('br', {})),
             D ||
-              (D = (0, x.Z)(
+              (D = (0, R.Z)(
                 F.L,
                 {
                   usePortals: !0,
@@ -2014,25 +2268,25 @@
                   align: 'bottom-left',
                 },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               )),
-            E || (E = (0, x.Z)('br', {})),
-            I || (I = (0, x.Z)('br', {})),
+            E || (E = (0, R.Z)('br', {})),
+            I || (I = (0, R.Z)('br', {})),
             O ||
-              (O = (0, x.Z)(
+              (O = (0, R.Z)(
                 F.L,
                 { usePortals: !0, width: '20rem', Trigger: U, align: 'top' },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               )),
-            L || (L = (0, x.Z)('br', {})),
-            A || (A = (0, x.Z)('br', {})),
-            S ||
-              (S = (0, x.Z)(
+            L || (L = (0, R.Z)('br', {})),
+            S || (S = (0, R.Z)('br', {})),
+            A ||
+              (A = (0, R.Z)(
                 F.L,
                 {
                   usePortals: !0,
@@ -2041,14 +2295,14 @@
                   align: 'top-right',
                 },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               )),
-            k || (k = (0, x.Z)('br', {})),
-            j || (j = (0, x.Z)('br', {})),
-            P ||
-              (P = (0, x.Z)(
+            k || (k = (0, R.Z)('br', {})),
+            P || (P = (0, R.Z)('br', {})),
+            j ||
+              (j = (0, R.Z)(
                 F.L,
                 {
                   usePortals: !0,
@@ -2057,9 +2311,9 @@
                   align: 'top-left',
                 },
                 void 0,
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 1'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 2'),
-                (0, x.Z)('a', { href: '#' }, void 0, 'Link 3')
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 1'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 2'),
+                (0, R.Z)('a', { href: '#' }, void 0, 'Link 3')
               ))
           );
         },
@@ -2069,17 +2323,17 @@
       'use strict';
       n.d(t, {
         L: function () {
-          return f;
+          return g;
         },
       });
       var r = n(22928),
         i = n(4942),
-        o = n(70885),
-        a = n(67294),
+        a = n(70885),
+        o = n(67294),
         s = n(94184),
         l = n.n(s),
-        u = n(86485),
-        c = n(20404),
+        c = n(86485),
+        u = n(20404),
         d = n(80746);
       function m(e, t) {
         var n = Object.keys(e);
@@ -2112,138 +2366,144 @@
         }
         return e;
       }
-      var g = function () {},
-        f = (0, a.forwardRef)(function (e, t) {
-          var n = e.testId,
-            s = void 0 === n ? 'id-dropdown' : n,
-            m = e.className,
-            f = e.classNameLayout,
-            v = e.children,
-            h = e.Trigger,
-            b = e.defaultVisibility,
-            y = void 0 !== b && b,
-            T = e.align,
-            _ = void 0 === T ? 'bottom' : T,
-            M = e.usePortals,
-            N = void 0 !== M && M,
-            w = e.hideOnClick,
-            C = void 0 === w || w,
-            Z = e.hideOnClickOutside,
-            D = void 0 === Z || Z,
-            E = e.width,
-            I = e.onToggle,
-            O = (0, a.useState)(y),
-            L = (0, o.Z)(O, 2),
-            A = L[0],
-            S = L[1],
-            k = (0, a.useState)(),
-            j = (0, o.Z)(k, 2),
-            P = j[0],
-            x = j[1],
-            R = (0, a.useRef)(null),
-            z = (0, a.useRef)(null),
-            F = (0, a.useCallback)(
-              function () {
-                S(function (e) {
-                  return !e;
-                }),
-                  null == I || I({ isVisible: !A });
-              },
-              [I, A]
-            );
-          (0, u.t$)([z, R], D ? F : g);
-          var U = l()(
-              d.Z.dropdown,
-              m,
-              d.Z[_],
-              (0, i.Z)({ 'is-visible': A }, d.Z.isVisible, A)
-            ),
-            G = l()(f, d.Z.dropdownLayout),
-            Y = (0, a.useMemo)(
-              function () {
-                return { toggle: F, isVisible: A, setPositionStyles: x };
-              },
-              [A, F]
-            ),
-            V = (0, a.useCallback)(
-              function () {
-                var e,
-                  t,
-                  n =
-                    null == R || null === (e = R.current) || void 0 === e
-                      ? void 0
-                      : e.getBoundingClientRect(),
-                  r =
-                    null == z || null === (t = z.current) || void 0 === t
-                      ? void 0
-                      : t.getBoundingClientRect();
-                if (n && r) {
-                  var i,
-                    o = n.top + window.pageYOffset;
-                  'bottom' === _ && (i = { top: o + n.height, left: n.left }),
-                    'bottom-right' === _ &&
-                      (i = {
-                        top: o + n.height,
-                        right: window.innerWidth - n.right,
-                      }),
-                    'bottom-left' === _ &&
-                      (i = { top: o + n.height, left: n.left }),
-                    'top' === _ && (i = { top: o - r.height, left: n.left }),
-                    'top-right' === _ &&
-                      (i = { top: o - r.height, left: n.left - r.width }),
-                    'top-left' === _ &&
-                      (i = { top: o - r.height, left: n.left + n.width }),
-                    x(A ? i : void 0);
-                }
-              },
-              [_, A]
-            );
-          (0, a.useLayoutEffect)(
+      var g = (0, o.forwardRef)(function (e, t) {
+        var n = e.testId,
+          s = void 0 === n ? 'id-dropdown' : n,
+          m = e.className,
+          g = e.classNameLayout,
+          f = e.children,
+          v = e.Trigger,
+          h = e.defaultVisibility,
+          b = void 0 !== h && h,
+          y = e.align,
+          _ = void 0 === y ? 'bottom' : y,
+          T = e.usePortals,
+          M = void 0 !== T && T,
+          N = e.hideOnClick,
+          w = void 0 === N || N,
+          C = e.hideOnClickOutside,
+          Z = void 0 === C || C,
+          D = e.width,
+          E = e.onToggle,
+          I = e.onBlur,
+          O = (0, o.useState)(b),
+          L = (0, a.Z)(O, 2),
+          S = L[0],
+          A = L[1],
+          k = (0, o.useState)(),
+          P = (0, a.Z)(k, 2),
+          j = P[0],
+          R = P[1],
+          x = (0, o.useRef)(null),
+          z = (0, o.useRef)(null),
+          F = (0, o.useCallback)(
             function () {
-              N && V();
+              A(function (e) {
+                return !e;
+              }),
+                null == E || E({ isVisible: !S });
             },
-            [V, N]
+            [E, S]
           ),
-            (0, a.useEffect)(function () {
-              y && (null == I || I({ isVisible: A }));
-            }, []),
-            (0, a.useImperativeHandle)(
-              t,
-              function () {
-                return Y;
-              },
-              [Y]
-            );
-          var W = A
-              ? a.createElement(
-                  'div',
-                  {
-                    ref: z,
-                    className: U,
-                    'data-testid': 'dropdownList',
-                    'aria-labelledby': 'dropdownMenuButton',
-                    role: 'menu',
-                    style: p({ width: E }, P || {}),
-                    onClick: C ? F : void 0,
-                  },
-                  'function' == typeof v ? v(Y) : v
-                )
-              : null,
-            H = (0, a.useMemo)(
-              function () {
-                return (0, a.isValidElement)(h)
-                  ? (0, a.cloneElement)(h, { onClick: F, 'aria-hidden': !A })
-                  : h({ isVisible: A, toggle: F });
-              },
-              [h, A, F]
-            );
-          return a.createElement(
-            'div',
-            { 'data-testid': s, ref: R, className: G },
-            H,
-            N ? (0, r.Z)(c.h, { id: 'id-dropdown' }, void 0, W) : W
+          U = (0, o.useCallback)(
+            function () {
+              Z && F(), null == I || I();
+            },
+            [I, F, Z]
           );
-        });
+        (0, c.t$)([z, x], U);
+        var G = l()(
+            d.Z.dropdown,
+            m,
+            d.Z[_],
+            (0, i.Z)({ 'is-visible': S }, d.Z.isVisible, S)
+          ),
+          Y = l()(g, d.Z.dropdownLayout),
+          V = (0, o.useMemo)(
+            function () {
+              return { toggle: F, isVisible: S, setPositionStyles: R };
+            },
+            [S, F]
+          ),
+          W = (0, o.useCallback)(
+            function () {
+              var e,
+                t,
+                n =
+                  null == x || null === (e = x.current) || void 0 === e
+                    ? void 0
+                    : e.getBoundingClientRect(),
+                r =
+                  null == z || null === (t = z.current) || void 0 === t
+                    ? void 0
+                    : t.getBoundingClientRect();
+              if (n && r) {
+                var i,
+                  a = n.top + window.pageYOffset;
+                'bottom' === _ && (i = { top: a + n.height, left: n.left }),
+                  'bottom-right' === _ &&
+                    (i = {
+                      top: a + n.height,
+                      right: window.innerWidth - n.right,
+                    }),
+                  'bottom-left' === _ &&
+                    (i = { top: a + n.height, left: n.left }),
+                  'top' === _ && (i = { top: a - r.height, left: n.left }),
+                  'top-right' === _ &&
+                    (i = { top: a - r.height, left: n.left - r.width }),
+                  'top-left' === _ &&
+                    (i = { top: a - r.height, left: n.left + n.width }),
+                  R(S ? i : void 0);
+              }
+            },
+            [_, S]
+          );
+        (0, o.useLayoutEffect)(
+          function () {
+            M && W();
+          },
+          [W, M]
+        ),
+          (0, o.useEffect)(function () {
+            b && (null == E || E({ isVisible: S }));
+          }, []),
+          (0, o.useImperativeHandle)(
+            t,
+            function () {
+              return V;
+            },
+            [V]
+          );
+        var B = S
+            ? o.createElement(
+                'div',
+                {
+                  ref: z,
+                  className: G,
+                  'data-testid': 'dropdownList',
+                  'aria-labelledby': 'dropdownMenuButton',
+                  role: 'menu',
+                  style: p({ width: D }, j || {}),
+                  onClick: w ? F : void 0,
+                },
+                'function' == typeof f ? f(V) : f
+              )
+            : null,
+          H = (0, o.useMemo)(
+            function () {
+              return (0, o.isValidElement)(v)
+                ? (0, o.cloneElement)(v, { onClick: F, 'aria-hidden': !S })
+                : v({ isVisible: S, toggle: F });
+            },
+            [v, S, F]
+          );
+        return o.createElement(
+          'div',
+          { 'data-testid': s, ref: x, className: Y },
+          H,
+          M ? (0, r.Z)(u.h, { id: 'id-dropdown' }, void 0, B) : B
+        );
+      });
     },
     74416: function (e, t, n) {
       'use strict';
@@ -2257,13 +2517,13 @@
       });
       var r = n(34061),
         i = n(22928),
-        o = n(4942),
-        a = n(67294),
+        a = n(4942),
+        o = n(67294),
         s = n(94184),
         l = n.n(s),
-        u = n(69088),
-        c = n(80746),
-        d = (0, a.forwardRef)(function (e, t) {
+        c = n(69088),
+        u = n(80746),
+        d = (0, o.forwardRef)(function (e, t) {
           var n,
             r = e.toggle,
             s = e.isVisible,
@@ -2276,19 +2536,19 @@
             h = e.variant,
             b = l()(
               m,
-              c.Z.dropdownTrigger,
-              (0, o.Z)({}, c.Z.dropdownTriggerSelect, !!h)
+              u.Z.dropdownTrigger,
+              (0, a.Z)({}, u.Z.dropdownTriggerSelect, !!h)
             ),
             y = l()(
               p,
-              c.Z.dropdownTriggerIcon,
+              u.Z.dropdownTriggerIcon,
               ((n = {}),
-              (0, o.Z)(n, c.Z.dropdownTriggerIconRotate, s),
-              (0, o.Z)(n, c.Z.dropdownTriggerIconSelect, !!h),
-              (0, o.Z)(n, c.Z.dropdownTriggerIconHidden, d || !v),
+              (0, a.Z)(n, u.Z.dropdownTriggerIconRotate, s),
+              (0, a.Z)(n, u.Z.dropdownTriggerIconSelect, !!h),
+              (0, a.Z)(n, u.Z.dropdownTriggerIconHidden, d || !v),
               n)
             );
-          return a.createElement(
+          return o.createElement(
             'button',
             {
               ref: t,
@@ -2299,7 +2559,7 @@
               onClick: r,
             },
             g,
-            (0, i.Z)(u.J, { name: 'icon-down-open-mini', className: y })
+            (0, i.Z)(c.J, { name: 'icon-down-open-mini', className: y })
           );
         });
     },
@@ -2333,14 +2593,14 @@
       'use strict';
       n.d(t, {
         s: function () {
-          return u;
+          return c;
         },
       });
       var r = n(22928),
         i = n(4942),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
         l = {
           dropdownListLayout: 'DropdownList_dropdownListLayout__v_ccA',
           hasBorder: 'DropdownList_hasBorder__1R-N0',
@@ -2352,12 +2612,12 @@
             'DropdownList_dropdownListItemDisabled__2C8nB',
           dropdownListItemActive: 'DropdownList_dropdownListItemActive__1hcim',
         },
-        u = function (e) {
+        c = function (e) {
           var t = e.variant,
             n = void 0 === t ? '' : t,
-            a = e.title,
-            u = e.list,
-            c = void 0 === u ? [] : u,
+            o = e.title,
+            c = e.list,
+            u = void 0 === c ? [] : c,
             d = e.className,
             m = e.classNameList,
             p = e.classNameTitle,
@@ -2371,7 +2631,7 @@
               l[n],
               (0, i.Z)({}, l.hasBorder, v)
             ),
-            y = (0, o.useCallback)(
+            y = (0, a.useCallback)(
               function (e, t) {
                 return function () {
                   return null == h ? void 0 : h(e, t);
@@ -2379,26 +2639,26 @@
               },
               [h]
             );
-          return c.length
+          return u.length
             ? (0, r.Z)(
                 'div',
                 { className: b, 'data-testid': 'id-dropdown-list' },
                 void 0,
-                a
+                o
                   ? (0, r.Z)(
                       'h2',
                       { className: s()(l.dropdownListTitle, p) },
                       void 0,
-                      a
+                      o
                     )
                   : null,
                 (0, r.Z)(
                   'ul',
                   { className: s()(l.dropdownList, m) },
                   void 0,
-                  c.map(function (e, t) {
+                  u.map(function (e, t) {
                     var n,
-                      o = s()(
+                      a = s()(
                         l.dropdownListItem,
                         ((n = {}),
                         (0, i.Z)(n, l.dropdownListItemDisabled, !!e.disabled),
@@ -2407,9 +2667,9 @@
                         g,
                         e.className
                       ),
-                      a = e.onClick || y(e, t);
+                      o = e.onClick || y(e, t);
                     return (0,
-                    r.Z)('li', { className: o, onClick: e.disabled || e.active ? void 0 : a, 'aria-disabled': e.disabled, 'data-testid': 'id-dropdown-list-item-'.concat(t) }, t, e.children);
+                    r.Z)('li', { className: a, onClick: e.disabled || e.active ? void 0 : o, 'aria-disabled': e.disabled, 'data-testid': 'id-dropdown-list-item-'.concat(t) }, t, e.children);
                   })
                 )
               )
@@ -2429,16 +2689,16 @@
       'use strict';
       var r,
         i,
-        o = n(22928),
-        a = (n(67294), n(2707));
+        a = n(22928),
+        o = (n(67294), n(2707));
       t.Z = {
         Default: function () {
-          return r || (r = (0, o.Z)(a.H, {}));
+          return r || (r = (0, a.Z)(o.H, {}));
         },
         WithCustomDescription: function () {
           return (
             i ||
-            (i = (0, o.Z)(a.H, {
+            (i = (0, a.Z)(o.H, {
               description:
                 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem amet velit in inventore illum. Corporis, delectus totam! Quos adipisci debitis autem qui alias deserunt in et eum repudiandae quam! Magnam.',
             }))
@@ -2450,23 +2710,23 @@
       'use strict';
       n.d(t, {
         H: function () {
-          return c;
+          return u;
         },
       });
       var r,
         i = n(22928),
-        o = (n(67294), n(69088)),
-        a = n(89116),
+        a = (n(67294), n(69088)),
+        o = n(89116),
         s = 'Empty_empty__3-Yhn',
         l = 'Empty_emptyIcon__1dRME',
-        u = 'Empty_emptyDescription__l1sGU',
-        c = function (e) {
+        c = 'Empty_emptyDescription__l1sGU',
+        u = function (e) {
           var t = e.description;
           return (0, i.Z)(
             'div',
             { className: s },
             void 0,
-            (0, i.Z)(o.J, {
+            (0, i.Z)(a.J, {
               category: 'modern',
               name: 'add-chart',
               size: '1.5rem',
@@ -2474,11 +2734,11 @@
             }),
             (0, i.Z)(
               'p',
-              { className: u },
+              { className: c },
               void 0,
               t ||
                 r ||
-                (r = (0, i.Z)(a.c, { i18nKey: 'general.emptyDescription' }))
+                (r = (0, i.Z)(o.c, { i18nKey: 'general.emptyDescription' }))
             )
           );
         };
@@ -2487,24 +2747,24 @@
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s = n(22928),
         l = (n(67294), n(73314)),
-        u = n(87384);
+        c = n(87384);
       t.Z = {
         DefaultGlobalError: function () {
           return r || (r = (0, s.Z)(l.g, {}));
         },
         DefaultLocalError: function () {
-          return i || (i = (0, s.Z)(u.a, {}));
+          return i || (i = (0, s.Z)(c.a, {}));
         },
         LocalErrorWithMessage: function () {
-          return o || (o = (0, s.Z)(u.a, { message: 'This is error message' }));
+          return a || (a = (0, s.Z)(c.a, { message: 'This is error message' }));
         },
         LocalErrorWithDetails: function () {
           return (
-            a || (a = (0, s.Z)(u.a, { details: 'This is details for modal' }))
+            o || (o = (0, s.Z)(c.a, { details: 'This is details for modal' }))
           );
         },
       };
@@ -2518,18 +2778,18 @@
       });
       var r,
         i = n(22928),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
-        l = n(92667),
-        u = n(86485),
-        c = 'GlobalError_globalErrorWrapper__rop0t',
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
+        l = n(73270),
+        c = n(86485),
+        u = 'GlobalError_globalErrorWrapper__rop0t',
         d = 'GlobalError_globalErrorContent__3Ws7g',
         m = function (e) {
           var t = e.className,
             n = e.onRefresh,
-            a = (0, u.$G)().t,
-            m = (0, o.useCallback)(
+            o = (0, c.$G)().t,
+            m = (0, a.useCallback)(
               function () {
                 n ? n() : window.location.reload();
               },
@@ -2537,7 +2797,7 @@
             );
           return (0, i.Z)(
             'div',
-            { className: s()(c, t) },
+            { className: s()(u, t) },
             void 0,
             r ||
               (r = (0, i.Z)('img', {
@@ -2548,14 +2808,14 @@
               'div',
               { className: d },
               void 0,
-              (0, i.Z)(l.Dx, {}, void 0, a('errors.wrong')),
-              (0, i.Z)('p', {}, void 0, a('errors.globalDescription'))
+              (0, i.Z)(l.Dx, {}, void 0, o('errors.wrong')),
+              (0, i.Z)('p', {}, void 0, o('errors.globalDescription'))
             ),
             (0, i.Z)(
               l.zx,
               { color: 'primary', size: 'middle', onClick: m },
               void 0,
-              a('general.refresh')
+              o('general.refresh')
             )
           );
         };
@@ -2569,12 +2829,12 @@
       });
       var r = n(87462),
         i = n(22928),
-        o = n(67294),
-        a = n(61873),
+        a = n(67294),
+        o = n(61873),
         s = n(86485),
         l = n(69088),
-        u = n(99753),
-        c = n(64517),
+        c = n(99753),
+        u = n(64517),
         d = 'LocalError_localError__35sRY',
         m = 'LocalError_localErrorModalFooter__1NIt-',
         p = function (e) {
@@ -2582,21 +2842,21 @@
             n = e.message,
             p = e.height,
             g = (0, s.$G)().t,
-            f = (0, u.d)(),
-            v = (0, o.useMemo)(
+            f = (0, c.d)(),
+            v = (0, a.useMemo)(
               function () {
                 return { height: p };
               },
               [p]
             ),
-            h = (0, o.useCallback)(
+            h = (0, a.useCallback)(
               function (e) {
                 e.preventDefault(), f.openModal();
               },
               [f]
             );
           return (0, i.Z)(
-            o.Fragment,
+            a.Fragment,
             {},
             void 0,
             (0, i.Z)(
@@ -2607,7 +2867,7 @@
                 category: 'modern',
                 name: 'error',
                 size: '1.25rem',
-                color: (0, a.MX)('--color-danger'),
+                color: (0, o.MX)('--color-danger'),
               }),
               (0, i.Z)(
                 'p',
@@ -2625,8 +2885,8 @@
                   : null
               )
             ),
-            o.createElement(
-              u.u,
+            a.createElement(
+              c.u,
               (0, r.Z)({}, f, { width: '25rem' }),
               t,
               (0, i.Z)(
@@ -2634,7 +2894,7 @@
                 { className: m },
                 void 0,
                 (0, i.Z)(
-                  c.z,
+                  u.z,
                   { color: 'primary', onClick: f.closeModal },
                   void 0,
                   g('general.ok')
@@ -2653,7 +2913,7 @@
       });
       var r = n(22928),
         i = (n(67294), n(44734)),
-        o = {
+        a = {
           defaults: [
             { value: 'test_1', values: ['ACTIVE'] },
             { value: 'test_2', values: ['INACTIVE'] },
@@ -2678,32 +2938,32 @@
             },
           ],
         },
-        a = function (e) {
+        o = function (e) {
           console.log('Filter changed', e);
         },
         s = {
           Default: function () {
-            return (0, r.Z)(i.w, { filters: o.list, onChange: a });
+            return (0, r.Z)(i.w, { filters: a.list, onChange: o });
           },
           Modern: function () {
             return (0, r.Z)(i.w, {
               variant: 'modern',
-              filters: o.list,
-              onChange: a,
+              filters: a.list,
+              onChange: o,
             });
           },
           WithDefaults: function () {
             return (0, r.Z)(i.w, {
-              defaultFilters: o.defaults,
-              filters: o.list,
-              onChange: a,
+              defaultFilters: a.defaults,
+              filters: a.list,
+              onChange: o,
             });
           },
           GroupedByCategories: function () {
             return (0, r.Z)(i.w, {
-              filters: o.list,
-              categories: o.categories,
-              onChange: a,
+              filters: a.list,
+              categories: a.categories,
+              onChange: o,
             });
           },
         };
@@ -2712,18 +2972,18 @@
       'use strict';
       n.d(t, {
         w: function () {
-          return xe;
+          return Re;
         },
       });
       var r,
         i = n(22928),
-        o = n(87462),
-        a = n(4942),
+        a = n(87462),
+        o = n(4942),
         s = n(70885),
         l = n(42982),
-        u = n(67294),
-        c = n(94184),
-        d = n.n(c),
+        c = n(67294),
+        u = n(94184),
+        d = n.n(u),
         m = n(8686),
         p = n(86485),
         g = n(61873),
@@ -2732,8 +2992,8 @@
         h = n(61719),
         b = n(4174),
         y = n(53181),
-        T = n(71669),
-        _ = 'FilterList_list__2iFRE',
+        _ = n(71669),
+        T = 'FilterList_list__2iFRE',
         M = 'FilterList_listInputSearch__Hl3x5',
         N = 'FilterList_listItems__3Tv8l',
         w = 'FilterList_listItemsItem__2T7fe',
@@ -2742,29 +3002,29 @@
           var t = e.className,
             n = e.list,
             r = void 0 === n ? [] : n,
-            a = e.activeValue,
-            c = e.disabledList,
+            o = e.activeValue,
+            u = e.disabledList,
             m = e.onChange,
             f = e.height,
             v = void 0 === f ? 'auto' : f,
             Z = e.categories,
             D = (0, p.$G)().t,
-            E = (0, u.useState)(''),
+            E = (0, c.useState)(''),
             I = (0, s.Z)(E, 2),
             O = I[0],
             L = I[1],
-            A = (0, u.useRef)([]),
-            S = (0, u.useRef)(!1),
-            k = (0, u.useMemo)(
+            S = (0, c.useRef)([]),
+            A = (0, c.useRef)(!1),
+            k = (0, c.useMemo)(
               function () {
                 return { height: v };
               },
               [v]
             ),
-            j = (0, u.useCallback)(function (e) {
-              e && A.current.push(e);
+            P = (0, c.useCallback)(function (e) {
+              e && S.current.push(e);
             }, []),
-            P = (0, u.useMemo)(
+            j = (0, c.useMemo)(
               function () {
                 var e = r.map(function (e) {
                   return (function (e, t, n) {
@@ -2778,7 +3038,7 @@
                           return t.value === e.value;
                         }),
                     };
-                  })(e, null == a ? void 0 : a.value, c);
+                  })(e, null == o ? void 0 : o.value, u);
                 });
                 return O
                   ? e.filter(function (e) {
@@ -2786,12 +3046,12 @@
                     })
                   : e;
               },
-              [null == a ? void 0 : a.value, c, r, O]
+              [null == o ? void 0 : o.value, u, r, O]
             ),
-            x = (0, u.useMemo)(
+            R = (0, c.useMemo)(
               function () {
-                if (Z && P) {
-                  var e = (0, g.Pn)(P, 'id'),
+                if (Z && j) {
+                  var e = (0, g.Pn)(j, 'id'),
                     t = Z.reduce(function (t, n) {
                       var r = n.items.reduce(function (t, r) {
                         return (
@@ -2810,19 +3070,19 @@
                   return [].concat((0, l.Z)(t), [
                     {
                       name: D('general.other'),
-                      list: P.filter(function (t) {
+                      list: j.filter(function (t) {
                         return !!e[t.id];
                       }),
                     },
                   ]);
                 }
               },
-              [P, Z, D]
+              [j, Z, D]
             ),
-            R = (0, u.useCallback)(function (e) {
+            x = (0, c.useCallback)(function (e) {
               L(e.target.value);
             }, []),
-            z = (0, u.useCallback)(
+            z = (0, c.useCallback)(
               function (e) {
                 var t = r.find(function (t) {
                   return t.value === e.id;
@@ -2831,19 +3091,19 @@
               },
               [r, m]
             ),
-            F = (0, u.useMemo)(
+            F = (0, c.useMemo)(
               function () {
                 return { className: N, classNameItem: w, onChange: z };
               },
               [z]
             );
           return (
-            (0, u.useEffect)(
+            (0, c.useEffect)(
               function () {
                 if (
-                  A.current.length &&
-                  S.current &&
-                  (A.current.forEach(function (e) {
+                  S.current.length &&
+                  A.current &&
+                  (S.current.forEach(function (e) {
                     O ? e.open() : e.close();
                   }),
                   !O)
@@ -2851,18 +3111,18 @@
                   var e,
                     t,
                     n =
-                      null == x
+                      null == R
                         ? void 0
-                        : x.reduce(function (e, t, n) {
+                        : R.reduce(function (e, t, n) {
                             return (
                               t.list.some(function (e) {
-                                return e.id === (null == a ? void 0 : a.value);
+                                return e.id === (null == o ? void 0 : o.value);
                               }) && (e = n),
                               e
                             );
                           }, null);
                   if ('number' == typeof n)
-                    null === (e = A.current) ||
+                    null === (e = S.current) ||
                       void 0 === e ||
                       null === (t = e[n]) ||
                       void 0 === t ||
@@ -2871,42 +3131,42 @@
               },
               [O]
             ),
-            (0, u.useEffect)(function () {
+            (0, c.useEffect)(function () {
               return (
-                (S.current = !0),
+                (A.current = !0),
                 function () {
-                  S.current = !1;
+                  A.current = !1;
                 }
               );
             }, []),
             (0, i.Z)(
-              T.l,
-              { className: d()(_, t) },
+              _.l,
+              { className: d()(T, t) },
               void 0,
               (0, i.Z)(h.I, {
                 type: 'search',
                 placeholder: D('general.search'),
                 className: M,
                 value: O,
-                onChange: R,
+                onChange: x,
               }),
               (0, i.Z)(
                 'div',
                 { className: C, style: k },
                 void 0,
-                null == x
+                null == R
                   ? void 0
-                  : x.map(function (e, t) {
+                  : R.map(function (e, t) {
                       var n = e.list.some(function (e) {
-                        return e.id === (null == a ? void 0 : a.value);
+                        return e.id === (null == o ? void 0 : o.value);
                       });
-                      return u.createElement(
+                      return c.createElement(
                         b.U,
-                        { key: t, title: e.name, defaultIsOpen: n, ref: j },
-                        u.createElement(y.s, (0, o.Z)({}, F, { list: e.list }))
+                        { key: t, title: e.name, defaultIsOpen: n, ref: P },
+                        c.createElement(y.s, (0, a.Z)({}, F, { list: e.list }))
                       );
                     }),
-                x ? null : u.createElement(y.s, (0, o.Z)({}, F, { list: P }))
+                R ? null : c.createElement(y.s, (0, a.Z)({}, F, { list: j }))
               )
             )
           );
@@ -2934,13 +3194,13 @@
             ? String(60 * t)
             : String(3600 * t);
         },
-        A = n(45987),
-        S = n(98391),
+        S = n(45987),
+        A = n(98391),
         k = n(69088),
-        j = n(99753),
-        P = n(4490),
-        x = n(6002),
-        R = 'FilterCheckboxList_checkboxList__GuOcI',
+        P = n(99753),
+        j = n(4490),
+        R = n(6002),
+        x = 'FilterCheckboxList_checkboxList__GuOcI',
         z = 'FilterCheckboxList_checkboxListPagination__ClF9E',
         F = 'FilterCheckboxList_checkboxListHeader__3gJO9',
         U = 'FilterCheckboxList_checkboxListControls__2ndHA',
@@ -2948,8 +3208,8 @@
         Y = 'FilterCheckboxList_checkboxListControlsFilters__1UmKx',
         V = 'FilterCheckboxList_checkboxListControlsFilterButton__1d8d8',
         W = 'FilterCheckboxList_isActive__Guk6G',
-        H = 'FilterCheckboxList_checkboxListRow__wXzgE',
-        B = 'FilterCheckboxList_checkboxListRowDesc__rwxkf',
+        B = 'FilterCheckboxList_checkboxListRow__wXzgE',
+        H = 'FilterCheckboxList_checkboxListRowDesc__rwxkf',
         q = 'FilterCheckboxList_checkboxListRowEdit__3ndUa',
         Q = 'FilterCheckboxList_checkboxListContent__1YAN8',
         J = 'FilterCheckboxList_checkboxListPaginationWrapper__2n4bV',
@@ -2961,51 +3221,51 @@
         ne = 'FilterCheckboxList_checkboxListDropdownContentTitle__S24r3',
         re = 'FilterCheckboxList_checkboxListDropdownContentList__6UV6I',
         ie = 'FilterCheckboxList_checkboxListGroupModalInputBox__URmUb',
-        oe = 'FilterCheckboxList_checkboxListGroupModalRow__15_sV',
-        ae = 'FilterCheckboxList_checkboxListGroupModalContentTitle__4d8Kk',
+        ae = 'FilterCheckboxList_checkboxListGroupModalRow__15_sV',
+        oe = 'FilterCheckboxList_checkboxListGroupModalContentTitle__4d8Kk',
         se = 'FilterCheckboxList_checkboxListGroupModalContent__10vQD',
         le = 'FilterCheckboxList_checkboxListGroupModalContentRow__3A0V_',
-        ue = n(19501),
-        ce = n(87598),
+        ce = n(19501),
+        ue = n(87598),
         de = function (e) {
           return function () {
             return I.Z.t(e);
           };
         },
         me =
-          (ue.Ry({
-            name: ue.Z_().required(de('errors.required')),
-            description: ue.Z_().required(de('errors.required')),
-            deltaKey: ue
+          (ce.Ry({
+            name: ce.Z_().required(de('errors.required')),
+            description: ce.Z_().required(de('errors.required')),
+            deltaKey: ce
               .nK()
               .required(de('errors.required'))
-              .oneOf(Object.keys(ce.ZP.OPERATORS)),
-            metric: ue
+              .oneOf(Object.keys(ue.ZP.OPERATORS)),
+            metric: ce
               .nK()
               .required(de('errors.required'))
-              .oneOf(ce.ZP.ALTERATION_METRIC),
-            deltaValue: ue
+              .oneOf(ue.ZP.ALTERATION_METRIC),
+            deltaValue: ce
               .Rx()
               .nullable()
               .typeError(de('errors.number'))
               .required(de('errors.required')),
-            from: ue
+            from: ce
               .Rx()
               .nullable()
               .typeError(de('errors.number'))
               .required(de('errors.required')),
-            to: ue
+            to: ce
               .Rx()
               .nullable()
               .typeError(de('errors.number'))
               .required(de('errors.required')),
-            filters: ue.IX().of(ue.Ry({ value: ue.Z_(), values: ue.IX() })),
+            filters: ce.IX().of(ce.Ry({ value: ce.Z_(), values: ce.IX() })),
           }),
-          ue.Ry({
-            name: ue.Z_().required(I.Z.t('errors.required')),
-            asMaster: ue.O7(),
+          ce.Ry({
+            name: ce.Z_().required(I.Z.t('errors.required')),
+            asMaster: ce.O7(),
           }),
-          ue.Ry({ label: ue.Z_().required(I.Z.t('errors.required')) })),
+          ce.Ry({ label: ce.Z_().required(I.Z.t('errors.required')) })),
         pe = n(81683);
       function ge(e, t) {
         var n = Object.keys(e);
@@ -3024,7 +3284,7 @@
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
             ? ge(Object(n), !0).forEach(function (t) {
-                (0, a.Z)(e, t, n[t]);
+                (0, o.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
@@ -3041,25 +3301,25 @@
       var ve = function (e) {
           var t,
             n = e.onClose,
-            a = e.label,
+            o = e.label,
             l = e.list,
-            c = e.onSubmit,
+            u = e.onSubmit,
             d = e.defaultLabel,
             m = void 0 === d ? '' : d,
             g = e.onDelete,
             f = (0, p.$G)().t,
-            b = (0, u.useState)(function () {
+            b = (0, c.useState)(function () {
               return l;
             }),
             y = (0, s.Z)(b, 2),
-            _ = y[0],
+            T = y[0],
             M = y[1],
-            N = (0, j.d)(),
-            w = (0, T.c)({ schema: me, defaultValues: { label: m } }),
+            N = (0, P.d)(),
+            w = (0, _.c)({ schema: me, defaultValues: { label: m } }),
             C = w.register,
             Z = w.handleSubmit,
             D = w.formState.errors,
-            E = (0, u.useCallback)(function (e) {
+            E = (0, c.useCallback)(function (e) {
               return function () {
                 M(function (t) {
                   return t.filter(function (t, n) {
@@ -3068,46 +3328,46 @@
                 });
               };
             }, []),
-            I = (0, u.useCallback)(
+            I = (0, c.useCallback)(
               function (e) {
                 n(),
-                  c(
+                  u(
                     fe(
                       fe({}, e),
                       {},
                       {
-                        value: _.map(function (e) {
+                        value: T.map(function (e) {
                           return e.value;
                         }),
                       }
                     )
                   );
               },
-              [n, c, _]
+              [n, u, T]
             ),
-            O = (0, u.useCallback)(
+            O = (0, c.useCallback)(
               function () {
                 g &&
                   (N.closeModal(),
                   n(),
                   g({
                     label: m,
-                    value: _.map(function (e) {
+                    value: T.map(function (e) {
                       return e.value;
                     }),
                   }));
               },
-              [N, _, m, n, g]
+              [N, T, m, n, g]
             );
           return (0, i.Z)(
-            u.Fragment,
+            c.Fragment,
             {},
             void 0,
-            u.createElement(
-              j.u,
-              (0, o.Z)({}, e, { usePortals: !1, width: '23.75rem' }),
+            c.createElement(
+              P.u,
+              (0, a.Z)({}, e, { usePortals: !1, width: '23.75rem' }),
               (0, i.Z)(
-                T.l,
+                _.l,
                 { onSubmit: Z(I) },
                 void 0,
                 (0, i.Z)(
@@ -3122,24 +3382,24 @@
                     className: ie,
                   },
                   void 0,
-                  u.createElement(
+                  c.createElement(
                     h.I,
-                    (0, o.Z)({ id: 'groups-label' }, C('label'))
+                    (0, a.Z)({ id: 'groups-label' }, C('label'))
                   )
                 ),
                 (0, i.Z)(
                   'div',
                   { className: se },
                   void 0,
-                  (0, i.Z)('h1', { className: ae }, void 0, a),
-                  _.map(function (e, t) {
+                  (0, i.Z)('h1', { className: oe }, void 0, o),
+                  T.map(function (e, t) {
                     return (0,
-                    i.Z)('div', { className: le }, t, e.label, _.length > 2 ? (0, i.Z)(k.J, { as: 'button', type: 'button', name: 'icon-trash', size: '0.75rem', onClick: E(t) }) : null);
+                    i.Z)('div', { className: le }, t, e.label, T.length > 2 ? (0, i.Z)(k.J, { as: 'button', type: 'button', name: 'icon-trash', size: '0.75rem', onClick: E(t) }) : null);
                   })
                 ),
                 (0, i.Z)(
                   'div',
-                  { className: oe },
+                  { className: ae },
                   void 0,
                   g
                     ? (0, i.Z)(
@@ -3163,7 +3423,7 @@
                 ),
                 (0, i.Z)(
                   'div',
-                  { className: oe },
+                  { className: ae },
                   void 0,
                   (0, i.Z)(
                     v.z,
@@ -3180,9 +3440,9 @@
                 )
               )
             ),
-            u.createElement(
-              P.WZ,
-              (0, o.Z)({ usePortals: !1 }, N, { onConfirm: O }),
+            c.createElement(
+              j.WZ,
+              (0, a.Z)({ usePortals: !1 }, N, { onConfirm: O }),
               f('filter.confirmGroupDeleteContent')
             )
           );
@@ -3191,22 +3451,22 @@
           var t = e.label,
             n = e.groups,
             r = void 0 === n ? [] : n,
-            a = e.activeValues,
-            l = void 0 === a ? [] : a,
-            c = e.onCreate,
+            o = e.activeValues,
+            l = void 0 === o ? [] : o,
+            u = e.onCreate,
             d = e.onGroupClick,
             m = (0, p.$G)().t,
-            g = (0, u.useState)(!0),
+            g = (0, c.useState)(!0),
             h = (0, s.Z)(g, 2),
             b = h[0],
-            T = h[1],
-            _ = (0, j.d)(),
-            M = _.openModal,
-            N = _.closeModal,
-            w = _.isOpen,
-            C = (0, u.useRef)(!0),
-            Z = (0, u.useRef)(null),
-            D = (0, u.useMemo)(
+            _ = h[1],
+            T = (0, P.d)(),
+            M = T.openModal,
+            N = T.closeModal,
+            w = T.isOpen,
+            C = (0, c.useRef)(!0),
+            Z = (0, c.useRef)(null),
+            D = (0, c.useMemo)(
               function () {
                 return l.some(function (e) {
                   return e.isGroup;
@@ -3216,19 +3476,19 @@
             ),
             E = !(null != l && l.length) || D,
             I = (null == l ? void 0 : l.length) < 2,
-            O = (0, u.useCallback)(function () {
-              T(function (e) {
+            O = (0, c.useCallback)(function () {
+              _(function (e) {
                 return !e;
               });
             }, []),
-            L = (0, u.useMemo)(
+            L = (0, c.useMemo)(
               function () {
                 return [
                   {
                     onClick: O,
                     disabled: E,
                     children: (0, i.Z)(
-                      u.Fragment,
+                      c.Fragment,
                       {},
                       void 0,
                       (0, i.Z)(k.J, {
@@ -3243,25 +3503,25 @@
               },
               [O, E, m]
             ),
-            A = (0, u.useCallback)(
+            S = (0, c.useCallback)(
               function () {
                 (C.current = !1), M();
               },
               [M]
             ),
-            S = (0, u.useCallback)(
+            A = (0, c.useCallback)(
               function () {
                 (C.current = !0), N();
               },
               [N]
             ),
-            P = (0, u.useMemo)(
+            j = (0, c.useMemo)(
               function () {
                 return [
                   {
                     onClick: O,
                     children: (0, i.Z)(
-                      u.Fragment,
+                      c.Fragment,
                       {},
                       void 0,
                       (0, i.Z)(k.J, { name: 'icon-back', className: K }),
@@ -3272,7 +3532,7 @@
               },
               [O, m]
             ),
-            x = (0, u.useCallback)(
+            R = (0, c.useCallback)(
               function (e) {
                 return function () {
                   var t;
@@ -3281,30 +3541,30 @@
               },
               [d]
             ),
-            R = (0, u.useMemo)(
+            x = (0, c.useMemo)(
               function () {
                 return r.map(function (e) {
                   return {
                     id: e.value.toString(),
                     children: e.label,
-                    onClick: x(e),
+                    onClick: R(e),
                   };
                 });
               },
-              [r, x]
+              [r, R]
             ),
-            z = (0, u.useCallback)(function (e) {
-              e.isVisible || T(!0);
+            z = (0, c.useCallback)(function (e) {
+              e.isVisible || _(!0);
             }, []),
-            F = (0, u.useCallback)(function (e) {
+            F = (0, c.useCallback)(function (e) {
               return (0,
               i.Z)(k.J, { as: 'button', name: 'icon-menu-1', onClick: e.toggle });
             }, []);
           return (0, i.Z)(
-            u.Fragment,
+            c.Fragment,
             {},
             void 0,
-            u.createElement(
+            c.createElement(
               f.L,
               {
                 ref: Z,
@@ -3319,17 +3579,17 @@
               b
                 ? (0, i.Z)(y.s, { list: L })
                 : (0, i.Z)(
-                    u.Fragment,
+                    c.Fragment,
                     {},
                     void 0,
-                    (0, i.Z)(y.s, { list: P }),
+                    (0, i.Z)(y.s, { list: j }),
                     (0, i.Z)(
                       'div',
                       { className: ee },
                       void 0,
-                      null != R && R.length
+                      null != x && x.length
                         ? (0, i.Z)(
-                            u.Fragment,
+                            c.Fragment,
                             {},
                             void 0,
                             (0, i.Z)(
@@ -3338,7 +3598,7 @@
                               void 0,
                               m('filter.addToExistingGroup')
                             ),
-                            (0, i.Z)(y.s, { className: re, list: R })
+                            (0, i.Z)(y.s, { className: re, list: x })
                           )
                         : null,
                       (0, i.Z)(
@@ -3347,7 +3607,7 @@
                           disabled: I,
                           color: 'primary',
                           className: te,
-                          onClick: A,
+                          onClick: S,
                         },
                         void 0,
                         '+ ',
@@ -3357,14 +3617,14 @@
                   )
             ),
             w
-              ? u.createElement(
+              ? c.createElement(
                   ve,
-                  (0, o.Z)({}, _, {
+                  (0, a.Z)({}, T, {
                     title: m('campaigns.modalGroups.createTitle'),
                     label: t,
-                    onClose: S,
+                    onClose: A,
                     list: l,
-                    onSubmit: c,
+                    onSubmit: u,
                   })
                 )
               : null
@@ -3383,12 +3643,12 @@
         }
         return n;
       }
-      function Te(e) {
+      function _e(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
             ? ye(Object(n), !0).forEach(function (t) {
-                (0, a.Z)(e, t, n[t]);
+                (0, o.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
@@ -3402,50 +3662,50 @@
         }
         return e;
       }
-      var _e,
+      var Te,
         Me = 'groups',
         Ne = 'selected',
         we = function (e) {
           var t = e.label,
             n = e.list,
             r = e.height,
-            c = void 0 === r ? 'auto' : r,
+            u = void 0 === r ? 'auto' : r,
             m = e.activeValues,
             f = void 0 === m ? [] : m,
             b = e.onChange,
             y = e.itemsPerPage,
-            T = void 0 === y ? 500 : y,
-            _ = e.groups,
+            _ = void 0 === y ? 500 : y,
+            T = e.groups,
             M = e.dimension,
             N = e.updateGroups,
             w = e.setActiveFilters,
             C = e.searchContentNode,
             Z = e.isExcludeSelected,
             D = (0, p.$G)().t,
-            E = (0, u.useState)(1),
+            E = (0, c.useState)(1),
             I = (0, s.Z)(E, 2),
             O = I[0],
             L = I[1],
-            $ = (0, u.useState)('all'),
+            $ = (0, c.useState)('all'),
             K = (0, s.Z)($, 2),
             ee = K[0],
             te = K[1],
-            ne = (0, u.useState)(''),
+            ne = (0, c.useState)(''),
             re = (0, s.Z)(ne, 2),
             ie = re[0],
-            oe = re[1],
-            ae = (0, u.useRef)(!1),
-            se = null == _ ? void 0 : _[M],
-            le = (0, j.d)(),
-            ue = le.openModal,
-            ce = (0, j.d)(),
-            de = (0, u.useState)(),
+            ae = re[1],
+            oe = (0, c.useRef)(!1),
+            se = null == T ? void 0 : T[M],
+            le = (0, P.d)(),
+            ce = le.openModal,
+            ue = (0, P.d)(),
+            de = (0, c.useState)(),
             me = (0, s.Z)(de, 2),
             pe = me[0],
             ge = me[1],
-            fe = n.length > T,
+            fe = n.length > _,
             ye = f.length,
-            _e = (0, u.useMemo)(
+            Te = (0, c.useMemo)(
               function () {
                 var e,
                   t = n;
@@ -3453,16 +3713,16 @@
                   (null != se &&
                     se.length &&
                     (e = se.map(function (e) {
-                      return Te(
-                        Te({}, e),
+                      return _e(
+                        _e({}, e),
                         {},
                         { value: e.value.join(','), isGroup: !0 }
                       );
                     })),
                   fe)
                 ) {
-                  var r = T * O,
-                    i = r - T;
+                  var r = _ * O,
+                    i = r - _;
                   t = n.slice(i, r);
                 }
                 return ee === Me
@@ -3480,25 +3740,25 @@
                     e && (t = [].concat((0, l.Z)(e), (0, l.Z)(n))),
                     t);
               },
-              [f, O, ee, se, fe, T, n, ie]
+              [f, O, ee, se, fe, _, n, ie]
             ),
-            we = (0, u.useCallback)(function (e) {
+            we = (0, c.useCallback)(function (e) {
               return function () {
                 te(e);
               };
             }, []),
-            Ce = (0, u.useMemo)(
+            Ce = (0, c.useMemo)(
               function () {
                 return [
                   {
                     name: D('general.all'),
-                    className: d()(V, (0, a.Z)({}, W, 'all' === ee)),
+                    className: d()(V, (0, o.Z)({}, W, 'all' === ee)),
                     disabled: 'all' === ee,
                     onClick: we('all'),
                   },
                   {
                     name: D('general.groups'),
-                    className: d()(V, (0, a.Z)({}, W, 'groups' === ee)),
+                    className: d()(V, (0, o.Z)({}, W, 'groups' === ee)),
                     disabled: 'groups' === ee,
                     onClick: we('groups'),
                   },
@@ -3506,7 +3766,7 @@
                     name: ''
                       .concat(D('general.selected'), ' (')
                       .concat(ye, ')'),
-                    className: d()(V, (0, a.Z)({}, W, 'selected' === ee)),
+                    className: d()(V, (0, o.Z)({}, W, 'selected' === ee)),
                     onClick: we('selected'),
                     disabled: !ye || 'selected' === ee,
                   },
@@ -3514,7 +3774,7 @@
               },
               [ye, ee, we, D]
             ),
-            Ze = (0, u.useMemo)(
+            Ze = (0, c.useMemo)(
               function () {
                 if (!pe) return [];
                 var e = String(pe.value).split(','),
@@ -3527,13 +3787,13 @@
               },
               [pe, n]
             ),
-            De = (0, u.useCallback)(function (e) {
-              oe(e.target.value);
+            De = (0, c.useCallback)(function (e) {
+              ae(e.target.value);
             }, []),
-            Ee = (0, u.useCallback)(
+            Ee = (0, c.useCallback)(
               function (e, t) {
                 var n = e.target.checked,
-                  r = _e.find(function (e) {
+                  r = Te.find(function (e) {
                     return t.value === e.value;
                   });
                 if (r) {
@@ -3545,19 +3805,19 @@
                   null == b || b(i);
                 }
               },
-              [f, _e, b]
+              [f, Te, b]
             ),
-            Ie = (0, u.useCallback)(
+            Ie = (0, c.useCallback)(
               function (e) {
                 return function () {
-                  ae.current = e;
-                  var t = ae.current ? (0, l.Z)(_e) : [];
+                  oe.current = e;
+                  var t = oe.current ? (0, l.Z)(Te) : [];
                   null == b || b(t);
                 };
               },
-              [_e, b]
+              [Te, b]
             ),
-            Oe = (0, u.useCallback)(
+            Oe = (0, c.useCallback)(
               function (e) {
                 var t = (0, g.Pn)(e);
                 return null == se
@@ -3573,19 +3833,19 @@
               },
               [se]
             ),
-            Le = (0, u.useCallback)(
+            Le = (0, c.useCallback)(
               function (e) {
                 if (N)
-                  if (Oe(e.value)) ue();
+                  if (Oe(e.value)) ce();
                   else {
                     var t = M.replace('.', '@');
-                    N((0, a.Z)({}, t, [].concat((0, l.Z)(se || []), [e])));
+                    N((0, o.Z)({}, t, [].concat((0, l.Z)(se || []), [e])));
                   }
                 else console.error('ERROR: no update method');
               },
-              [se, M, Oe, ue, N]
+              [se, M, Oe, ce, N]
             ),
-            Ae = (0, u.useCallback)(
+            Se = (0, c.useCallback)(
               function (e) {
                 if (N && se) {
                   var t = f.map(function (e) {
@@ -3597,7 +3857,7 @@
                       return void 0 !== n[e];
                     })
                   )
-                    ue();
+                    ce();
                   else {
                     var r = M.replace('.', '@'),
                       i =
@@ -3606,8 +3866,8 @@
                           : se.map(function (n) {
                               return JSON.stringify(n.value) ===
                                 JSON.stringify(e.value)
-                                ? Te(
-                                    Te({}, n),
+                                ? _e(
+                                    _e({}, n),
                                     {},
                                     {
                                       value: [].concat(
@@ -3618,22 +3878,22 @@
                                   )
                                 : n;
                             });
-                    N((0, a.Z)({}, r, i));
+                    N((0, o.Z)({}, r, i));
                   }
                 } else
                   console.error('ERROR: no update method or current groups');
               },
-              [f, se, M, ue, N]
+              [f, se, M, ce, N]
             ),
-            Se = (0, u.useCallback)(
+            Ae = (0, c.useCallback)(
               function (e) {
                 return function () {
-                  ge(e), ce.openModal();
+                  ge(e), ue.openModal();
                 };
               },
-              [ce]
+              [ue]
             ),
-            ke = (0, u.useCallback)(
+            ke = (0, c.useCallback)(
               function (e) {
                 if (N && se && pe) {
                   var t = M.replace('.', '@'),
@@ -3649,8 +3909,8 @@
                             (null === (n = t.values) || void 0 === n
                               ? void 0
                               : n.map(function (t) {
-                                  return Te(
-                                    Te({}, t),
+                                  return _e(
+                                    _e({}, t),
                                     {},
                                     {
                                       value:
@@ -3660,16 +3920,16 @@
                                     }
                                   );
                                 })) || t.values;
-                        return Te(Te({}, t), {}, { values: r });
+                        return _e(_e({}, t), {}, { values: r });
                       });
                     }),
-                    N((0, a.Z)({}, t, n));
+                    N((0, o.Z)({}, t, n));
                 } else
                   console.error('ERROR: no update method or current groups');
               },
               [pe, se, M, w, N]
             ),
-            je = (0, u.useCallback)(
+            Pe = (0, c.useCallback)(
               function (e) {
                 if (N && se) {
                   var t = M.replace('.', '@'),
@@ -3678,15 +3938,15 @@
                         JSON.stringify(t.value) !== JSON.stringify(e.value)
                       );
                     });
-                  N((0, a.Z)({}, t, n));
+                  N((0, o.Z)({}, t, n));
                 } else
                   console.error('ERROR: no update method or current groups');
               },
               [se, M, N]
             ),
-            Pe = (0, u.useMemo)(
+            je = (0, c.useMemo)(
               function () {
-                return _e.map(function (e) {
+                return Te.map(function (e) {
                   return {
                     checked: f.some(function (t) {
                       return t.value === e.value;
@@ -3694,17 +3954,17 @@
                     value: e.value,
                     children: (0, i.Z)(
                       'div',
-                      { className: H },
+                      { className: B },
                       void 0,
                       e.label,
                       e.isGroup
                         ? (0, i.Z)(
-                            u.Fragment,
+                            c.Fragment,
                             {},
                             void 0,
                             (0, i.Z)(
                               'span',
-                              { className: B },
+                              { className: H },
                               void 0,
                               D('general.group')
                             ),
@@ -3714,7 +3974,7 @@
                               color: '#aaa',
                               size: '1rem',
                               className: q,
-                              onClick: Se(e),
+                              onClick: Ae(e),
                             })
                           )
                         : null
@@ -3722,11 +3982,11 @@
                   };
                 });
               },
-              [f, _e, Se, D]
+              [f, Te, Ae, D]
             );
           return (0, i.Z)(
             'div',
-            { className: R },
+            { className: x },
             void 0,
             (0, i.Z)(
               'header',
@@ -3744,7 +4004,7 @@
                     groups: se,
                     activeValues: f,
                     onCreate: Le,
-                    onGroupClick: Ae,
+                    onGroupClick: Se,
                   })
                 : C
             ),
@@ -3776,8 +4036,8 @@
                 void 0,
                 Ce.map(function (e, t) {
                   var n = e.name,
-                    r = (0, A.Z)(e, be);
-                  return u.createElement(v.z, (0, o.Z)({ key: t }, r), n);
+                    r = (0, S.Z)(e, be);
+                  return c.createElement(v.z, (0, a.Z)({ key: t }, r), n);
                 })
               )
             ),
@@ -3785,9 +4045,9 @@
               'div',
               { className: Q },
               void 0,
-              (0, i.Z)(x.s, {
-                height: c,
-                list: Pe,
+              (0, i.Z)(R.s, {
+                height: u,
+                list: je,
                 onChange: Ee,
                 excludeSelected: Z,
               }),
@@ -3799,12 +4059,12 @@
                     D('general.showing'),
                     ' ',
                     (0, i.Z)(
-                      S.t,
+                      A.t,
                       {
                         className: z,
                         currentPage: O,
                         total: n.length,
-                        itemsPerPage: T,
+                        itemsPerPage: _,
                         onChange: L,
                       },
                       void 0,
@@ -3818,15 +4078,15 @@
                   )
                 : null
             ),
-            u.createElement(
-              P.WB,
-              (0, o.Z)({ usePortals: !1 }, le),
+            c.createElement(
+              j.WB,
+              (0, a.Z)({ usePortals: !1 }, le),
               D('errors.idsExist')
             ),
-            ce.isOpen
-              ? u.createElement(
+            ue.isOpen
+              ? c.createElement(
                   ve,
-                  (0, o.Z)({}, ce, {
+                  (0, a.Z)({}, ue, {
                     title: ''
                       .concat(D('campaigns.modalGroups.editTitle'), ' ')
                       .concat(null == pe ? void 0 : pe.label),
@@ -3834,7 +4094,7 @@
                     label: t,
                     list: Ze,
                     onSubmit: ke,
-                    onDelete: je,
+                    onDelete: Pe,
                   })
                 )
               : null
@@ -3864,38 +4124,38 @@
           var t = e.list,
             n = void 0 === t ? [] : t,
             r = e.customListFrom,
-            o = void 0 === r ? Ie : r,
-            a = e.customListTo,
-            c = void 0 === a ? Oe : a,
+            a = void 0 === r ? Ie : r,
+            o = e.customListTo,
+            u = void 0 === o ? Oe : o,
             d = e.values,
             m = void 0 === d ? [] : d,
             f = e.onChange,
             v = (0, p.$G)().t,
-            h = (0, u.useRef)(!1),
-            b = (0, u.useState)(!1),
+            h = (0, c.useRef)(!1),
+            b = (0, c.useState)(!1),
             y = (0, s.Z)(b, 2),
-            T = y[0],
-            _ = y[1],
-            M = (0, u.useState)([o[0], c[0]]),
+            _ = y[0],
+            T = y[1],
+            M = (0, c.useState)([a[0], u[0]]),
             N = (0, s.Z)(M, 2),
             w = N[0],
             C = N[1],
             Z = (0, s.Z)(w, 2),
             D = Z[0],
             E = Z[1],
-            I = (0, u.useMemo)(
+            I = (0, c.useMemo)(
               function () {
-                return (0, g.Pn)(o, 'value');
+                return (0, g.Pn)(a, 'value');
               },
-              [o]
+              [a]
             ),
-            O = (0, u.useMemo)(
+            O = (0, c.useMemo)(
               function () {
-                return (0, g.Pn)(c, 'value');
+                return (0, g.Pn)(u, 'value');
               },
-              [c]
+              [u]
             ),
-            L = (0, u.useMemo)(
+            L = (0, c.useMemo)(
               function () {
                 return [
                   {
@@ -3906,7 +4166,7 @@
               },
               [D.label, D.value, E.label, E.value]
             ),
-            A = (0, u.useMemo)(
+            S = (0, c.useMemo)(
               function () {
                 var e = (0, g.Pn)(m, 'value');
                 return n.map(function (t) {
@@ -3914,33 +4174,33 @@
                     children: t.label,
                     value: t.value,
                     checked: !!e[t.value],
-                    disabled: T,
+                    disabled: _,
                   };
                 });
               },
-              [T, n, m]
+              [_, n, m]
             ),
-            S = (0, u.useCallback)(function (e) {
-              _(e.target.checked);
+            A = (0, c.useCallback)(function (e) {
+              T(e.target.checked);
             }, []),
-            k = (0, u.useCallback)(
+            k = (0, c.useCallback)(
               function (e, t) {
                 var r = e.target.checked,
                   i = n.find(function (e) {
                     return e.value === t.value;
                   });
                 if (i) {
-                  var o = r
+                  var a = r
                     ? [].concat((0, l.Z)(m), [i])
                     : m.filter(function (e) {
                         return e.value !== i.value;
                       });
-                  f(o);
+                  f(a);
                 }
               },
               [n, f, m]
             ),
-            j = (0, u.useCallback)(
+            P = (0, c.useCallback)(
               function (e) {
                 var t = String(e.value).split('-'),
                   n = (0, s.Z)(t, 2),
@@ -3954,7 +4214,7 @@
               },
               [I, O]
             ),
-            P = (0, u.useCallback)(
+            j = (0, c.useCallback)(
               function (e) {
                 var t = String(e[0].value).split('-'),
                   n = (0, s.Z)(t, 2),
@@ -3969,13 +4229,13 @@
               [f]
             );
           return (
-            (0, u.useEffect)(
+            (0, c.useEffect)(
               function () {
-                h.current && f(T ? L : []);
+                h.current && f(_ ? L : []);
               },
-              [T]
+              [_]
             ),
-            (0, u.useEffect)(function () {
+            (0, c.useEffect)(function () {
               return (
                 (h.current = !0),
                 function () {
@@ -3984,7 +4244,7 @@
               );
             }, []),
             (0, i.Z)(
-              u.Fragment,
+              c.Fragment,
               {},
               void 0,
               (0, i.Z)(
@@ -3992,27 +4252,27 @@
                 { className: De },
                 void 0,
                 (0, i.Z)(Ce.o, {
-                  label: T ? void 0 : v('filter.customInterval'),
+                  label: _ ? void 0 : v('filter.customInterval'),
                   name: 'custom',
-                  onChange: S,
+                  onChange: A,
                   className: Ee,
                 }),
-                T
+                _
                   ? (0, i.Z)(Ze.F, {
-                      from: o,
-                      to: c,
+                      from: a,
+                      to: u,
                       values: L,
-                      validate: j,
-                      onChange: P,
+                      validate: P,
+                      onChange: j,
                     })
                   : null
               ),
-              (0, i.Z)(x.s, { list: A, onChange: k })
+              (0, i.Z)(R.s, { list: S, onChange: k })
             )
           );
         },
-        Ae = n(77402),
-        Se = n(14162);
+        Se = n(77402),
+        Ae = n(14162);
       function ke(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
@@ -4025,12 +4285,12 @@
         }
         return n;
       }
-      function je(e) {
+      function Pe(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
             ? ke(Object(n), !0).forEach(function (t) {
-                (0, a.Z)(e, t, n[t]);
+                (0, o.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
@@ -4044,7 +4304,7 @@
         }
         return e;
       }
-      var Pe = (function () {
+      var je = (function () {
           for (var e = [], t = 1; t < 11; t += 1)
             e.push({
               value: ''.concat(t, ' min'),
@@ -4054,79 +4314,79 @@
             e.push({ value: ''.concat(n, ' h'), label: ''.concat(n, ' h') });
           return e;
         })(),
-        xe = function (e) {
+        Re = function (e) {
           var t = e.variant,
             n = e.defaultFilters,
             r = e.filters,
-            a = e.onChange,
-            c = e.categories,
+            o = e.onChange,
+            u = e.categories,
             h = e.itemsPerPage,
             b = void 0 === h ? 500 : h,
             y = e.startNode,
-            T = e.endNode,
-            _ = e.className,
+            _ = e.endNode,
+            T = e.className,
             M = e.classNameFilterDropdown,
             N = e.classNameFilterDropdownLayout,
             w = e.groups,
             C = e.updateGroups,
             I = e.isAddFilterVisible,
-            A = void 0 === I || I,
-            S = e.isRemovable,
-            k = void 0 === S || S,
-            j = e.searchContentNode,
-            P = e.isDimensionsLoading,
-            x = void 0 !== P && P,
-            R = (0, p.$G)().t,
-            z = (0, u.useRef)(!1),
-            F = (0, u.useMemo)(
+            S = void 0 === I || I,
+            A = e.isRemovable,
+            k = void 0 === A || A,
+            P = e.searchContentNode,
+            j = e.isDimensionsLoading,
+            R = void 0 !== j && j,
+            x = (0, p.$G)().t,
+            z = (0, c.useRef)(!1),
+            F = (0, c.useMemo)(
               function () {
                 return [
                   {
-                    value: R('general.moreThan'),
-                    label: R('general.moreThan'),
+                    value: x('general.moreThan'),
+                    label: x('general.moreThan'),
                   },
                   {
-                    value: R('general.lessThan'),
-                    label: R('general.lessThan'),
+                    value: x('general.lessThan'),
+                    label: x('general.lessThan'),
                   },
-                ].concat((0, l.Z)(Pe));
+                ].concat((0, l.Z)(je));
               },
-              [R]
+              [x]
             ),
-            U = (0, u.useState)(function () {
+            U = (0, c.useState)(function () {
               if (!n) return [];
               var e = (0, g.Pn)(r, 'value');
               return n.reduce(function (t, n) {
                 var r = e[n.value],
                   i = null == w ? void 0 : w[n.value.replace('.', '@')];
                 if (null != n && n.values) {
-                  var o,
-                    a = (0, g.Pn)(n.values),
+                  var a,
+                    o = (0, g.Pn)(n.values),
                     s =
                       null == i
                         ? void 0
                         : i.find(function (e) {
-                            return void 0 !== a[e.value.join(',')];
+                            return void 0 !== o[e.value.join(',')];
                           }),
-                    u = je(
-                      je({}, r),
+                    c = Pe(
+                      Pe({}, r),
                       {},
                       {
                         values:
-                          (null == r || null === (o = r.values) || void 0 === o
+                          (null == r || null === (a = r.values) || void 0 === a
                             ? void 0
-                            : o.filter(function (e) {
-                                return void 0 !== a[e.value];
+                            : a.filter(function (e) {
+                                return void 0 !== o[e.value];
                               })) || [],
                         invert: null == r ? void 0 : r.invert,
                       }
                     );
                   if (s) {
-                    var c = je(je({}, s), {}, { value: s.value.join(',') });
-                    u.values = [c].concat((0, l.Z)(u.values));
+                    var u = Pe(Pe({}, s), {}, { value: s.value.join(',') });
+                    c.values = [u].concat((0, l.Z)(c.values));
                   }
-                  null != u && u.value
-                    ? t.push(u)
+                  null != c && c.value
+                    ? t.push(c)
                     : console.warn(
                         'This filter item "'.concat(
                           n.value,
@@ -4140,11 +4400,11 @@
             G = (0, s.Z)(U, 2),
             Y = G[0],
             V = G[1],
-            W = (0, u.useState)(!1),
-            H = (0, s.Z)(W, 2),
-            B = H[0],
-            q = H[1],
-            Q = (0, u.useCallback)(function (e, t) {
+            W = (0, c.useState)(!1),
+            B = (0, s.Z)(W, 2),
+            H = B[0],
+            q = B[1],
+            Q = (0, c.useCallback)(function (e, t) {
               var n,
                 r =
                   'string' == typeof (null == e ? void 0 : e.value)
@@ -4154,10 +4414,10 @@
                     : [];
               if (!r.length || ('to' === t && r.length < 2)) return !1;
               var i = parseInt(L(r[0]), 10),
-                o = parseInt(L(r[1]), 10);
-              return !(o <= i || i >= o);
+                a = parseInt(L(r[1]), 10);
+              return !(a <= i || i >= a);
             }, []),
-            J = (0, u.useMemo)(
+            J = (0, c.useMemo)(
               function () {
                 return w
                   ? Object.entries(w).reduce(function (e, t) {
@@ -4170,11 +4430,11 @@
               },
               [w]
             ),
-            X = (0, u.useMemo)(
+            X = (0, c.useMemo)(
               function () {
-                if (!c) return r;
+                if (!u) return r;
                 var e = (0, g.Pn)(r, 'value'),
-                  t = c.reduce(function (t, n) {
+                  t = u.reduce(function (t, n) {
                     if ('Other' !== n.name) {
                       var r = n.items.filter(function (t) {
                         return !!e[t];
@@ -4185,18 +4445,18 @@
                   }, []);
                 return (0, g.lI)(r, t, 'value');
               },
-              [c, r]
+              [u, r]
             ),
-            $ = (0, u.useMemo)(
+            $ = (0, c.useMemo)(
               function () {
                 return (0, g.Pn)(X, 'value');
               },
               [X]
             ),
-            K = (0, u.useCallback)(
+            K = (0, c.useCallback)(
               function () {
                 var e,
-                  t = je(je({}, X[0]), {}, { values: [] });
+                  t = Pe(Pe({}, X[0]), {}, { values: [] });
                 if (!Y.length) return t;
                 var n = (0, g.Pn)(Y, 'value'),
                   r =
@@ -4206,11 +4466,11 @@
                       })) || void 0 === e
                       ? void 0
                       : e[0];
-                return r ? je(je({}, r), {}, { values: [] }) : t;
+                return r ? Pe(Pe({}, r), {}, { values: [] }) : t;
               },
               [Y, X]
             ),
-            ee = (0, u.useCallback)(
+            ee = (0, c.useCallback)(
               function () {
                 (z.current = !0),
                   V(function (e) {
@@ -4220,54 +4480,54 @@
               },
               [K]
             ),
-            te = (0, u.useCallback)(function (e) {
+            te = (0, c.useCallback)(function (e) {
               return function (t) {
                 V(function (n) {
                   return n.map(function (n, r) {
-                    return r !== e ? n : je(je({}, t), {}, { values: [] });
+                    return r !== e ? n : Pe(Pe({}, t), {}, { values: [] });
                   });
                 });
               };
             }, []),
-            ne = (0, u.useCallback)(function (e) {
+            ne = (0, c.useCallback)(function (e) {
               return function (t) {
                 V(function (n) {
                   return n.map(function (n, r) {
-                    return r !== e ? n : je(je({}, n), {}, { values: t });
+                    return r !== e ? n : Pe(Pe({}, n), {}, { values: t });
                   });
                 });
               };
             }, []),
-            re = (0, u.useCallback)(
+            re = (0, c.useCallback)(
               function (e) {
                 return function (t) {
                   var n = null != t && t.length ? t[0] : void 0,
                     r = n ? n.value.split('-') : [],
                     i = (0, s.Z)(r, 2),
-                    o = i[0],
-                    a = i[1],
-                    l = [L(o), L(a)].filter(Boolean);
+                    a = i[0],
+                    o = i[1],
+                    l = [L(a), L(o)].filter(Boolean);
                   ne(e)(
                     n
-                      ? [je(je({}, n), {}, { value: ''.concat(l.join('-')) })]
+                      ? [Pe(Pe({}, n), {}, { value: ''.concat(l.join('-')) })]
                       : []
                   );
                 };
               },
               [ne]
             ),
-            ie = (0, u.useCallback)(function (e) {
+            ie = (0, c.useCallback)(function (e) {
               var t = null != e && e.length ? e[0] : void 0,
                 n = t ? String(t.value).split('-') : [],
                 r = (0, s.Z)(n, 2),
                 i = r[0],
-                o = r[1],
-                a = [O(i), O(o)].filter(Boolean);
+                a = r[1],
+                o = [O(i), O(a)].filter(Boolean);
               return t
-                ? [je(je({}, t), {}, { value: ''.concat(a.join('-')) })]
+                ? [Pe(Pe({}, t), {}, { value: ''.concat(o.join('-')) })]
                 : [];
             }, []),
-            oe = (0, u.useCallback)(function (e) {
+            ae = (0, c.useCallback)(function (e) {
               return function () {
                 return V(function (t) {
                   return t.filter(function (t, n) {
@@ -4276,7 +4536,7 @@
                 });
               };
             }, []),
-            ae = (0, u.useCallback)(
+            oe = (0, c.useCallback)(
               function (e) {
                 var t = e.isVisible;
                 t ||
@@ -4284,7 +4544,7 @@
                   V(function (e) {
                     return e
                       .map(function (e) {
-                        return e.invert ? e : je(je({}, e), {}, { invert: B });
+                        return e.invert ? e : Pe(Pe({}, e), {}, { invert: H });
                       })
                       .filter(function (e) {
                         var t;
@@ -4298,9 +4558,9 @@
                   })),
                   t && q(!1);
               },
-              [B]
+              [H]
             ),
-            se = (0, u.useCallback)(function (e) {
+            se = (0, c.useCallback)(function (e) {
               return (e.values || [])
                 .map(function (e) {
                   return e.label;
@@ -4308,7 +4568,7 @@
                 .join(', ');
             }, []);
           return (
-            (0, u.useEffect)(
+            (0, c.useEffect)(
               function () {
                 var e = Y.map(function (e) {
                   var t, n, r;
@@ -4330,41 +4590,41 @@
                         : [],
                   };
                 });
-                a(e);
+                o(e);
               },
               [JSON.stringify(Y)]
             ),
             (0, i.Z)(
               'div',
               {
-                className: d()(Se.Z.filter, t ? Se.Z[t] : void 0, _),
+                className: d()(Ae.Z.filter, t ? Ae.Z[t] : void 0, T),
                 'data-testid': 'id-filter',
               },
               void 0,
               y,
               (0, i.Z)(
                 'div',
-                { className: Se.Z.filterContent },
+                { className: Ae.Z.filterContent },
                 void 0,
                 null == Y
                   ? void 0
                   : Y.map(function (e, n) {
                       var r,
-                        a = e.label,
+                        o = e.label,
                         s = e.value,
                         l = e.values,
                         p = {
-                          title: a,
+                          title: o,
                           content: se(e),
-                          onRemove: oe(n),
-                          isExcludeSelected: B,
+                          onRemove: ae(n),
+                          isExcludeSelected: H,
                         },
                         g =
                           'modern' !== t
-                            ? (0, Ae.Y)(p)
-                            : u.createElement(
+                            ? (0, Se.Y)(p)
+                            : c.createElement(
                                 D.e,
-                                (0, o.Z)(
+                                (0, a.Z)(
                                   {
                                     isRemovable: k,
                                     iconCategory: 'modern',
@@ -4387,24 +4647,24 @@
                             ? void 0
                             : r.values) || [];
                       return (0,
-                      i.Z)(f.L, { className: d()(Se.Z.filterDropdown, M), classNameLayout: d()(Se.Z.filterDropdownLayout, N), defaultVisibility: z.current, usePortals: !0, hideOnClick: !1, width: '31.25rem', onToggle: ae, Trigger: g }, n, (0, i.Z)('div', { className: Se.Z.filterDropdownColumn, 'data-testid': 'id-filter-dropdown-content' }, void 0, (0, i.Z)(Z, { list: X, height: '15.625rem', activeValue: e, disabledList: v, onChange: te(n), categories: c })), (0, i.Z)('div', { className: Se.Z.filterDropdownColumn }, void 0, x ? (0, i.Z)(E.Z, { className: Se.Z.filterSpinnerWrapper }, void 0, _e || (_e = (0, i.Z)(E.$, {}))) : e.value === m.Db.DAYPART ? (0, i.Z)(Le, { list: h, values: l, onChange: ne(n) }) : 'action.duration' === e.value ? (0, i.Z)(Ze.F, { from: F, to: Pe, values: ie(l), validate: Q, onChange: re(n) }) : (0, i.Z)(we, { label: a, itemsPerPage: b, height: h.length > b ? '12.125rem' : '14.0625rem', list: h, activeValues: l, onChange: ne(n), groups: J, dimension: s, updateGroups: C, setActiveFilters: V, searchContentNode: j, isExcludeSelected: B, setIsExcludeSelected: q })));
+                      i.Z)(f.L, { className: d()(Ae.Z.filterDropdown, M), classNameLayout: d()(Ae.Z.filterDropdownLayout, N), defaultVisibility: z.current, usePortals: !0, hideOnClick: !1, width: '31.25rem', onToggle: oe, Trigger: g }, n, (0, i.Z)('div', { className: Ae.Z.filterDropdownColumn, 'data-testid': 'id-filter-dropdown-content' }, void 0, (0, i.Z)(Z, { list: X, height: '15.625rem', activeValue: e, disabledList: v, onChange: te(n), categories: u })), (0, i.Z)('div', { className: Ae.Z.filterDropdownColumn }, void 0, R ? (0, i.Z)(E.Z, { className: Ae.Z.filterSpinnerWrapper }, void 0, Te || (Te = (0, i.Z)(E.$, {}))) : e.value === m.Db.DAYPART ? (0, i.Z)(Le, { list: h, values: l, onChange: ne(n) }) : 'action.duration' === e.value ? (0, i.Z)(Ze.F, { from: F, to: je, values: ie(l), validate: Q, onChange: re(n) }) : (0, i.Z)(we, { label: o, itemsPerPage: b, height: h.length > b ? '12.125rem' : '14.0625rem', list: h, activeValues: l, onChange: ne(n), groups: J, dimension: s, updateGroups: C, setActiveFilters: V, searchContentNode: P, isExcludeSelected: H, setIsExcludeSelected: q })));
                     }),
                 (null == X ? void 0 : X.length) !==
-                  (null == Y ? void 0 : Y.length) && A
+                  (null == Y ? void 0 : Y.length) && S
                   ? (0, i.Z)(
                       v.z,
                       {
                         size: 'auto',
                         'data-testid': 'id-filter-add-button',
-                        className: Se.Z.filterAddFilterButton,
+                        className: Ae.Z.filterAddFilterButton,
                         onClick: ee,
                       },
                       void 0,
-                      R('general.addFilter')
+                      x('general.addFilter')
                     )
                   : null
               ),
-              T
+              _
             )
           );
         };
@@ -4418,12 +4678,12 @@
       });
       var r,
         i = n(87462),
-        o = n(22928),
-        a = n(4942),
+        a = n(22928),
+        o = n(4942),
         s = n(67294),
         l = n(94184),
-        u = n.n(l),
-        c = n(86485),
+        c = n.n(l),
+        u = n(86485),
         d = n(74416),
         m = n(69088),
         p = n(14162),
@@ -4438,38 +4698,38 @@
             h = e.toggle,
             b = e.className,
             y = e.isDisabled,
-            T = void 0 !== y && y,
-            _ = e.isExcludeSelected,
-            M = void 0 !== _ && _,
-            N = (0, c.$G)().t,
+            _ = void 0 !== y && y,
+            T = e.isExcludeSelected,
+            M = void 0 !== T && T,
+            N = (0, u.$G)().t,
             w = (0, s.useCallback)(
               function (e) {
                 e.stopPropagation(), null == g || g(e);
               },
               [g]
             );
-          return (0, o.Z)(
+          return (0, a.Z)(
             d.W,
             {
               isVisible: l,
               toggle: h,
-              className: u()(
+              className: c()(
                 p.Z.filterTrigger,
                 b,
                 ((t = {}),
-                (0, a.Z)(t, p.Z.isActive, l),
-                (0, a.Z)(t, p.Z.isDisabled, T),
+                (0, o.Z)(t, p.Z.isActive, l),
+                (0, o.Z)(t, p.Z.isDisabled, _),
                 t)
               ),
-              isDisabled: T,
+              isDisabled: _,
             },
             void 0,
-            (0, o.Z)(
+            (0, a.Z)(
               'div',
               { className: p.Z.filterTriggerContent },
               void 0,
               v
-                ? (0, o.Z)(
+                ? (0, a.Z)(
                     'span',
                     {
                       role: 'button',
@@ -4478,7 +4738,7 @@
                     },
                     void 0,
                     r ||
-                      (r = (0, o.Z)(m.J, {
+                      (r = (0, a.Z)(m.J, {
                         name: 'icon-close',
                         size: '0.75rem',
                         color: '#fff',
@@ -4486,7 +4746,7 @@
                   )
                 : null,
               n &&
-                (0, o.Z)(
+                (0, a.Z)(
                   'h4',
                   { className: p.Z.filterTriggerTitle },
                   void 0,
@@ -4494,7 +4754,7 @@
                   ':'
                 ),
               M &&
-                (0, o.Z)(
+                (0, a.Z)(
                   'span',
                   { className: p.Z.filterFrequencyFilterAllExcept },
                   void 0,
@@ -4532,12 +4792,12 @@
       });
       var r = n(22928),
         i = n(4942),
-        o = n(70885),
-        a = n(67294),
+        a = n(70885),
+        o = n(67294),
         s = n(86485),
         l = n(74416),
-        u = n(53181),
-        c = n(69088),
+        c = n(53181),
+        u = n(69088),
         d = n(61719),
         m = 'FilterDuration_filterDuration__3qpBb',
         p = 'FilterDuration_filterDurationDropdown__K4b9N',
@@ -4549,14 +4809,14 @@
           var t = e.label,
             n = e.value,
             i = void 0 === n ? '' : n,
-            o = e.name,
+            a = e.name,
             s = e.onChange,
             l = e.onFocus,
-            u = e.onBlur,
+            c = e.onBlur,
             m = e.onClick,
             p = e.testId;
           return (0, r.Z)(
-            a.Fragment,
+            o.Fragment,
             {},
             void 0,
             (0, r.Z)(
@@ -4565,17 +4825,17 @@
               void 0,
               t,
               (0, r.Z)(d.I, {
-                id: 'id-'.concat(o),
-                name: o,
+                id: 'id-'.concat(a),
+                name: a,
                 className: v,
                 value: i,
                 onChange: s,
                 onFocus: l,
-                onBlur: u,
+                onBlur: c,
                 'data-testid': ''.concat(p, '-input'),
               })
             ),
-            (0, r.Z)(c.J, {
+            (0, r.Z)(u.J, {
               name: 'icon-down-open-mini',
               size: '1.3rem',
               color: 'rgba(0, 0, 0, 0.3)',
@@ -4597,7 +4857,7 @@
         }
         return n;
       }
-      function T(e) {
+      function _(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
@@ -4616,7 +4876,7 @@
         }
         return e;
       }
-      var _ = function (e, t) {
+      var T = function (e, t) {
           return e.map(function (e) {
             return { id: e.value, children: e.label, active: t === e.value };
           });
@@ -4624,8 +4884,8 @@
         M = function (e) {
           var t = e.from,
             n = void 0 === t ? [] : t,
-            c = e.to,
-            d = void 0 === c ? [] : c,
+            u = e.to,
+            d = void 0 === u ? [] : u,
             f = e.values,
             v = void 0 === f ? [] : f,
             h = e.validate,
@@ -4637,10 +4897,10 @@
                 : h,
             M = e.onChange,
             N = (0, s.$G)().t,
-            w = (0, a.useRef)(!1),
-            C = (0, a.useRef)(),
-            Z = (0, a.useRef)(),
-            D = (0, a.useMemo)(
+            w = (0, o.useRef)(!1),
+            C = (0, o.useRef)(),
+            Z = (0, o.useRef)(),
+            D = (0, o.useMemo)(
               function () {
                 var e,
                   t =
@@ -4651,26 +4911,26 @@
               },
               [v]
             ),
-            E = (0, o.Z)(D, 2),
+            E = (0, a.Z)(D, 2),
             I = E[0],
             O = E[1],
-            L = (0, a.useState)({ from: I, to: O }),
-            A = (0, o.Z)(L, 2),
-            S = A[0],
-            k = A[1],
-            j = (0, a.useMemo)(
+            L = (0, o.useState)({ from: I, to: O }),
+            S = (0, a.Z)(L, 2),
+            A = S[0],
+            k = S[1],
+            P = (0, o.useMemo)(
               function () {
-                return _(n, I);
+                return T(n, I);
               },
               [n, I]
             ),
-            P = (0, a.useMemo)(
+            j = (0, o.useMemo)(
               function () {
-                return _(d, O);
+                return T(d, O);
               },
               [d, O]
             ),
-            x = (0, a.useCallback)(
+            R = (0, o.useCallback)(
               function (e, t) {
                 var n = ('from' === e ? [t, O] : [I, t])
                   .filter(Boolean)
@@ -4679,62 +4939,62 @@
               },
               [I, O]
             ),
-            R = (0, a.useCallback)(function (e) {
+            x = (0, o.useCallback)(function (e) {
               k(function (t) {
-                return T(
-                  T({}, t),
+                return _(
+                  _({}, t),
                   {},
                   (0, i.Z)({}, e.target.name, e.target.value)
                 );
               });
             }, []),
-            z = (0, a.useCallback)(
+            z = (0, o.useCallback)(
               function () {
-                Z.current = S;
+                Z.current = A;
               },
-              [S]
+              [A]
             ),
-            F = (0, a.useCallback)(
+            F = (0, o.useCallback)(
               function (e) {
                 return function (t) {
-                  var n = x(e, t.id);
+                  var n = R(e, t.id);
                   y(n, e) && ((C.current = e), M([n], e));
                 };
               },
-              [x, M, y]
+              [R, M, y]
             ),
-            U = (0, a.useCallback)(
+            U = (0, o.useCallback)(
               function (e) {
                 return function (t) {
                   if (!t.isVisible && !C.current) {
-                    var n = x(e, S[e]);
+                    var n = R(e, A[e]);
                     if (!y(n, e)) return void (Z.current && k(Z.current));
                     M([n], e);
                   }
                   C.current = void 0;
                 };
               },
-              [x, S, M, y]
+              [R, A, M, y]
             );
-          (0, a.useEffect)(
+          (0, o.useEffect)(
             function () {
               w.current &&
                 k(function (e) {
-                  return T(T({}, e), {}, { from: I });
+                  return _(_({}, e), {}, { from: I });
                 });
             },
             [I]
           ),
-            (0, a.useEffect)(
+            (0, o.useEffect)(
               function () {
                 w.current &&
                   k(function (e) {
-                    return T(T({}, e), {}, { to: O });
+                    return _(_({}, e), {}, { to: O });
                   });
               },
               [O]
             ),
-            (0, a.useEffect)(function () {
+            (0, o.useEffect)(function () {
               return (
                 (w.current = !0),
                 function () {
@@ -4742,35 +5002,35 @@
                 }
               );
             }, []);
-          var G = (0, a.useCallback)(
+          var G = (0, o.useCallback)(
               function (e) {
                 var t = e.toggle;
                 return (0, r.Z)(b, {
                   label: N('general.from'),
                   name: 'from',
-                  value: S.from,
-                  onChange: R,
+                  value: A.from,
+                  onChange: x,
                   onFocus: z,
                   onClick: t,
                   testId: 'id-filter-duration-trigger-from',
                 });
               },
-              [N, S.from, R, z]
+              [N, A.from, x, z]
             ),
-            Y = (0, a.useCallback)(
+            Y = (0, o.useCallback)(
               function (e) {
                 var t = e.toggle;
                 return (0, r.Z)(b, {
                   label: N('general.to'),
                   name: 'to',
-                  value: S.to,
+                  value: A.to,
                   onFocus: z,
-                  onChange: R,
+                  onChange: x,
                   onClick: t,
                   testId: 'id-filter-duration-trigger-to',
                 });
               },
-              [R, z, S.to, N]
+              [x, z, A.to, N]
             );
           return (0, r.Z)(
             'div',
@@ -4787,7 +5047,7 @@
                 onToggle: U('from'),
               },
               void 0,
-              (0, r.Z)(u.s, { list: j, onChange: F('from') })
+              (0, r.Z)(c.s, { list: P, onChange: F('from') })
             ),
             (0, r.Z)(
               l.L,
@@ -4800,7 +5060,7 @@
                 onToggle: U('to'),
               },
               void 0,
-              (0, r.Z)(u.s, { list: P, onChange: F('to') })
+              (0, r.Z)(c.s, { list: j, onChange: F('to') })
             )
           );
         };
@@ -4809,17 +5069,17 @@
       'use strict';
       n.d(t, {
         e: function () {
-          return T;
+          return _;
         },
       });
       var r = n(22928),
         i = n(45987),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
-        l = n(92667),
-        u = n(86485),
-        c = n(61873),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
+        l = n(73270),
+        c = n(86485),
+        u = n(61873),
         d = 'FilterTrigger_filterTrigger__htca_',
         m = 'FilterTrigger_filterTriggerIcon__2Agtn',
         p = 'FilterTrigger_filterTriggerTitle__3rZqt',
@@ -4840,11 +5100,11 @@
           'onRemove',
         ],
         y = function () {},
-        T = (0, o.forwardRef)(function (e, t) {
+        _ = (0, a.forwardRef)(function (e, t) {
           var n = e.title,
-            a = e.iconName,
-            T = e.content,
-            _ = e.iconCategory,
+            o = e.iconName,
+            _ = e.content,
+            T = e.iconCategory,
             M = e.onClick,
             N = e.className,
             w = e.classNameContent,
@@ -4853,37 +5113,37 @@
             D = void 0 !== Z && Z,
             E = e.onRemove,
             I = (0, i.Z)(e, b),
-            O = (0, u.$G)().t,
+            O = (0, c.$G)().t,
             L = null == I ? void 0 : I['aria-hidden'],
-            A = void 0 !== L && !L,
-            S = (0, o.useMemo)(function () {
-              return (0, c.MX)('--color-neutral-800');
+            S = void 0 !== L && !L,
+            A = (0, a.useMemo)(function () {
+              return (0, u.MX)('--color-neutral-800');
             }, []),
-            k = (0, o.useCallback)(
+            k = (0, a.useCallback)(
               function (e) {
                 e.stopPropagation(), null == E || E(e);
               },
               [E]
             );
-          return o.createElement(
+          return a.createElement(
             l.WA,
             {
               ref: t,
               className: s()(d, N),
               iconClassName: h,
-              isVisible: A,
+              isVisible: S,
               toggle: M || y,
               isOpenable: !!M,
             },
-            a
-              ? (0, r.Z)(l.JO, { name: a, category: _, color: S, className: m })
+            o
+              ? (0, r.Z)(l.JO, { name: o, category: T, color: A, className: m })
               : null,
             n ? (0, r.Z)('strong', { className: p }, void 0, n, ':') : null,
             (0, r.Z)(
               'span',
               { className: s()(g, w) },
               void 0,
-              void 0 !== T ? T : O('general.chooseValues')
+              void 0 !== _ ? _ : O('general.chooseValues')
             ),
             'number' == typeof C
               ? (0, r.Z)(l.AT, { className: f, size: 'small', count: C })
@@ -4898,18 +5158,18 @@
               : null
           );
         });
-      T.displayName = 'FilterTrigger';
+      _.displayName = 'FilterTrigger';
     },
     58920: function (e, t, n) {
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s,
         l,
-        u,
         c,
+        u,
         d = n(87462),
         m = n(22928),
         p = n(70885),
@@ -4925,11 +5185,11 @@
             t = (0, p.Z)(e, 2),
             n = t[0],
             l = t[1],
-            u = (0, b.c)(),
-            c = u.register,
-            d = u.handleSubmit,
-            f = u.formState.errors,
-            T = (0, g.useCallback)(function (e) {
+            c = (0, b.c)(),
+            u = c.register,
+            d = c.handleSubmit,
+            f = c.formState.errors,
+            _ = (0, g.useCallback)(function (e) {
               l(e);
             }, []);
           return (0, m.Z)(
@@ -4938,16 +5198,16 @@
             void 0,
             (0, m.Z)(
               y.l,
-              { onSubmit: d(T) },
+              { onSubmit: d(_) },
               void 0,
-              g.createElement(v.I, c('label', { required: !0 })),
+              g.createElement(v.I, u('label', { required: !0 })),
               r || (r = (0, m.Z)('br', {})),
               null != f && f.label
                 ? i || (i = (0, m.Z)('p', {}, void 0, 'Field required'))
                 : null,
-              o || (o = (0, m.Z)('br', {})),
-              a ||
-                (a = (0, m.Z)(
+              a || (a = (0, m.Z)('br', {})),
+              o ||
+                (o = (0, m.Z)(
                   h.z,
                   { type: 'submit', color: 'primary' },
                   void 0,
@@ -4964,8 +5224,8 @@
             n = t.register,
             r = t.handleSubmit,
             i = t.formState.errors,
-            o = t.getValues,
-            a = t.formState.isValid,
+            a = t.getValues,
+            o = t.formState.isValid,
             s = (0, g.useCallback)(function (e) {
               console.log(e);
             }, []);
@@ -4997,16 +5257,16 @@
                 )
               ),
               l || (l = (0, m.Z)('br', {})),
-              u ||
-                (u = (0, m.Z)(
+              c ||
+                (c = (0, m.Z)(
                   h.z,
                   { type: 'submit', color: 'primary' },
                   void 0,
                   'Submit form'
                 ))
             ),
-            c || (c = (0, m.Z)('br', {})),
-            a ? JSON.stringify(o() || {}) : null
+            u || (u = (0, m.Z)('br', {})),
+            o ? JSON.stringify(a() || {}) : null
           );
         },
       };
@@ -5015,28 +5275,28 @@
       'use strict';
       n.d(t, {
         l: function () {
-          return c;
+          return u;
         },
       });
       var r = n(87462),
         i = n(45987),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
         l = 'Form_form__2TM1N',
-        u = ['children', 'onSubmit', 'className'],
-        c = (0, o.forwardRef)(function (e, t) {
+        c = ['children', 'onSubmit', 'className'],
+        u = (0, a.forwardRef)(function (e, t) {
           var n = e.children,
-            a = e.onSubmit,
-            c =
-              void 0 === a
+            o = e.onSubmit,
+            u =
+              void 0 === o
                 ? function (e) {
                     return e.preventDefault();
                   }
-                : a,
+                : o,
             d = e.className,
-            m = (0, i.Z)(e, u);
-          return o.createElement(
+            m = (0, i.Z)(e, c);
+          return a.createElement(
             'form',
             (0, r.Z)(
               {
@@ -5044,7 +5304,7 @@
                 noValidate: !0,
                 action: '#',
                 className: s()(l, d),
-                onSubmit: c,
+                onSubmit: u,
               },
               m,
               { ref: t }
@@ -5052,7 +5312,7 @@
             n
           );
         });
-      c.displayName = 'Form';
+      u.displayName = 'Form';
     },
     71669: function (e, t, n) {
       'use strict';
@@ -5071,13 +5331,13 @@
       'use strict';
       n.d(t, {
         c: function () {
-          return c;
+          return u;
         },
       });
       var r = n(4942),
         i = n(45987),
-        o = n(42283),
-        a = n(28834),
+        a = n(42283),
+        o = n(28834),
         s = ['schema'];
       function l(e, t) {
         var n = Object.keys(e);
@@ -5091,7 +5351,7 @@
         }
         return n;
       }
-      function u(e) {
+      function c(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
@@ -5110,12 +5370,12 @@
         }
         return e;
       }
-      var c = function (e) {
+      var u = function (e) {
         var t = e || {},
           n = t.schema,
           r = (0, i.Z)(t, s);
-        return (0, o.cI)(
-          u(u({}, r), {}, { resolver: n ? (0, a.X)(n) : void 0 })
+        return (0, a.cI)(
+          c(c({}, r), {}, { resolver: n ? (0, o.X)(n) : void 0 })
         );
       };
     },
@@ -5123,12 +5383,12 @@
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s,
         l,
-        u,
         c,
+        u,
         d = n(22928),
         m = n(67294),
         p = n(93758),
@@ -5323,8 +5583,8 @@
         },
         PolymorphicIcon: function () {
           return (
-            o ||
-            (o = (0, d.Z)(
+            a ||
+            (a = (0, d.Z)(
               m.Fragment,
               {},
               void 0,
@@ -5356,8 +5616,8 @@
               m.Fragment,
               {},
               void 0,
-              a ||
-                (a = (0, d.Z)(p.J, {
+              o ||
+                (o = (0, d.Z)(p.J, {
                   as: 'button',
                   name: 'icon-close',
                   size: '2rem',
@@ -5370,7 +5630,7 @@
                   size: '2rem',
                   disabled: !0,
                 })),
-              u || (u = (0, d.Z)('br', {})),
+              c || (c = (0, d.Z)('br', {})),
               m.createElement(p.J, {
                 ref: e,
                 as: 'a',
@@ -5383,8 +5643,8 @@
         },
         FromMaterialDesign: function () {
           return (
-            c ||
-            (c = (0, d.Z)(
+            u ||
+            (u = (0, d.Z)(
               m.Fragment,
               {},
               void 0,
@@ -5409,17 +5669,17 @@
       'use strict';
       n.d(t, {
         J: function () {
-          return T;
+          return _;
         },
       });
       var r = n(15861),
         i = n(22928),
-        o = n(4942),
-        a = n(70885),
+        a = n(4942),
+        o = n(70885),
         s = n(45987),
         l = n(87757),
-        u = n.n(l),
-        c = n(67294),
+        c = n.n(l),
+        u = n(67294),
         d = n(94184),
         m = n.n(d),
         p = 'Icon_icon__7KZWD',
@@ -5453,7 +5713,7 @@
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
             ? b(Object(n), !0).forEach(function (t) {
-                (0, o.Z)(e, t, n[t]);
+                (0, a.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
@@ -5467,12 +5727,12 @@
         }
         return e;
       }
-      var T = (0, c.forwardRef)(function (e, t) {
+      var _ = (0, u.forwardRef)(function (e, t) {
         var l,
           d = e.as,
           b = e.name,
-          T = e.size,
-          _ = void 0 === T ? '1.25rem' : T,
+          _ = e.size,
+          T = void 0 === _ ? '1.25rem' : _,
           M = e.color,
           N = void 0 === M ? 'currentColor' : M,
           w = e.className,
@@ -5482,13 +5742,13 @@
           E = e.isSpacing,
           I = void 0 !== E && E,
           O = (0, s.Z)(e, h),
-          L = (0, c.useRef)(!1),
-          A = (0, c.useState)('modern' !== C ? f : v),
-          S = (0, a.Z)(A, 2),
-          k = S[0],
-          j = S[1],
-          P = m()(p, w, (0, o.Z)({}, g, I)),
-          x = (0, c.useMemo)(
+          L = (0, u.useRef)(!1),
+          S = (0, u.useState)('modern' !== C ? f : v),
+          A = (0, o.Z)(S, 2),
+          k = A[0],
+          P = A[1],
+          j = m()(p, w, (0, a.Z)({}, g, I)),
+          R = (0, u.useMemo)(
             function () {
               return C && 'modern' !== C
                 ? ''.concat(k, '#ic_').concat(b, '_24px')
@@ -5496,35 +5756,35 @@
             },
             [C, b, k]
           ),
-          R = (0, c.useMemo)(
+          x = (0, u.useMemo)(
             function () {
               return b
-                ? (0, c.createElement)(
+                ? (0, u.createElement)(
                     d || 'span',
                     y(
                       y({}, O),
                       {},
-                      { ref: t, className: P, 'data-name': b, 'data-testid': D }
+                      { ref: t, className: j, 'data-name': b, 'data-testid': D }
                     ),
                     l ||
                       (l = (0, i.Z)(
                         'svg',
-                        { width: _, height: _, 'data-testid': 'id-icon-svg' },
+                        { width: T, height: T, 'data-testid': 'id-icon-svg' },
                         void 0,
-                        (0, i.Z)('use', { href: x, fill: N })
+                        (0, i.Z)('use', { href: R, fill: N })
                       ))
                   )
                 : null;
             },
-            [d, P, N, x, b, t, O, _, D]
+            [d, j, N, R, b, t, O, T, D]
           );
         return (
-          (0, c.useEffect)(
+          (0, u.useEffect)(
             function () {
               (0, r.Z)(
-                u().mark(function e() {
+                c().mark(function e() {
                   var t;
-                  return u().wrap(
+                  return c().wrap(
                     function (e) {
                       for (;;)
                         switch ((e.prev = e.next)) {
@@ -5538,7 +5798,7 @@
                               n(21259)('./svg-sprite-'.concat(C, '-symbol.svg'))
                             );
                           case 4:
-                            (t = e.sent), L.current && j(t.default);
+                            (t = e.sent), L.current && P(t.default);
                           case 6:
                             e.next = 11;
                             break;
@@ -5560,7 +5820,7 @@
             },
             [b]
           ),
-          (0, c.useEffect)(function () {
+          (0, u.useEffect)(function () {
             return (
               (L.current = !0),
               function () {
@@ -5568,10 +5828,10 @@
               }
             );
           }, []),
-          R
+          x
         );
       });
-      T.displayName = 'Icon';
+      _.displayName = 'Icon';
     },
     69088: function (e, t, n) {
       'use strict';
@@ -5586,34 +5846,34 @@
       'use strict';
       var r,
         i = n(70885),
-        o = n(22928),
-        a = n(67294),
+        a = n(22928),
+        o = n(67294),
         s = n(91774);
       t.Z = {
         Default: function () {
           return (
             r ||
-            (r = (0, o.Z)(
+            (r = (0, a.Z)(
               'form',
               { action: '#' },
               void 0,
-              (0, o.Z)(s.I, { name: 'test' })
+              (0, a.Z)(s.I, { name: 'test' })
             ))
           );
         },
         Controlled: function () {
-          var e = (0, a.useState)(''),
+          var e = (0, o.useState)(''),
             t = (0, i.Z)(e, 2),
             n = t[0],
             r = t[1],
-            l = (0, a.useCallback)(function (e) {
+            l = (0, o.useCallback)(function (e) {
               r(e.target.value);
             }, []);
-          return (0, o.Z)(
+          return (0, a.Z)(
             'form',
             { action: '#' },
             void 0,
-            (0, o.Z)(s.I, { name: 'test', value: n, onChange: l }),
+            (0, a.Z)(s.I, { name: 'test', value: n, onChange: l }),
             n
           );
         },
@@ -5623,20 +5883,20 @@
       'use strict';
       n.d(t, {
         I: function () {
-          return c;
+          return u;
         },
       });
       var r = n(87462),
         i = n(45987),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
         l = { input: 'Input_input__3PNbO', search: 'Input_search__1ZUHP' },
-        u = ['type', 'id', 'autoComplete', 'className'],
-        c = (0, o.forwardRef)(function (e, t) {
+        c = ['type', 'id', 'autoComplete', 'className'],
+        u = (0, a.forwardRef)(function (e, t) {
           var n,
-            a,
-            c,
+            o,
+            u,
             d = e.type,
             m = void 0 === d ? 'text' : d,
             p = e.id,
@@ -5645,12 +5905,12 @@
                 ? 'f'.concat(
                     (null !==
                       (n =
-                        null === (a = window) ||
-                        void 0 === a ||
-                        null === (c = a.performance) ||
-                        void 0 === c
+                        null === (o = window) ||
+                        void 0 === o ||
+                        null === (u = o.performance) ||
+                        void 0 === u
                           ? void 0
-                          : c.now()) && void 0 !== n
+                          : u.now()) && void 0 !== n
                       ? n
                       : Date.now()
                     ).toString(16)
@@ -5659,8 +5919,8 @@
             f = e.autoComplete,
             v = void 0 === f ? 'off' : f,
             h = e.className,
-            b = (0, i.Z)(e, u);
-          return o.createElement(
+            b = (0, i.Z)(e, c);
+          return a.createElement(
             'input',
             (0, r.Z)({ 'data-testid': 'id-input' }, b, {
               id: g,
@@ -5671,7 +5931,7 @@
             })
           );
         });
-      c.displayName = 'Input';
+      u.displayName = 'Input';
     },
     61719: function (e, t, n) {
       'use strict';
@@ -5686,18 +5946,18 @@
       'use strict';
       var r,
         i = n(22928),
-        o = n(67294),
-        a = n(34395);
+        a = n(67294),
+        o = n(34395);
       t.Z = {
         Default: function () {
           return (
             r ||
             (r = (0, i.Z)(
-              o.Fragment,
+              a.Fragment,
               {},
               void 0,
               (0, i.Z)(
-                a.W,
+                o.W,
                 { label: 'Label' },
                 void 0,
                 (0, i.Z)('input', { type: 'text', name: 'text' })
@@ -5705,7 +5965,7 @@
               (0, i.Z)('br', {}),
               (0, i.Z)('br', {}),
               (0, i.Z)(
-                a.W,
+                o.W,
                 { label: 'Label', error: 'Error text' },
                 void 0,
                 (0, i.Z)('input', { type: 'text', name: 'text' })
@@ -5719,28 +5979,28 @@
       'use strict';
       n.d(t, {
         W: function () {
-          return u;
+          return c;
         },
       });
       var r = n(22928),
         i = (n(67294), n(94184)),
-        o = n.n(i),
-        a = 'InputBox_inputBox__371Qg',
+        a = n.n(i),
+        o = 'InputBox_inputBox__371Qg',
         s = 'InputBox_inputLabel__Ia8tz',
         l = 'InputBox_inputError__3Y-u1',
-        u = function (e) {
+        c = function (e) {
           var t = e.error,
             n = e.htmlFor,
             i = e.label,
-            u = e.className,
-            c = e.children;
-          return i || c
+            c = e.className,
+            u = e.children;
+          return i || u
             ? (0, r.Z)(
                 'div',
-                { 'data-testid': 'id-input-box', className: o()(a, u) },
+                { 'data-testid': 'id-input-box', className: a()(o, c) },
                 void 0,
                 (0, r.Z)('label', { htmlFor: n, className: s }, void 0, i),
-                c,
+                u,
                 t
                   ? (0, r.Z)(
                       'span',
@@ -5766,31 +6026,31 @@
       'use strict';
       var r,
         i,
-        o = n(22928),
-        a = (n(67294), n(97570));
+        a = n(22928),
+        o = (n(67294), n(97570));
       t.Z = {
         Radio: function () {
           return (
             r ||
-            (r = (0, o.Z)(
+            (r = (0, a.Z)(
               'form',
               { action: '#' },
               void 0,
-              (0, o.Z)(a.r, {
+              (0, a.Z)(o.r, {
                 id: 'id-1',
                 name: 'text',
                 value: 1,
                 label: 'Text 1',
               }),
-              (0, o.Z)('br', {}),
-              (0, o.Z)(a.r, {
+              (0, a.Z)('br', {}),
+              (0, a.Z)(o.r, {
                 id: 'id-2',
                 name: 'text',
                 value: 2,
                 label: 'Text 2',
               }),
-              (0, o.Z)('br', {}),
-              (0, o.Z)(a.r, {
+              (0, a.Z)('br', {}),
+              (0, a.Z)(o.r, {
                 id: 'id-3',
                 name: 'text',
                 value: 3,
@@ -5802,25 +6062,25 @@
         Checkbox: function () {
           return (
             i ||
-            (i = (0, o.Z)(
+            (i = (0, a.Z)(
               'form',
               { action: '#' },
               void 0,
-              (0, o.Z)(a.o, {
+              (0, a.Z)(o.o, {
                 id: 'id-1',
                 name: 'text',
                 value: 1,
                 label: 'Text 1',
               }),
-              (0, o.Z)('br', {}),
-              (0, o.Z)(a.o, {
+              (0, a.Z)('br', {}),
+              (0, a.Z)(o.o, {
                 id: 'id-2',
                 name: 'text',
                 value: 2,
                 label: 'Text 2',
               }),
-              (0, o.Z)('br', {}),
-              (0, o.Z)(a.o, {
+              (0, a.Z)('br', {}),
+              (0, a.Z)(o.o, {
                 id: 'id-3',
                 name: 'text',
                 value: 3,
@@ -5843,12 +6103,12 @@
       });
       var r = n(87462),
         i = n(67294),
-        o = n(22928),
-        a = n(45987),
+        a = n(22928),
+        o = n(45987),
         s = n(94184),
         l = n.n(s),
-        u = n(69088),
-        c = 'InputSelectionControls_inputSelectionControlsWrapper__3Lqnk',
+        c = n(69088),
+        u = 'InputSelectionControls_inputSelectionControlsWrapper__3Lqnk',
         d = 'InputSelectionControls_inputSelectionControlsIcon__NliHO',
         m = 'InputSelectionControls_inputSelectionControlsIconWrapper__2tQq1',
         p = 'InputSelectionControls_inputSelectionControlsInput__1NwTt',
@@ -5861,9 +6121,9 @@
             h = e.className,
             b = e.classNameLabel,
             y = e.style,
-            T = (0, a.Z)(e, f);
+            _ = (0, o.Z)(e, f);
           return (0,
-          o.Z)('label', { className: l()(c, h), style: y }, void 0, i.createElement('input', (0, r.Z)({ 'data-testid': 'id-input-selection-controls' }, T, { ref: t, className: p, type: s })), (0, o.Z)('span', { className: m }, void 0, (0, o.Z)(u.J, { className: d, name: 'icon-check-mark-2', size: '0.625rem' })), v ? (0, o.Z)('span', { 'data-testid': 'id-input-selection-controls-label', className: l()(g, b) }, void 0, v) : null);
+          a.Z)('label', { className: l()(u, h), style: y }, void 0, i.createElement('input', (0, r.Z)({ 'data-testid': 'id-input-selection-controls' }, _, { ref: t, className: p, type: s })), (0, a.Z)('span', { className: m }, void 0, (0, a.Z)(c.J, { className: d, name: 'icon-check-mark-2', size: '0.625rem' })), v ? (0, a.Z)('span', { 'data-testid': 'id-input-selection-controls-label', className: l()(g, b) }, void 0, v) : null);
         });
       v.displayName = 'InputSelectionControls';
       var h = (0, i.forwardRef)(function (e, t) {
@@ -5882,7 +6142,7 @@
       'use strict';
       var r,
         i = n(22928),
-        o = (n(67294), n(80562));
+        a = (n(67294), n(80562));
       t.Z = {
         Default: function () {
           return (
@@ -5897,7 +6157,7 @@
                 void 0,
                 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum asperiores odit eveniet delectus obcaecati perferendis. Iste, quo vero nobis dolor id reiciendis tempora odio expedita delectus, eos, eligendi ad. Ratione.'
               ),
-              (0, i.Z)(o.a, {})
+              (0, i.Z)(a.a, {})
             ))
           );
         },
@@ -5912,12 +6172,12 @@
       });
       var r = n(22928),
         i = (n(67294), n(94184)),
-        o = n.n(i),
-        a = n(62596),
+        a = n.n(i),
+        o = n(62596),
         s = 'Loader_loaderOverlay__LGELf',
         l = 'Loader_loaderWrapper__2wuez',
-        u = 'Loader_loader__1j2Bs',
-        c = 'Loader_loaderText__2-E48',
+        c = 'Loader_loader__1j2Bs',
+        u = 'Loader_loaderText__2-E48',
         d = 'Loader_bar1__1T8rd',
         m = 'Loader_bar2__3bt3r',
         p = 'Loader_bar3__386ht',
@@ -5928,7 +6188,7 @@
             n = e.classNameOverlay;
           return (0, r.Z)(
             'div',
-            { 'data-testid': 'id-loader', className: o()(s, n) },
+            { 'data-testid': 'id-loader', className: a()(s, n) },
             void 0,
             (0, r.Z)(
               'div',
@@ -5936,7 +6196,7 @@
               void 0,
               (0, r.Z)(
                 'div',
-                { className: o()(u, t) },
+                { className: a()(c, t) },
                 void 0,
                 (0, r.Z)('div', { className: d }),
                 (0, r.Z)('div', { className: m }),
@@ -5946,9 +6206,9 @@
               ),
               (0, r.Z)(
                 'div',
-                { className: c },
+                { className: u },
                 void 0,
-                a.Z.t('general.loading')
+                o.Z.t('general.loading')
               )
             )
           );
@@ -5966,12 +6226,12 @@
       });
       var r = n(4942),
         i = n(22928),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
         l = n(86485),
-        u = n(20404),
-        c = n(41198),
+        c = n(20404),
+        u = n(41198),
         d = 'Modal_modal__P3_V5',
         m = 'Modal_isHidden__3utxB',
         p = 'Modal_modalHeader__2ik2T',
@@ -5981,12 +6241,12 @@
         h = function (e) {
           var t = e.width,
             n = e.children,
-            a = e.title,
+            o = e.title,
             h = e.isOpen,
             b = void 0 !== h && h,
             y = e.isHidden,
-            T = e.onClose,
-            _ = e.className,
+            _ = e.onClose,
+            T = e.className,
             M = e.classNameHeader,
             N = e.classNameContent,
             w = e.closeOnOverlayClick,
@@ -5995,38 +6255,38 @@
             D = void 0 === Z || Z,
             E = e.closeOnEscape,
             I = void 0 === E || E,
-            O = (0, o.useMemo)(
+            O = (0, a.useMemo)(
               function () {
                 return { width: t };
               },
               [t]
             );
-          (0, l.Zu)(I ? T : void 0),
-            (0, o.useEffect)(
+          (0, l.Zu)(I ? _ : void 0),
+            (0, a.useEffect)(
               function () {
                 window.document.documentElement.classList.toggle(v, b);
               },
               [b]
             );
           var L =
-              'string' == typeof a
+              'string' == typeof o
                 ? (0, i.Z)(
-                    c.D,
+                    u.D,
                     { 'data-testid': 'modalComponentTitle', type: 'h2' },
                     void 0,
-                    a
+                    o
                   )
-                : a,
-            A = b
+                : o,
+            S = b
               ? (0, i.Z)(
-                  o.Fragment,
+                  a.Fragment,
                   {},
                   void 0,
                   (0, i.Z)(
                     'div',
                     {
                       'data-testid': 'modalComponent',
-                      className: s()(d, _, (0, r.Z)({}, m, y)),
+                      className: s()(d, T, (0, r.Z)({}, m, y)),
                       style: O,
                     },
                     void 0,
@@ -6037,12 +6297,12 @@
                   ),
                   (0, i.Z)('div', {
                     'data-testid': 'modalComponentOverlay',
-                    onClick: C ? T : void 0,
+                    onClick: C ? _ : void 0,
                     className: s()('js-overlay', f, (0, r.Z)({}, m, y)),
                   })
                 )
               : null;
-          return D ? (0, i.Z)(u.h, { id: 'id-modals' }, void 0, A) : A;
+          return D ? (0, i.Z)(c.h, { id: 'id-modals' }, void 0, S) : S;
         },
         b = n(70885),
         y = function () {
@@ -6052,34 +6312,34 @@
                 : {},
             t = e.isOpen,
             n = void 0 !== t && t,
-            r = (0, o.useState)(n),
+            r = (0, a.useState)(n),
             i = (0, b.Z)(r, 2),
-            a = i[0],
+            o = i[0],
             s = i[1],
-            l = (0, o.useState)(),
-            u = (0, b.Z)(l, 2),
-            c = u[0],
-            d = u[1],
-            m = (0, o.useCallback)(function () {
+            l = (0, a.useState)(),
+            c = (0, b.Z)(l, 2),
+            u = c[0],
+            d = c[1],
+            m = (0, a.useCallback)(function () {
               return s(function (e) {
                 return !e;
               });
             }, []),
-            p = (0, o.useCallback)(function () {
+            p = (0, a.useCallback)(function () {
               return s(!0);
             }, []),
-            g = (0, o.useCallback)(function () {
+            g = (0, a.useCallback)(function () {
               s(!1), d(void 0);
             }, []),
-            f = (0, o.useCallback)(function () {
+            f = (0, a.useCallback)(function () {
               return d(!0);
             }, []),
-            v = (0, o.useCallback)(function () {
+            v = (0, a.useCallback)(function () {
               return d(!1);
             }, []);
           return {
-            isOpen: a,
-            isHidden: c,
+            isOpen: o,
+            isHidden: u,
             showModal: v,
             hideModal: f,
             toggleModal: m,
@@ -6101,12 +6361,12 @@
       });
       var r = n(87462),
         i = n(22928),
-        o = n(45987),
-        a = n(67294),
+        a = n(45987),
+        o = n(67294),
         s = n(86485),
-        l = n(92667),
-        u = 'ModalConfirm_modalConfirmFooter__1lYwd',
-        c = 'ModalConfirm_modalConfirmButton__q7-pz',
+        l = n(73270),
+        c = 'ModalConfirm_modalConfirmFooter__1lYwd',
+        u = 'ModalConfirm_modalConfirmButton__q7-pz',
         d = 'ModalConfirm_modalCancelButton__3_d7U',
         m = [
           'children',
@@ -6120,22 +6380,22 @@
             p = e.confirmButtonColor,
             g = void 0 === p ? 'primary' : p,
             f = e.onConfirm,
-            v = (0, o.Z)(e, m),
+            v = (0, a.Z)(e, m),
             h = (0, s.$G)().t,
-            b = (0, a.useCallback)(
+            b = (0, o.useCallback)(
               function () {
                 v.onClose(), f();
               },
               [f, v]
             );
           return v.isOpen
-            ? a.createElement(
+            ? o.createElement(
                 l.u_,
                 (0, r.Z)({ title: h('general.confirm') }, v),
                 t,
                 (0, i.Z)(
                   'footer',
-                  { className: u },
+                  { className: c },
                   void 0,
                   (0, i.Z)(
                     l.zx,
@@ -6145,7 +6405,7 @@
                   ),
                   (0, i.Z)(
                     l.zx,
-                    { color: g, onClick: b, className: c },
+                    { color: g, onClick: b, className: u },
                     void 0,
                     n || h('general.ok')
                   )
@@ -6161,9 +6421,9 @@
         f = ['children'],
         v = function (e) {
           var t = e.children,
-            n = (0, o.Z)(e, f),
-            u = (0, s.$G)().t;
-          return a.createElement(
+            n = (0, a.Z)(e, f),
+            c = (0, s.$G)().t;
+          return o.createElement(
             l.u_,
             (0, r.Z)({}, n, {
               classNameHeader: g.modalAlertHeader,
@@ -6182,7 +6442,7 @@
                   className: g.modalAlertButton,
                 },
                 void 0,
-                u('general.ok')
+                c('general.ok')
               )
             )
           );
@@ -6197,12 +6457,12 @@
       });
       var r,
         i = n(22928),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
-        l = n(92667),
-        u = n(69088),
-        c = 'Pagination_pagination__2plzt',
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
+        l = n(73270),
+        c = n(69088),
+        u = 'Pagination_pagination__2plzt',
         d = 'Pagination_paginationControlsPrev__2aYbJ',
         m = 'Pagination_paginationControlsNext__1oTyK',
         p = 'Pagination_paginationContent__1FKtv',
@@ -6210,32 +6470,32 @@
         f = function (e) {
           var t = e.total,
             n = e.itemsPerPage,
-            a = void 0 === n ? 5 : n,
+            o = void 0 === n ? 5 : n,
             f = e.currentPage,
             v = e.onChange,
             h = e.className,
             b = e.contentClassName,
             y = e.controlsClassName,
-            T = e.children,
-            _ = (0, o.useMemo)(
+            _ = e.children,
+            T = (0, a.useMemo)(
               function () {
-                return t ? Math.ceil(t / a) : void 0;
+                return t ? Math.ceil(t / o) : void 0;
               },
-              [a, t]
+              [o, t]
             ),
-            M = (0, o.useMemo)(
+            M = (0, a.useMemo)(
               function () {
                 if (f) {
-                  var e = 1 === f ? 0 : a * (f - 1);
+                  var e = 1 === f ? 0 : o * (f - 1);
                   return (
-                    f === _ && (e = (f - 1) * a),
-                    { start: (e += 1), end: f !== _ ? a * f : t, total: t }
+                    f === T && (e = (f - 1) * o),
+                    { start: (e += 1), end: f !== T ? o * f : t, total: t }
                   );
                 }
               },
-              [f, a, t, _]
+              [f, o, t, T]
             ),
-            N = (0, o.useCallback)(
+            N = (0, a.useCallback)(
               function (e) {
                 return function () {
                   null == v || v(f + e);
@@ -6243,18 +6503,18 @@
               },
               [f, v]
             );
-          return !t || !f || t < a
+          return !t || !f || t < o
             ? null
             : (0, i.Z)(
                 'div',
-                { className: s()(c, h) },
+                { className: s()(u, h) },
                 void 0,
-                T,
+                _,
                 (0, i.Z)(
                   'div',
                   { className: s()(g, y) },
                   void 0,
-                  (0, i.Z)(u.J, {
+                  (0, i.Z)(c.J, {
                     as: 'button',
                     type: 'button',
                     size: '1.375rem',
@@ -6263,11 +6523,11 @@
                     className: d,
                     onClick: N(-1),
                   }),
-                  (0, i.Z)(u.J, {
+                  (0, i.Z)(c.J, {
                     as: 'button',
                     type: 'button',
                     size: '1.375rem',
-                    disabled: _ === f,
+                    disabled: T === f,
                     name: 'icon-down-open-mini',
                     className: m,
                     onClick: N(1),
@@ -6290,12 +6550,12 @@
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s = n(22928),
         l = n(67294),
-        u = n(92667),
-        c = n(6026),
+        c = n(73270),
+        u = n(6026),
         d = l.forwardRef(function (e, t) {
           return l.createElement(
             'div',
@@ -6306,7 +6566,7 @@
           );
         });
       d.displayName = 'ChildComponent';
-      var m = (0, u.YZ)({
+      var m = (0, c.YZ)({
           title: 'Hello',
           content: (0, s.Z)('div', {}, void 0, 'open dropdown'),
           isRemovable: !1,
@@ -6347,7 +6607,7 @@
               },
             },
             void 0,
-            l.createElement(c.J, p, i || (i = (0, s.Z)(d, {})))
+            l.createElement(u.J, p, i || (i = (0, s.Z)(d, {})))
           );
         },
         InDropdown: function () {
@@ -6356,14 +6616,14 @@
             {},
             void 0,
             (0, s.Z)(
-              u.Lt,
+              c.Lt,
               { usePortals: !0, width: '100px', Trigger: m },
               void 0,
-              o || (o = (0, s.Z)('div', {}, void 0, 'inside content')),
+              a || (a = (0, s.Z)('div', {}, void 0, 'inside content')),
               l.createElement(
-                c.J,
+                u.J,
                 g,
-                a || (a = (0, s.Z)('div', {}, void 0, 'inside with tippy'))
+                o || (o = (0, s.Z)('div', {}, void 0, 'inside with tippy'))
               )
             )
           );
@@ -6379,38 +6639,38 @@
       });
       var r = n(87462),
         i = n(45987),
-        o = n(67294),
-        a = n(87275),
+        a = n(67294),
+        o = n(87275),
         s = (n(68710), n(8363), ['children']),
         l = function (e) {
           var t = e.children,
             n = (0, i.Z)(e, s);
-          return o.createElement(a.ZP, (0, r.Z)({ theme: 'light' }, n), t);
+          return a.createElement(o.ZP, (0, r.Z)({ theme: 'light' }, n), t);
         };
     },
     17230: function (e, t, n) {
       'use strict';
       var r,
         i = n(22928),
-        o = n(70885),
-        a = n(67294),
+        a = n(70885),
+        o = n(67294),
         s = n(26387);
       t.Z = {
         Defaults: function () {
-          var e = (0, a.useState)(!0),
-            t = (0, o.Z)(e, 2),
+          var e = (0, o.useState)(!0),
+            t = (0, a.Z)(e, 2),
             n = t[0],
             l = t[1],
-            u = (0, a.useCallback)(function () {
+            c = (0, o.useCallback)(function () {
               return l(function (e) {
                 return !e;
               });
             }, []);
           return (0, i.Z)(
-            a.Fragment,
+            o.Fragment,
             {},
             void 0,
-            (0, i.Z)('button', { onClick: u }, void 0, 'Toggle portal'),
+            (0, i.Z)('button', { onClick: c }, void 0, 'Toggle portal'),
             n
               ? r ||
                   (r = (0, i.Z)(
@@ -6433,42 +6693,42 @@
       'use strict';
       n.d(t, {
         h: function () {
-          return o;
+          return a;
         },
       });
       var r = n(67294),
         i = n(73935),
-        o = function (e) {
+        a = function (e) {
           var t = e.testId,
             n = void 0 === t ? 'portalComponent' : t,
-            o = e.children,
-            a = e.id,
+            a = e.children,
+            o = e.id,
             s = e.mount,
             l = e.className,
-            u = (0, r.useRef)(!1),
-            c = (0, r.useMemo)(
+            c = (0, r.useRef)(!1),
+            u = (0, r.useMemo)(
               function () {
-                if (!a) return null;
-                var e = document.getElementById(a);
+                if (!o) return null;
+                var e = document.getElementById(o);
                 return (
                   e ||
-                    (((e = document.createElement('div')).id = a),
+                    (((e = document.createElement('div')).id = o),
                     e.setAttribute('data-testid', n),
                     s ? s.current.appendChild(e) : document.body.appendChild(e),
-                    (u.current = !0)),
+                    (c.current = !0)),
                   l && (e.className = l),
                   e
                 );
               },
-              [a, l, n, s]
+              [o, l, n, s]
             );
           return (
             (0, r.useEffect)(function () {
               return function () {
-                c && u.current && c.remove();
+                u && c.current && u.remove();
               };
             }, []),
-            c && o ? (0, i.createPortal)(o, c) : null
+            u && a ? (0, i.createPortal)(a, u) : null
           );
         };
     },
@@ -6485,21 +6745,21 @@
       'use strict';
       var r = n(22928),
         i = n(70885),
-        o = n(67294),
-        a = n(28154);
+        a = n(67294),
+        o = n(28154);
       t.Z = {
         Default: function () {
-          var e = (0, o.useState)('2'),
+          var e = (0, a.useState)('2'),
             t = (0, i.Z)(e, 2),
             n = t[0],
             s = t[1],
-            l = (0, o.useCallback)(
+            l = (0, a.useCallback)(
               function (e) {
                 s(e);
               },
               [s]
             );
-          return (0, r.Z)(a.G, {
+          return (0, r.Z)(o.G, {
             value: n,
             items: [
               { value: '1', children: 'Radio' },
@@ -6520,17 +6780,17 @@
       });
       var r = n(22928),
         i = n(4942),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
         l = 'RadioButtons_radioButtons__1SbmU',
-        u = 'RadioButtons_radioButtonsLabel__2KHzr',
-        c = 'RadioButtons_checked__3fH9s',
+        c = 'RadioButtons_radioButtonsLabel__2KHzr',
+        u = 'RadioButtons_checked__3fH9s',
         d = 'RadioButtons_radioButtonsInput__27GpD',
         m = function (e) {
           var t,
             n,
-            a,
+            o,
             m = e.items,
             p = void 0 === m ? [] : m,
             g = e.value,
@@ -6542,17 +6802,17 @@
                       (t =
                         null === (n = window) ||
                         void 0 === n ||
-                        null === (a = n.performance) ||
-                        void 0 === a
+                        null === (o = n.performance) ||
+                        void 0 === o
                           ? void 0
-                          : a.now()) && void 0 !== t
+                          : o.now()) && void 0 !== t
                       ? t
                       : Date.now()
                     ).toString(16)
                   )
                 : f,
             h = e.onChange,
-            b = (0, o.useCallback)(
+            b = (0, a.useCallback)(
               function (e) {
                 return function () {
                   h(e);
@@ -6567,7 +6827,7 @@
                 void 0,
                 p.map(function (e, t) {
                   return (0,
-                  r.Z)('label', { 'data-testid': 'id-radio-buttons-item-'.concat(t), className: s()(u, (0, i.Z)({}, c, e.value === g)) }, t, (0, r.Z)('input', { type: 'radio', name: v, className: d, value: e.value, checked: e.value === g, onChange: b(e.value) }), e.children);
+                  r.Z)('label', { 'data-testid': 'id-radio-buttons-item-'.concat(t), className: s()(c, (0, i.Z)({}, u, e.value === g)) }, t, (0, r.Z)('input', { type: 'radio', name: v, className: d, value: e.value, checked: e.value === g, onChange: b(e.value) }), e.children);
                 })
               )
             : null;
@@ -6577,16 +6837,16 @@
       'use strict';
       n.d(t, {
         $: function () {
-          return u;
+          return c;
         },
         Z: function () {
-          return c;
+          return u;
         },
       });
       var r = n(22928),
         i = n(67294),
-        o = n(94184),
-        a = n.n(o),
+        a = n(94184),
+        o = n.n(a),
         s = n(61873),
         l = {
           spinnerWrapper: 'Spinner_spinnerWrapper__3aSfa',
@@ -6598,35 +6858,35 @@
           rect5: 'Spinner_rect5__3o6K8',
           rect6: 'Spinner_rect6__3AwAk',
         },
-        u = function (e) {
+        c = function (e) {
           var t = e.style,
             n = e.className,
-            o = e.color,
-            u = void 0 === o ? (0, s.MX)('--color-neutral-700') : o,
-            c = (0, i.useMemo)(
+            a = e.color,
+            c = void 0 === a ? (0, s.MX)('--color-neutral-700') : a,
+            u = (0, i.useMemo)(
               function () {
-                return { backgroundColor: u };
+                return { backgroundColor: c };
               },
-              [u]
+              [c]
             );
           return (0, r.Z)(
             'div',
-            { style: t, className: a()(l.spinner, n) },
+            { style: t, className: o()(l.spinner, n) },
             void 0,
             Array.from({ length: 6 }, function (e, t) {
               return t;
             }).map(function (e) {
               return (0,
-              r.Z)('div', { className: l['rect'.concat(e + 1)], style: c }, e);
+              r.Z)('div', { className: l['rect'.concat(e + 1)], style: u }, e);
             })
           );
         },
-        c = function (e) {
+        u = function (e) {
           var t = e.className,
             n = e.children;
           return (0, r.Z)(
             'div',
-            { className: a()(l.spinnerWrapper, t) },
+            { className: o()(l.spinnerWrapper, t) },
             void 0,
             n
           );
@@ -6636,7 +6896,7 @@
       'use strict';
       var r = n(22928),
         i = n(67294),
-        o = n(22910);
+        a = n(22910);
       t.Z = {
         Default: function () {
           var e = (0, i.useMemo)(function () {
@@ -6657,7 +6917,7 @@
                 },
               ];
             }, []);
-          return (0, r.Z)(o.i, { list: e, config: t });
+          return (0, r.Z)(a.i, { list: e, config: t });
         },
         RowSpan: function () {
           var e = (0, i.useMemo)(function () {
@@ -6686,7 +6946,7 @@
                 },
               ];
             }, []);
-          return (0, r.Z)(o.i, { list: e, config: t, className: 'c-table' });
+          return (0, r.Z)(a.i, { list: e, config: t, className: 'c-table' });
         },
         StickyColumn: function () {
           var e = (0, i.useMemo)(function () {
@@ -6706,7 +6966,7 @@
                 };
               });
             }, []);
-          return (0, r.Z)(o.i, { list: e, config: t });
+          return (0, r.Z)(a.i, { list: e, config: t });
         },
         CustomHeaderRow: function () {
           var e = (0, i.useMemo)(function () {
@@ -6733,7 +6993,7 @@
                 };
               });
             }, []);
-          return (0, r.Z)(o.i, { list: e, config: n, headerConfig: t });
+          return (0, r.Z)(a.i, { list: e, config: n, headerConfig: t });
         },
         CustomHeaderRows: function () {
           var e = (0, i.useMemo)(function () {
@@ -6770,7 +7030,7 @@
                 };
               });
             }, []);
-          return (0, r.Z)(o.i, { list: e, config: n, headerConfig: t });
+          return (0, r.Z)(a.i, { list: e, config: n, headerConfig: t });
         },
       };
     },
@@ -6778,17 +7038,17 @@
       'use strict';
       n.d(t, {
         i: function () {
-          return _;
+          return T;
         },
       });
       var r = n(22928),
         i = n(87462),
-        o = n(4942),
-        a = n(45987),
+        a = n(4942),
+        o = n(45987),
         s = n(70885),
         l = n(67294),
-        u = n(94184),
-        c = n.n(u),
+        c = n(94184),
+        u = n.n(c),
         d = n(57557),
         m = n.n(d),
         p = n(69088),
@@ -6838,12 +7098,12 @@
         }
         return n;
       }
-      function T(e) {
+      function _(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
             ? y(Object(n), !0).forEach(function (t) {
-                (0, o.Z)(e, t, n[t]);
+                (0, a.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
@@ -6857,12 +7117,12 @@
         }
         return e;
       }
-      var _ = (0, l.forwardRef)(function (e, t) {
+      var T = (0, l.forwardRef)(function (e, t) {
         var n,
-          u = e.headerConfig,
+          c = e.headerConfig,
           d = e.config,
           y = e.footerConfig,
-          _ = e.list,
+          T = e.list,
           M = e.className,
           N = e.classNameWrapper,
           w = e.emptyMessage,
@@ -6888,25 +7148,25 @@
               );
             }, {});
           }),
-          A = (0, s.Z)(L, 2),
-          S = A[0],
-          k = A[1],
-          j = (0, l.useMemo)(
+          S = (0, s.Z)(L, 2),
+          A = S[0],
+          k = S[1],
+          P = (0, l.useMemo)(
             function () {
               return (
                 d.some(function (e) {
                   return e.isSticky;
                 }) ||
-                (null == u
+                (null == c
                   ? void 0
-                  : u.flat().some(function (e) {
+                  : c.flat().some(function (e) {
                       return e.isSticky;
                     }))
               );
             },
-            [d, u]
+            [d, c]
           ),
-          P = (0, l.useMemo)(
+          j = (0, l.useMemo)(
             function () {
               return d.some(function (e) {
                 return !!e.headCell;
@@ -6914,7 +7174,7 @@
             },
             [d]
           ),
-          x = (0, l.useCallback)(function () {
+          R = (0, l.useCallback)(function () {
             var e,
               t =
                 arguments.length > 0 && void 0 !== arguments[0]
@@ -6926,29 +7186,29 @@
                   ? arguments[2]
                   : {},
               i = m()(n, ['headCell', 'onSort', 'defaultSortDirection']),
-              o = i.id,
+              a = i.id,
               s = i.accessor,
               l = i.alignH,
-              u = i.alignV,
+              c = i.alignV,
               d = i.isSticky,
               p = i.className,
               v = i.getCellAttrs,
-              h = (0, a.Z)(i, f),
+              h = (0, o.Z)(i, f),
               b = null == v ? void 0 : v(t, r);
-            return T(
-              T(T({}, h), b),
+            return _(
+              _(_({}, h), b),
               {},
               {
-                id: o,
+                id: a,
                 scope: d ? 'row' : void 0,
-                className: c()(
+                className: u()(
                   g.td,
                   null !== (e = null == b ? void 0 : b.className) &&
                     void 0 !== e
                     ? e
                     : p,
                   g['align-'.concat(l)],
-                  g['align-'.concat(u)]
+                  g['align-'.concat(c)]
                 ),
                 children:
                   'function' == typeof s
@@ -6961,17 +7221,17 @@
               }
             );
           }, []),
-          R = (0, l.useCallback)(
+          x = (0, l.useCallback)(
             function (e, t, n) {
               return function () {
-                var r = 1 === S[e] ? -1 : 1;
-                k((0, o.Z)({}, e, r)), n(r, t);
+                var r = 1 === A[e] ? -1 : 1;
+                k((0, a.Z)({}, e, r)), n(r, t);
               };
             },
-            [S]
+            [A]
           ),
           z = (0, l.useCallback)(function (e, t) {
-            k((0, o.Z)({}, e, t));
+            k((0, a.Z)({}, e, t));
           }, []);
         return (
           (0, l.useImperativeHandle)(
@@ -6981,28 +7241,28 @@
             },
             [z]
           ),
-          w || (null != _ && _.length)
+          w || (null != T && T.length)
             ? (0, r.Z)(
                 'div',
                 {
                   role: 'region',
                   tabIndex: -1,
-                  className: c()(
+                  className: u()(
                     g.tableWrapper,
                     N,
                     g[C || ''],
                     ((n = {}),
-                    (0, o.Z)(n, g.tableIsSomeStickyColumn, j),
-                    (0, o.Z)(n, g.hasShadow, E),
-                    (0, o.Z)(n, g.hasBorderRadius, O),
-                    (0, o.Z)(n, g.hasFooter, !!y),
+                    (0, a.Z)(n, g.tableIsSomeStickyColumn, P),
+                    (0, a.Z)(n, g.hasShadow, E),
+                    (0, a.Z)(n, g.hasBorderRadius, O),
+                    (0, a.Z)(n, g.hasFooter, !!y),
                     n)
                   ),
                 },
                 void 0,
                 (0, r.Z)(
                   'table',
-                  { className: c()(g.table, M) },
+                  { className: u()(g.table, M) },
                   void 0,
                   null != y && y.length
                     ? (0, r.Z)(
@@ -7016,12 +7276,12 @@
                             t,
                             e.map(function (e, t) {
                               var n = e.className,
-                                r = (0, a.Z)(e, v);
+                                r = (0, o.Z)(e, v);
                               return l.createElement(
                                 'td',
                                 (0, i.Z)({}, r, {
                                   key: t,
-                                  className: c()(g.td, n),
+                                  className: u()(g.td, n),
                                 })
                               );
                             })
@@ -7033,24 +7293,24 @@
                     'thead',
                     {},
                     void 0,
-                    null == u
+                    null == c
                       ? void 0
-                      : u.map(function (e, t) {
+                      : c.map(function (e, t) {
                           return (0, r.Z)(
                             'tr',
-                            { className: c()(g.tr) },
+                            { className: u()(g.tr) },
                             t,
                             e.map(function (e, t) {
                               var n = e.children,
                                 r = e.className,
-                                o = e.isSticky,
-                                s = void 0 !== o && o,
-                                u = (0, a.Z)(e, h);
+                                a = e.isSticky,
+                                s = void 0 !== a && a,
+                                c = (0, o.Z)(e, h);
                               return l.createElement(
                                 'th',
-                                (0, i.Z)({}, u, {
+                                (0, i.Z)({}, c, {
                                   key: t,
-                                  className: c()(g.th, r),
+                                  className: u()(g.th, r),
                                   scope: s ? 'row' : void 0,
                                 }),
                                 n
@@ -7058,21 +7318,21 @@
                             })
                           );
                         }),
-                    P
+                    j
                       ? (0, r.Z)(
                           'tr',
-                          { className: c()(g.tr) },
+                          { className: u()(g.tr) },
                           void 0,
                           d.map(function (e, t) {
                             var n,
                               i = e.id,
-                              a = e.headCell,
+                              o = e.headCell,
                               s = e.alignH,
                               l = e.alignV,
-                              u = e.onSort,
+                              c = e.onSort,
                               d = e.isSticky;
                             return (0,
-                            r.Z)('th', { className: c()(g.th, g['align-'.concat(s)], g['align-'.concat(l)], ((n = {}), (0, o.Z)(n, g.isActive, void 0 !== S[i]), (0, o.Z)(n, g.isSorting, !!u), n)), onClick: u ? R(i, t, u) : void 0, scope: d ? 'row' : void 0 }, t, s && 'right' === s ? null : a, u ? (0, r.Z)(p.J, { className: c()(g.tableSortIcon, (0, o.Z)({}, g.isActive, S[i])), category: 'modern', name: 1 === S[i] ? 'arrow_upward' : 'arrow_downward', size: '0.875rem' }) : null, s && 'right' === s ? a : null);
+                            r.Z)('th', { className: u()(g.th, g['align-'.concat(s)], g['align-'.concat(l)], ((n = {}), (0, a.Z)(n, g.isActive, void 0 !== A[i]), (0, a.Z)(n, g.isSorting, !!c), n)), onClick: c ? x(i, t, c) : void 0, scope: d ? 'row' : void 0 }, t, s && 'right' === s ? null : o, c ? (0, r.Z)(p.J, { className: u()(g.tableSortIcon, (0, a.Z)({}, g.isActive, A[i])), category: 'modern', name: 1 === A[i] ? 'arrow_upward' : 'arrow_downward', size: '0.875rem' }) : null, s && 'right' === s ? o : null);
                           })
                         )
                       : null
@@ -7081,26 +7341,26 @@
                     'tbody',
                     {},
                     void 0,
-                    _.map(function (e, t) {
+                    T.map(function (e, t) {
                       return (0, r.Z)(
                         'tr',
                         { className: g.tr, onClick: e.onClick },
                         e.id || t,
                         d.map(function (n, r) {
-                          var o = x(e, n, { rowIndex: t, cellIndex: r }),
-                            s = o.id,
-                            u = (0, a.Z)(o, b);
-                          return 'number' == typeof u.rowSpan &&
+                          var a = R(e, n, { rowIndex: t, cellIndex: r }),
+                            s = a.id,
+                            c = (0, o.Z)(a, b);
+                          return 'number' == typeof c.rowSpan &&
                             (t + 1) % 2 == 0
                             ? null
                             : l.createElement(
                                 'td',
-                                (0, i.Z)({}, u, { key: s || r })
+                                (0, i.Z)({}, c, { key: s || r })
                               );
                         })
                       );
                     }),
-                    !w || (null != _ && _.length)
+                    !w || (null != T && T.length)
                       ? null
                       : (0, r.Z)(
                           'tr',
@@ -7110,7 +7370,7 @@
                             'td',
                             {
                               colSpan: d.length,
-                              className: c()(g.td, g.tableEmptyMessage),
+                              className: u()(g.td, g.tableEmptyMessage),
                             },
                             void 0,
                             w
@@ -7128,49 +7388,49 @@
       'use strict';
       var r = n(22928),
         i = n(70885),
-        o = n(67294),
-        a = n(4777),
+        a = n(67294),
+        o = n(4777),
         s = [{ label: 'Tab 1' }, { label: 'Tab 2' }];
       t.Z = {
         Default: function (e) {
           var t = e.defaultActiveIndex,
             n = void 0 === t ? 0 : t,
-            l = (0, o.useState)(n),
-            u = (0, i.Z)(l, 2),
-            c = u[0],
-            d = u[1],
-            m = (0, o.useCallback)(function (e) {
+            l = (0, a.useState)(n),
+            c = (0, i.Z)(l, 2),
+            u = c[0],
+            d = c[1],
+            m = (0, a.useCallback)(function (e) {
               d(e.index);
             }, []);
           return (0, r.Z)(
-            o.Fragment,
+            a.Fragment,
             {},
             void 0,
-            (0, r.Z)(a.m, { defaultActiveIndex: n, list: s, onChange: m }),
-            (0, r.Z)('p', {}, void 0, 'Tab content ', c + 1)
+            (0, r.Z)(o.m, { defaultActiveIndex: n, list: s, onChange: m }),
+            (0, r.Z)('p', {}, void 0, 'Tab content ', u + 1)
           );
         },
         Contained: function (e) {
           var t = e.defaultActiveIndex,
             n = void 0 === t ? 0 : t,
-            l = (0, o.useState)(n),
-            u = (0, i.Z)(l, 2),
-            c = u[0],
-            d = u[1],
-            m = (0, o.useCallback)(function (e) {
+            l = (0, a.useState)(n),
+            c = (0, i.Z)(l, 2),
+            u = c[0],
+            d = c[1],
+            m = (0, a.useCallback)(function (e) {
               d(e.index);
             }, []);
           return (0, r.Z)(
-            o.Fragment,
+            a.Fragment,
             {},
             void 0,
-            (0, r.Z)(a.m, {
+            (0, r.Z)(o.m, {
               variant: 'contained',
               defaultActiveIndex: n,
               list: s,
               onChange: m,
             }),
-            (0, r.Z)('p', {}, void 0, 'Tab content ', c + 1)
+            (0, r.Z)('p', {}, void 0, 'Tab content ', u + 1)
           );
         },
       };
@@ -7184,45 +7444,45 @@
       });
       var r = n(22928),
         i = n(4942),
-        o = n(70885),
-        a = n(67294),
+        a = n(70885),
+        o = n(67294),
         s = n(94184),
         l = n.n(s),
-        u = n(79087),
-        c = n(69088),
+        c = n(79087),
+        u = n(69088),
         d = 'Tabs_tabs__HvDAh',
         m = 'Tabs_tabsListItem__2ab9Q',
         p = 'Tabs_isActive__36fWu',
-        g = (0, a.forwardRef)(function (e, t) {
+        g = (0, o.forwardRef)(function (e, t) {
           var n = e.className,
             s = e.list,
             g = e.defaultActiveIndex,
             f = void 0 === g ? 0 : g,
             v = e.onChange,
-            h = (0, a.useRef)(!1),
-            b = (0, a.useState)(f),
-            y = (0, o.Z)(b, 2),
-            T = y[0],
-            _ = y[1],
+            h = (0, o.useRef)(!1),
+            b = (0, o.useState)(f),
+            y = (0, a.Z)(b, 2),
+            _ = y[0],
+            T = y[1],
             M = l()(d, n),
-            N = (0, a.useCallback)(function (e) {
+            N = (0, o.useCallback)(function (e) {
               return function () {
-                _(e);
+                T(e);
               };
             }, []),
-            w = (0, a.useCallback)(function (e) {
+            w = (0, o.useCallback)(function (e) {
               return function (t) {
                 t.stopPropagation(), null == e || e(t);
               };
             }, []);
           return (
-            (0, a.useEffect)(
+            (0, o.useEffect)(
               function () {
-                h.current && (null == v || v({ index: T }));
+                h.current && (null == v || v({ index: _ }));
               },
-              [T]
+              [_]
             ),
-            (0, a.useEffect)(function () {
+            (0, o.useEffect)(function () {
               return (
                 (h.current = !0),
                 function () {
@@ -7230,10 +7490,10 @@
                 }
               );
             }, []),
-            (0, a.useImperativeHandle)(
+            (0, o.useImperativeHandle)(
               t,
               function () {
-                return { setActiveIndex: _ };
+                return { setActiveIndex: T };
               },
               []
             ),
@@ -7247,8 +7507,8 @@
               },
               void 0,
               s.map(function (e, t) {
-                var n = T === t,
-                  o = l()(
+                var n = _ === t,
+                  a = l()(
                     m,
                     e.className,
                     (0, i.Z)({}, p, n),
@@ -7257,7 +7517,7 @@
                       : null
                   );
                 return (0,
-                r.Z)('button', { type: 'button', role: 'tab', 'aria-selected': n ? 'true' : 'false', disabled: e.disabled, className: o, onClick: N(t) }, t, e.label, void 0 !== e.count ? (0, r.Z)(u.A, { count: e.count }) : null, e.isClosable ? (0, r.Z)(c.J, { name: 'icon-close', onClick: w(e.onClose) }) : null);
+                r.Z)('button', { type: 'button', role: 'tab', 'aria-selected': n ? 'true' : 'false', disabled: e.disabled, className: a, onClick: N(t) }, t, e.label, void 0 !== e.count ? (0, r.Z)(c.A, { count: e.count }) : null, e.isClosable ? (0, r.Z)(u.J, { name: 'icon-close', onClick: w(e.onClose) }) : null);
               })
             )
           );
@@ -7268,10 +7528,10 @@
       'use strict';
       var r,
         i = n(22928),
-        o = (n(67294), n(47482));
+        a = (n(67294), n(47482));
       t.Z = {
         Default: function () {
-          return r || (r = (0, i.Z)(o.V, {}, void 0, 'Hello world'));
+          return r || (r = (0, i.Z)(a.V, {}, void 0, 'Hello world'));
         },
       };
     },
@@ -7284,15 +7544,15 @@
       });
       var r = n(22928),
         i = (n(67294), n(94184)),
-        o = n.n(i),
-        a = 'Tag_tag__1jDVB',
+        a = n.n(i),
+        o = 'Tag_tag__1jDVB',
         s = function (e) {
           var t = e.children,
             n = e.className;
           return void 0 !== t
             ? (0, r.Z)(
                 'span',
-                { 'data-testid': 'id-tag', className: o()(a, n) },
+                { 'data-testid': 'id-tag', className: a()(o, n) },
                 void 0,
                 t
               )
@@ -7303,10 +7563,10 @@
       'use strict';
       var r,
         i = n(22928),
-        o = (n(67294), n(66826));
+        a = (n(67294), n(66826));
       t.Z = {
         Default: function () {
-          return r || (r = (0, i.Z)(o.g, {}));
+          return r || (r = (0, i.Z)(a.g, {}));
         },
       };
     },
@@ -7314,44 +7574,44 @@
       'use strict';
       n.d(t, {
         g: function () {
-          return c;
+          return u;
         },
       });
       var r = n(87462),
         i = n(45987),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
         l = 'Textarea_textarea__3SOgQ Input_input__3PNbO',
-        u = ['id', 'className'],
-        c = (0, o.forwardRef)(function (e, t) {
+        c = ['id', 'className'],
+        u = (0, a.forwardRef)(function (e, t) {
           var n = e.id,
-            a = void 0 === n ? 'f'.concat(Date.now().toString(16)) : n,
-            c = e.className,
-            d = (0, i.Z)(e, u);
-          return o.createElement(
+            o = void 0 === n ? 'f'.concat(Date.now().toString(16)) : n,
+            u = e.className,
+            d = (0, i.Z)(e, c);
+          return a.createElement(
             'textarea',
             (0, r.Z)({ 'data-testid': 'id-textarea' }, d, {
-              id: a,
+              id: o,
               ref: t,
-              className: s()(l, c),
+              className: s()(l, u),
             })
           );
         });
-      c.displayName = 'Textarea';
+      u.displayName = 'Textarea';
     },
     41198: function (e, t, n) {
       'use strict';
       n.d(t, {
         D: function () {
-          return c;
+          return u;
         },
       });
       var r = n(87462),
         i = n(45987),
-        o = n(67294),
-        a = n(94184),
-        s = n.n(a),
+        a = n(67294),
+        o = n(94184),
+        s = n.n(o),
         l = {
           title: 'Title_title__1jlrO',
           h1: 'Title_h1__3Xh9D',
@@ -7359,18 +7619,18 @@
           h3: 'Title_h3__1ssWb',
           h4: 'Title_h4__3Vig2',
         },
-        u = ['type', 'className', 'children'],
-        c = function (e) {
+        c = ['type', 'className', 'children'],
+        u = function (e) {
           var t = e.type,
             n = void 0 === t ? 'h1' : t,
-            a = e.className,
-            c = e.children,
-            d = (0, i.Z)(e, u),
+            o = e.className,
+            u = e.children,
+            d = (0, i.Z)(e, c),
             m = n;
-          return o.createElement(
+          return a.createElement(
             m,
-            (0, r.Z)({}, d, { className: s()(l.title, l[n], a) }),
-            c
+            (0, r.Z)({}, d, { className: s()(l.title, l[n], o) }),
+            u
           );
         };
     },
@@ -7378,12 +7638,12 @@
       'use strict';
       var r,
         i,
-        o,
         a,
+        o,
         s,
         l,
-        u,
         c,
+        u,
         d,
         m,
         p,
@@ -7393,8 +7653,8 @@
         h,
         b,
         y,
-        T,
-        _ = n(87462),
+        _,
+        T = n(87462),
         M = n(22928),
         N = n(67294),
         w = n(26360),
@@ -7445,8 +7705,8 @@
         },
         WithCustomTitle: function () {
           return (
-            o ||
-            (o = (0, M.Z)(
+            a ||
+            (a = (0, M.Z)(
               N.Fragment,
               {},
               void 0,
@@ -7485,8 +7745,8 @@
         },
         WithNoTitle: function () {
           return (
-            a ||
-            (a = (0, M.Z)(
+            o ||
+            (o = (0, M.Z)(
               N.Fragment,
               {},
               void 0,
@@ -7573,14 +7833,14 @@
               'Open error toast'
             ),
             l || (l = (0, M.Z)('br', {})),
-            u || (u = (0, M.Z)('br', {})),
+            c || (c = (0, M.Z)('br', {})),
             (0, M.Z)(
               'button',
               { type: 'button', onClick: n.openToast, disabled: n.isOpen },
               void 0,
               'Open info toast'
             ),
-            c || (c = (0, M.Z)('br', {})),
+            u || (u = (0, M.Z)('br', {})),
             d || (d = (0, M.Z)('br', {})),
             null != t && t.isOpen
               ? m ||
@@ -7595,7 +7855,7 @@
               : p || (p = (0, M.Z)('p', {}, void 0, 'Success closed')),
             N.createElement(
               w.F,
-              (0, _.Z)({ usePortals: !0, hasShadow: !0, type: 'error' }, e),
+              (0, T.Z)({ usePortals: !0, hasShadow: !0, type: 'error' }, e),
               'Error'
             ),
             g || (g = (0, M.Z)('br', {})),
@@ -7611,7 +7871,7 @@
             b || (b = (0, M.Z)('br', {})),
             N.createElement(
               w.F,
-              (0, _.Z)(
+              (0, T.Z)(
                 {
                   usePortals: !0,
                   hasShadow: !0,
@@ -7623,10 +7883,10 @@
               'Success'
             ),
             y || (y = (0, M.Z)('br', {})),
-            T || (T = (0, M.Z)('br', {})),
+            _ || (_ = (0, M.Z)('br', {})),
             N.createElement(
               w.F,
-              (0, _.Z)({ usePortals: !0, hasShadow: !0, type: 'info' }, n),
+              (0, T.Z)({ usePortals: !0, hasShadow: !0, type: 'info' }, n),
               'Info'
             )
           );
@@ -7642,12 +7902,12 @@
       });
       var r = n(45987),
         i = n(22928),
-        o = n(4942),
-        a = n(67294),
+        a = n(4942),
+        o = n(67294),
         s = n(94184),
         l = n.n(s),
-        u = n(61873),
-        c = n(86485),
+        c = n(61873),
+        u = n(86485),
         d = n(69088),
         m = n(41198),
         p = n(20404),
@@ -7680,18 +7940,18 @@
             h = e.layoutClassName,
             b = e.className,
             y = e.title,
-            T = e.usePortals,
-            _ = void 0 !== T && T,
+            _ = e.usePortals,
+            T = void 0 !== _ && _,
             M = e.hasShadow,
             N = void 0 !== M && M,
             w = e.autoCloseDelay,
             C = e.onClose,
-            Z = (0, c.$G)().t,
+            Z = (0, u.$G)().t,
             D = (0, i.Z)(
               'div',
               {
                 'data-testid': 'toastComponent',
-                className: l()(g.toast, g[f], b, (0, o.Z)({}, g.hasShadow, N)),
+                className: l()(g.toast, g[f], b, (0, a.Z)({}, g.hasShadow, N)),
               },
               void 0,
               (0, i.Z)(d.J, {
@@ -7718,7 +7978,7 @@
                     as: 'button',
                     name: 'close',
                     category: 'modern',
-                    color: (0, u.MX)('--color-neutral-300'),
+                    color: (0, c.MX)('--color-neutral-300'),
                     className: g.toastIconClose,
                     onClick: C,
                   })
@@ -7727,14 +7987,14 @@
           return (
             (t = C),
             (n = w),
-            (r = (0, a.useRef)(t)),
-            (0, a.useLayoutEffect)(
+            (r = (0, o.useRef)(t)),
+            (0, o.useLayoutEffect)(
               function () {
                 r.current = t;
               },
               [t]
             ),
-            (0, a.useEffect)(
+            (0, o.useEffect)(
               function () {
                 var e;
                 return (
@@ -7753,7 +8013,7 @@
               },
               [n]
             ),
-            _
+            T
               ? (0, i.Z)(
                   p.h,
                   { id: 'id-toasts', className: l()(g.toastsLayout, h) },
@@ -7767,43 +8027,43 @@
           var t = e.isOpen,
             n = void 0 === t || t,
             i = (0, r.Z)(e, f);
-          return n ? a.createElement(h, i) : null;
+          return n ? o.createElement(h, i) : null;
         };
     },
     14039: function (e, t, n) {
       'use strict';
       n.d(t, {
         p: function () {
-          return o;
+          return a;
         },
       });
       var r = n(70885),
         i = n(67294),
-        o = function () {
+        a = function () {
           var e =
               arguments.length > 0 && void 0 !== arguments[0]
                 ? arguments[0]
                 : {},
             t = e.isOpen,
             n = void 0 === t || t,
-            o = (0, i.useState)(n),
-            a = (0, r.Z)(o, 2),
-            s = a[0],
-            l = a[1],
-            u = (0, i.useCallback)(function () {
+            a = (0, i.useState)(n),
+            o = (0, r.Z)(a, 2),
+            s = o[0],
+            l = o[1],
+            c = (0, i.useCallback)(function () {
               return l(!0);
             }, []),
-            c = (0, i.useCallback)(function () {
+            u = (0, i.useCallback)(function () {
               return l(!1);
             }, []);
-          return { isOpen: s, openToast: u, closeToast: c, onClose: c };
+          return { isOpen: s, openToast: c, closeToast: u, onClose: u };
         };
     },
     16289: function (e, t, n) {
       'use strict';
       var r,
         i = n(22928),
-        o = (n(67294), n(99205));
+        a = (n(67294), n(99205));
       t.Z = {
         Default: function () {
           return (
@@ -7812,10 +8072,10 @@
               'form',
               { action: '#' },
               void 0,
-              (0, i.Z)(o.Z, { name: 'text' }),
+              (0, i.Z)(a.Z, { name: 'text' }),
               (0, i.Z)('br', {}),
               (0, i.Z)('br', {}),
-              (0, i.Z)(o.Z, { name: 'text', defaultChecked: !0 })
+              (0, i.Z)(a.Z, { name: 'text', defaultChecked: !0 })
             ))
           );
         },
@@ -7830,33 +8090,30 @@
       });
       var r = n(22928),
         i = n(87462),
-        o = n(45987),
-        a = n(67294),
+        a = n(45987),
+        o = n(67294),
         s = n(94184),
         l = n.n(s),
-        u = 'ToggleSwitch_toggleSwitch__2p9Q1',
-        c = 'ToggleSwitch_toggleSwitchInput__34pzW',
+        c = 'ToggleSwitch_toggleSwitch__2p9Q1',
+        u = 'ToggleSwitch_toggleSwitchInput__34pzW',
         d = 'ToggleSwitch_toggleSwitchSlider__3IsMF',
         m = ['className'],
-        p = (0, a.forwardRef)(function (e, t) {
+        p = (0, o.forwardRef)(function (e, t) {
           var n = e.className,
-            s = (0, o.Z)(e, m);
+            s = (0, a.Z)(e, m);
           return (0,
-          r.Z)('label', { className: l()(u, n) }, void 0, a.createElement('input', (0, i.Z)({}, s, { ref: t, type: 'checkbox', className: c })), (0, r.Z)('div', { className: d }));
+          r.Z)('label', { className: l()(c, n) }, void 0, o.createElement('input', (0, i.Z)({}, s, { ref: t, type: 'checkbox', className: u })), (0, r.Z)('div', { className: d }));
         });
       p.displayName = 'ToggleSwitch';
     },
-    92667: function (e, t, n) {
+    73270: function (e, t, n) {
       'use strict';
       n.d(t, {
         zx: function () {
-          return o.z;
+          return a.z;
         },
         AT: function () {
-          return T.A;
-        },
-        C0: function () {
-          return v;
+          return y.A;
         },
         Lt: function () {
           return s.L;
@@ -7865,10 +8122,10 @@
           return s.W;
         },
         JO: function () {
-          return a.J;
+          return o.J;
         },
         u_: function () {
-          return u.u;
+          return l.u;
         },
         Dx: function () {
           return i.D;
@@ -7877,58 +8134,40 @@
           return _.c;
         },
         YZ: function () {
-          return p.Y;
+          return m.Y;
         },
       });
       n(34594);
       var r = n(67294),
         i = (n(71364), n(94184), n(41198)),
-        o = n(64517),
-        a = n(69088),
-        s = n(74416),
-        l =
-          (n(53181),
-          n(80562),
-          n(47482),
-          n(47684),
-          n(74435),
-          n(45901),
-          n(61873));
+        a = n(64517),
+        o = n(69088),
+        s = n(74416);
+      n(53181), n(80562), n(47482), n(47684), n(74435), n(45901), n(61873);
       n(82492), n(22910), n(97570);
-      var u = n(99753),
+      var l = n(99753),
         c = (n(4490), n(71669), n(61719), n(81683), n(4942));
       n(12624), n(53324), n(66826);
-      var d,
-        m = n(14162),
-        p = (n(44734), n(77402)),
-        g = n(87462),
-        f = n(22928),
-        v = function (e) {
-          var t = e.from,
-            n = e.to,
-            i = e.format,
-            o = (0, r.useMemo)(
-              function () {
-                return (0, l.rx)(t, n, i);
-              },
-              [i, t, n]
-            );
-          return (0, f.Z)(r.Fragment, {}, void 0, o);
-        };
+      var u,
+        d = n(14162),
+        m = (n(44734), n(77402)),
+        p = n(87462),
+        g = n(22928),
+        f = n(87717);
       (0, r.forwardRef)(function (e, t) {
         var n,
           i,
-          o,
+          a,
           s,
           l,
-          u,
           c,
-          p,
+          m,
+          v,
           h,
           b,
           y,
-          T,
           _,
+          T,
           M,
           N,
           w,
@@ -7938,20 +8177,20 @@
             void 0 === n ||
             null === (i = n[0]) ||
             void 0 === i ||
-            null === (o = i.props) ||
-            void 0 === o ||
-            null === (s = o.children) ||
+            null === (a = i.props) ||
+            void 0 === a ||
+            null === (s = a.children) ||
             void 0 === s ||
             null === (l = s.props) ||
             void 0 === l ||
-            null === (u = l.children) ||
-            void 0 === u ||
-            null === (c = u[0]) ||
+            null === (c = l.children) ||
             void 0 === c ||
-            null === (p = c.props) ||
-            void 0 === p
+            null === (m = c[0]) ||
+            void 0 === m ||
+            null === (v = m.props) ||
+            void 0 === v
               ? void 0
-              : p.date,
+              : v.date,
           Z =
             null == e ||
             null === (h = e.children) ||
@@ -7960,11 +8199,11 @@
             void 0 === b ||
             null === (y = b.props) ||
             void 0 === y ||
-            null === (T = y.children) ||
-            void 0 === T ||
-            null === (_ = T.props) ||
+            null === (_ = y.children) ||
             void 0 === _ ||
-            null === (M = _.children) ||
+            null === (T = _.props) ||
+            void 0 === T ||
+            null === (M = T.children) ||
             void 0 === M ||
             null === (N = M[3]) ||
             void 0 === N ||
@@ -7974,49 +8213,49 @@
               : w.date;
         return r.createElement(
           'button',
-          (0, g.Z)({}, e, { ref: t, className: m.Z.filterTrigger }),
-          (0, f.Z)(a.J, {
+          (0, p.Z)({}, e, { ref: t, className: d.Z.filterTrigger }),
+          (0, g.Z)(o.J, {
             name: 'icon-calendar',
             color: '#000',
-            className: m.Z.filterIconCalendar,
+            className: d.Z.filterIconCalendar,
           }),
-          (0, f.Z)(
+          (0, g.Z)(
             'span',
-            { className: m.Z.filterDatepickerValue },
+            { className: d.Z.filterDatepickerValue },
             void 0,
-            (0, f.Z)(v, { from: C, to: Z })
+            (0, g.Z)(f.C, { from: C, to: Z })
           ),
-          d ||
-            (d = (0, f.Z)(a.J, {
+          u ||
+            (u = (0, g.Z)(o.J, {
               name: 'icon-down-open-mini',
               color: 'rgba(0, 0, 0, 0.3)',
             }))
         );
       }).displayName = 'TriggerDatePicker';
-      var h = n(12051),
-        b = (0, r.forwardRef)(function (e, t) {
+      var v = n(12051),
+        h = (0, r.forwardRef)(function (e, t) {
           var n = e.date,
             i = e.onClick,
-            o = !e.className.includes('active'),
-            a = null == n ? void 0 : n[0],
+            a = !e.className.includes('active'),
+            o = null == n ? void 0 : n[0],
             s = (null == n ? void 0 : n[1]) || (null == n ? void 0 : n[0]),
-            l = (0, f.Z)(v, { from: a, to: s });
-          return r.createElement(h.e, {
-            'aria-hidden': o,
+            l = (0, g.Z)(f.C, { from: o, to: s });
+          return r.createElement(v.e, {
+            'aria-hidden': a,
             ref: t,
             iconName: 'icon-modern-calendar',
             content: l,
             onClick: i,
           });
         });
-      b.displayName = 'FilterTriggerDatePicker';
+      h.displayName = 'FilterTriggerDatePicker';
       n(4174), n(98391), n(4777), n(86485), n(99205);
-      var y,
-        T = n(79087),
+      var b,
+        y = n(79087),
         _ = (n(20404), n(6026), n(87598), n(68630), n(44957), n(89116)),
-        M = (n(2707), n(6002), n(45987)),
-        N = ['children'];
-      function w(e, t) {
+        T = (n(2707), n(6002), n(45987)),
+        M = ['children'];
+      function N(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var r = Object.getOwnPropertySymbols(e);
@@ -8028,16 +8267,16 @@
         }
         return n;
       }
-      function C(e) {
+      function w(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
-            ? w(Object(n), !0).forEach(function (t) {
+            ? N(Object(n), !0).forEach(function (t) {
                 (0, c.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : w(Object(n)).forEach(function (t) {
+            : N(Object(n)).forEach(function (t) {
                 Object.defineProperty(
                   e,
                   t,
@@ -8049,9 +8288,9 @@
       }
       (0, r.forwardRef)(function (e, t) {
         var n = e.children,
-          i = (0, M.Z)(e, N);
+          i = (0, T.Z)(e, M);
         return (0,
-        f.Z)(r.Suspense, { fallback: y || (y = (0, f.Z)(r.Fragment, {})) }, void 0, n ? (0, r.cloneElement)(n, C(C({}, i), {}, { ref: t })) : n);
+        g.Z)(r.Suspense, { fallback: b || (b = (0, g.Z)(r.Fragment, {})) }, void 0, n ? (0, r.cloneElement)(n, w(w({}, i), {}, { ref: t })) : n);
       }).displayName = 'SuspenseProvider';
       n(87384), n(73314), n(26360), n(14039), n(28154);
     },
@@ -8065,12 +8304,12 @@
           return I;
         },
         ZP: function () {
-          return o;
+          return a;
         },
       });
       var r,
         i,
-        o = {
+        a = {
           PRINT_HIDE_CLASS_NAME: 'print-hide',
           PRINT_PAGE_BREAK_CLASS_NAME: 'print-page-break',
           ACTIVE_USER_GROUP: 'active-user-group',
@@ -8238,11 +8477,11 @@
           OPERATORS: { Count: '+', Percentage: '×' },
           ALTERATION_METRIC: ['Impressions', 'Reach'],
         },
-        a = n(4942),
+        o = n(4942),
         s = n(8686),
         l = s.Db.CHANNEL,
-        u = s.Db.CHANNEL_GROUP,
-        c = s.Db.CHANNEL_PROVIDERS,
+        c = s.Db.CHANNEL_GROUP,
+        u = s.Db.CHANNEL_PROVIDERS,
         d = s.Db.CONTENT,
         m = s.Db.CONTENT_GENRE,
         p = s.Db.CONTENT_SUBGENRE,
@@ -8252,8 +8491,8 @@
         h = s.Db.RESOLUTION,
         b = s.Db.REGION,
         y = s.oX.COLUMN,
-        T = s.oX.LINE,
-        _ = s.oC.HOUR,
+        _ = s.oX.LINE,
+        T = s.oC.HOUR,
         M = s.oC.DAY,
         N = s.oC.MONTH,
         w = s.C3.REACH_PERCENT,
@@ -8463,7 +8702,7 @@
               label: 'Content provider overview',
               rows: [
                 {
-                  widgets: [{ dimension: c, type: Z, title: 'TOP Providers' }],
+                  widgets: [{ dimension: u, type: Z, title: 'TOP Providers' }],
                 },
                 {
                   widgets: [
@@ -8528,7 +8767,7 @@
                   widgets: [
                     {
                       dimension: v,
-                      chartType: T,
+                      chartType: _,
                       interval: M,
                       title: 'TOP packages daily performance',
                       type: Z,
@@ -8885,7 +9124,7 @@
               ],
             },
           }),
-          (0, a.Z)(r, l, {
+          (0, o.Z)(r, l, {
             rows: [
               {
                 widgets: [
@@ -8900,10 +9139,10 @@
               {
                 widgets: [
                   {
-                    chartType: T,
+                    chartType: _,
                     colors: ['#ED5565'],
                     dimension: l,
-                    interval: _,
+                    interval: T,
                     title: '{memberLabel} trend',
                     type: Z,
                   },
@@ -8953,7 +9192,7 @@
               },
             ],
           }),
-          (0, a.Z)(r, u, {
+          (0, o.Z)(r, c, {
             rows: [
               {
                 widgets: [
@@ -8983,11 +9222,11 @@
               },
             ],
           }),
-          (0, a.Z)(r, c, {
+          (0, o.Z)(r, u, {
             rows: [
               {
                 widgets: [
-                  { dimension: c, title: 'Competitor performance', type: Z },
+                  { dimension: u, title: 'Competitor performance', type: Z },
                 ],
               },
               {
@@ -9036,13 +9275,13 @@
               },
             ],
           }),
-          (0, a.Z)(r, d, {
+          (0, o.Z)(r, d, {
             rows: [
               {
                 widgets: [
                   {
                     dimension: d,
-                    interval: _,
+                    interval: T,
                     title: 'TOP emissions',
                     type: Z,
                   },
@@ -9052,7 +9291,7 @@
                 widgets: [
                   {
                     dimension: d,
-                    interval: _,
+                    interval: T,
                     title: 'TOP emissions',
                     type: E,
                   },
@@ -9090,7 +9329,7 @@
               },
             ],
           }),
-          (0, a.Z)(r, v, {
+          (0, o.Z)(r, v, {
             rows: [
               {
                 widgets: [
@@ -9173,7 +9412,7 @@
       'use strict';
       n.d(t, {
         Pn: function () {
-          return Ce;
+          return De;
         },
         hT: function () {
           return r;
@@ -9182,40 +9421,40 @@
           return l;
         },
         uf: function () {
-          return Oe;
+          return Se;
         },
         ej: function () {
           return s;
         },
         MX: function () {
-          return Le;
+          return Ae;
         },
         Lf: function () {
-          return ye;
-        },
-        Du: function () {
-          return Ne;
-        },
-        Qk: function () {
-          return Me;
-        },
-        bE: function () {
-          return _e;
-        },
-        rx: function () {
-          return se;
-        },
-        r$: function () {
-          return we;
-        },
-        $4: function () {
           return Te;
         },
+        Du: function () {
+          return Ce;
+        },
+        Qk: function () {
+          return we;
+        },
+        bE: function () {
+          return Ne;
+        },
+        rx: function () {
+          return ce;
+        },
+        r$: function () {
+          return Ze;
+        },
+        $4: function () {
+          return Me;
+        },
         qs: function () {
-          return ue();
+          return de();
         },
         lI: function () {
-          return Ze;
+          return Ee;
         },
       });
       var r = {};
@@ -9224,23 +9463,26 @@
           add: function () {
             return d.Z;
           },
+          addDays: function () {
+            return U.Z;
+          },
           addMonths: function () {
-            return G.Z;
+            return Y.Z;
           },
           addWeeks: function () {
-            return U.Z;
+            return G.Z;
           },
           closestTo: function () {
             return H.Z;
           },
           differenceInCalendarWeeks: function () {
-            return ae;
+            return se;
           },
           differenceInDays: function () {
-            return j.Z;
+            return P.Z;
           },
           endOfDay: function () {
-            return x.Z;
+            return R.Z;
           },
           endOfISOWeek: function () {
             return E.Z;
@@ -9255,34 +9497,34 @@
             return oe;
           },
           endOfYear: function () {
-            return A.Z;
+            return S.Z;
           },
           format: function () {
-            return K;
+            return ee;
           },
           fromUnixTime: function () {
             return y.Z;
           },
           getDatasetDate: function () {
-            return te;
+            return ne;
           },
           getDatasetWeekStart: function () {
-            return $;
+            return K;
           },
           getUTCDate: function () {
-            return re;
+            return ie;
           },
           getUTCTimeStamp: function () {
-            return ne;
+            return re;
           },
           getUnixTime: function () {
             return b.Z;
           },
           getWeek: function () {
-            return ee;
+            return te;
           },
           getYear: function () {
-            return T.Z;
+            return _.Z;
           },
           isAfter: function () {
             return w.Z;
@@ -9294,16 +9536,16 @@
             return F.Z;
           },
           isSameDay: function () {
-            return _.Z;
+            return T.Z;
           },
           isSameMonth: function () {
-            return R.Z;
+            return x.Z;
           },
           isSameYear: function () {
             return z.Z;
           },
           isToday: function () {
-            return W.Z;
+            return B.Z;
           },
           isValid: function () {
             return N.Z;
@@ -9315,7 +9557,7 @@
             return h.Z;
           },
           startOfDay: function () {
-            return P.Z;
+            return j.Z;
           },
           startOfHour: function () {
             return Z.Z;
@@ -9327,13 +9569,13 @@
             return I.Z;
           },
           startOfQuarter: function () {
-            return S.Z;
+            return A.Z;
           },
           startOfTomorrow: function () {
-            return B.Z;
+            return q.Z;
           },
           startOfWeek: function () {
-            return ie;
+            return ae;
           },
           startOfYear: function () {
             return L.Z;
@@ -9342,14 +9584,14 @@
             return M.Z;
           },
           subMonths: function () {
-            return V.Z;
+            return W.Z;
           },
           subWeeks: function () {
-            return Y.Z;
+            return V.Z;
           },
         });
       var i = n(4942);
-      function o(e, t) {
+      function a(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var r = Object.getOwnPropertySymbols(e);
@@ -9361,16 +9603,16 @@
         }
         return n;
       }
-      function a(e) {
+      function o(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
-            ? o(Object(n), !0).forEach(function (t) {
+            ? a(Object(n), !0).forEach(function (t) {
                 (0, i.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : o(Object(n)).forEach(function (t) {
+            : a(Object(n)).forEach(function (t) {
                 Object.defineProperty(
                   e,
                   t,
@@ -9385,7 +9627,7 @@
             n,
             r,
             i,
-            o =
+            a =
               null === (t = window) ||
               void 0 === t ||
               null === (n = t.document) ||
@@ -9403,11 +9645,11 @@
                         '=([^;]*)'
                     )
                   );
-          return o ? decodeURIComponent(o[1]) : void 0;
+          return a ? decodeURIComponent(a[1]) : void 0;
         },
         l = function (e) {
           !(function (e, t) {
-            var n = a(
+            var n = o(
               { path: '/' },
               arguments.length > 2 && void 0 !== arguments[2]
                 ? arguments[2]
@@ -9417,14 +9659,14 @@
             var r = encodeURIComponent(e) + '=' + encodeURIComponent(t);
             for (var i in n) {
               r += '; ' + i;
-              var o = n[i];
-              o && (r += '=' + o);
+              var a = n[i];
+              a && (r += '=' + a);
             }
             document.cookie = r;
           })(e, '', { 'max-age': -1 });
         },
-        u = (window.localStorage, n(18202)),
-        c = n(67200),
+        c = (window.localStorage, n(18202)),
+        u = n(67200),
         d = n(29422),
         m = n(584),
         p = n(67090),
@@ -9434,8 +9676,8 @@
         h = n(23855),
         b = n(42902),
         y = n(42227),
-        T = n(95570),
-        _ = n(3151),
+        _ = n(95570),
+        T = n(3151),
         M = n(52085),
         N = n(49599),
         w = n(42699),
@@ -9446,23 +9688,24 @@
         I = n(43703),
         O = n(4135),
         L = n(38148),
-        A = n(10876),
-        S = n(94431),
+        S = n(10876),
+        A = n(94431),
         k = n(38358),
-        j = n(94673),
-        P = n(69119),
-        x = n(83894),
-        R = n(49160),
+        P = n(94673),
+        j = n(69119),
+        R = n(83894),
+        x = n(49160),
         z = n(60792),
         F = n(96843),
-        U = n(63500),
-        G = n(11640),
-        Y = n(77982),
-        V = n(54559),
-        W = n(51085),
+        U = n(77349),
+        G = n(63500),
+        Y = n(11640),
+        V = n(77982),
+        W = n(54559),
+        B = n(51085),
         H = n(95753),
-        B = n(60716);
-      function q(e, t) {
+        q = n(60716);
+      function Q(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var r = Object.getOwnPropertySymbols(e);
@@ -9474,16 +9717,16 @@
         }
         return n;
       }
-      function Q(e) {
+      function J(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
-            ? q(Object(n), !0).forEach(function (t) {
+            ? Q(Object(n), !0).forEach(function (t) {
                 (0, i.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : q(Object(n)).forEach(function (t) {
+            : Q(Object(n)).forEach(function (t) {
                 Object.defineProperty(
                   e,
                   t,
@@ -9493,40 +9736,40 @@
         }
         return e;
       }
-      var J = function () {
+      var X = function () {
           return window.TVBEAT_SETTINGS.timeZone;
         },
-        X = function () {
+        $ = function () {
           return window.TVBEAT_SETTINGS.dateLocaleFromLib;
         },
-        $ = function () {
+        K = function () {
           return window.TVBEAT_SETTINGS.weekStart;
         },
-        K = function (e) {
+        ee = function (e) {
           var t =
               arguments.length > 1 && void 0 !== arguments[1]
                 ? arguments[1]
                 : f.Hu.LOCALIZED_DATE_SHORT,
             n = arguments.length > 2 ? arguments[2] : void 0;
-          return (0, u.Z)(
+          return (0, c.Z)(
             e,
             t,
-            Q({ timeZone: J(), locale: X(), weekStartsOn: $() }, n)
+            J({ timeZone: X(), locale: $(), weekStartsOn: K() }, n)
           );
         },
-        ee = function (e, t) {
-          return (0, c.Z)(e, Q({ locale: X(), weekStartsOn: $() }, t));
+        te = function (e, t) {
+          return (0, u.Z)(e, J({ locale: $(), weekStartsOn: K() }, t));
         },
-        te = function () {
+        ne = function () {
           var e =
             arguments.length > 0 && void 0 !== arguments[0]
               ? arguments[0]
               : new Date();
           return new Date(
-            (e || new Date()).toLocaleString('en-US', { timeZone: J() })
+            (e || new Date()).toLocaleString('en-US', { timeZone: X() })
           );
         },
-        ne = function (e) {
+        re = function (e) {
           return Date.UTC(
             e.getFullYear(),
             e.getMonth(),
@@ -9537,38 +9780,20 @@
             e.getMilliseconds()
           );
         },
-        re = function (e) {
+        ie = function (e) {
           return (0, d.Z)(e, { minutes: e.getTimezoneOffset() });
         },
-        ie = function (e, t) {
-          return (0, m.Z)(e, Q({ locale: X(), weekStartsOn: $() }, t));
+        ae = function (e, t) {
+          return (0, m.Z)(e, J({ locale: $(), weekStartsOn: K() }, t));
         },
         oe = function (e, t) {
-          return (0, p.Z)(e, Q({ locale: X(), weekStartsOn: $() }, t));
+          return (0, p.Z)(e, J({ locale: $(), weekStartsOn: K() }, t));
         },
-        ae = function (e, t, n) {
-          return (0, g.Z)(e, t, Q({ locale: X(), weekStartsOn: $() }, n));
-        },
-        se =
-          (n(81763),
-          n(8686),
-          function (e, t, n) {
-            if (e) {
-              if (!t || F.Z(P.Z(e), P.Z(t))) return K(e);
-              var r = K(e, n),
-                i = K(t, n);
-              return ''.concat(r, ' - ').concat(i);
-            }
-          }),
-        le = n(80129),
-        ue = n.n(le),
-        ce = n(63105),
-        de = n.n(ce),
-        me = n(35161),
-        pe = n.n(me),
-        ge = n(89734),
-        fe = n.n(ge);
-      function ve(e, t) {
+        se = function (e, t, n) {
+          return (0, g.Z)(e, t, J({ locale: $(), weekStartsOn: K() }, n));
+        };
+      n(81763), n(8686);
+      function le(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var r = Object.getOwnPropertySymbols(e);
@@ -9580,16 +9805,68 @@
         }
         return n;
       }
-      function he(e) {
+      var ce = function (e, t, n) {
+          if (e) {
+            var r = (function (e) {
+                for (var t = 1; t < arguments.length; t++) {
+                  var n = null != arguments[t] ? arguments[t] : {};
+                  t % 2
+                    ? le(Object(n), !0).forEach(function (t) {
+                        (0, i.Z)(e, t, n[t]);
+                      })
+                    : Object.getOwnPropertyDescriptors
+                    ? Object.defineProperties(
+                        e,
+                        Object.getOwnPropertyDescriptors(n)
+                      )
+                    : le(Object(n)).forEach(function (t) {
+                        Object.defineProperty(
+                          e,
+                          t,
+                          Object.getOwnPropertyDescriptor(n, t)
+                        );
+                      });
+                }
+                return e;
+              })({ delimiter: '-' }, n),
+              a = r.format,
+              o = r.delimiter;
+            if (!t || F.Z(j.Z(e), j.Z(t))) return ee(e);
+            var s = ee(e, a),
+              l = ee(t, a);
+            return ''.concat(s, ' ').concat(o, ' ').concat(l);
+          }
+        },
+        ue = n(80129),
+        de = n.n(ue),
+        me = n(63105),
+        pe = n.n(me),
+        ge = n(35161),
+        fe = n.n(ge),
+        ve = n(89734),
+        he = n.n(ve);
+      function be(e, t) {
+        var n = Object.keys(e);
+        if (Object.getOwnPropertySymbols) {
+          var r = Object.getOwnPropertySymbols(e);
+          t &&
+            (r = r.filter(function (t) {
+              return Object.getOwnPropertyDescriptor(e, t).enumerable;
+            })),
+            n.push.apply(n, r);
+        }
+        return n;
+      }
+      function ye(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
-            ? ve(Object(n), !0).forEach(function (t) {
+            ? be(Object(n), !0).forEach(function (t) {
                 (0, i.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : ve(Object(n)).forEach(function (t) {
+            : be(Object(n)).forEach(function (t) {
                 Object.defineProperty(
                   e,
                   t,
@@ -9599,8 +9876,8 @@
         }
         return e;
       }
-      var be = f.ZP.MODE_OFF_VALUE,
-        ye = function (e) {
+      var _e = f.ZP.MODE_OFF_VALUE,
+        Te = function (e) {
           var t = e.channels,
             n = void 0 === t ? [] : t,
             r = e.userGroupSettings,
@@ -9611,17 +9888,17 @@
                 return 'number' == typeof e.value && i.includes(e.value);
               });
         },
-        Te = function (e, t) {
+        Me = function (e, t) {
           return 'alphabetically' === e
-            ? fe()(t, 'label')
+            ? he()(t, 'label')
             : 'numerically' === e
-            ? fe()(t, function (e) {
+            ? he()(t, function (e) {
                 var t = e.label;
                 return parseFloat(t);
               })
             : t;
         },
-        _e = function (e, t, n) {
+        Ne = function (e, t, n) {
           var r = (function () {
               var e =
                   arguments.length > 0 && void 0 !== arguments[0]
@@ -9638,38 +9915,38 @@
             })(e.naValues),
             i = r[t];
           if (!i) return n;
-          var o = i.hidden,
-            a = i.label;
-          return o
-            ? de()(n, function (e) {
+          var a = i.hidden,
+            o = i.label;
+          return a
+            ? pe()(n, function (e) {
                 return 'N/A' !== e.label;
               })
-            : a
-            ? pe()(n, function (e) {
-                return 'N/A' === e.label ? he(he({}, e), {}, { label: a }) : e;
+            : o
+            ? fe()(n, function (e) {
+                return 'N/A' === e.label ? ye(ye({}, e), {}, { label: o }) : e;
               })
             : n;
         },
-        Me = function (e) {
-          return pe()(e, function (e) {
-            return he(
-              he({}, e),
+        we = function (e) {
+          return fe()(e, function (e) {
+            return ye(
+              ye({}, e),
               {},
               { label: (e.label || '').replace(/(,)\S/g, ', ') }
             );
           });
         },
-        Ne = function (e) {
-          return de()(e, function (e) {
-            return e.value !== be;
+        Ce = function (e) {
+          return pe()(e, function (e) {
+            return e.value !== _e;
           });
         },
-        we = function (e) {
-          return de()(e, function (e) {
+        Ze = function (e) {
+          return pe()(e, function (e) {
             return 'NA' !== e.label;
           });
         },
-        Ce =
+        De =
           (n(24350),
           function (e, t) {
             return e.reduce(function (e, n) {
@@ -9677,7 +9954,7 @@
             }, {});
           });
       n(13311), n(45578), n(41609);
-      var Ze = function (e, t, n) {
+      var Ee = function (e, t, n) {
         var r = t.reduce(function (t, r) {
             var i = e.find(function (e) {
               return e[n] === r;
@@ -9689,7 +9966,7 @@
           });
         return r.concat(i);
       };
-      function De(e, t) {
+      function Ie(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var r = Object.getOwnPropertySymbols(e);
@@ -9701,16 +9978,16 @@
         }
         return n;
       }
-      function Ee(e) {
+      function Oe(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
-            ? De(Object(n), !0).forEach(function (t) {
+            ? Ie(Object(n), !0).forEach(function (t) {
                 (0, i.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : De(Object(n)).forEach(function (t) {
+            : Ie(Object(n)).forEach(function (t) {
                 Object.defineProperty(
                   e,
                   t,
@@ -9720,14 +9997,14 @@
         }
         return e;
       }
-      var Ie = 'en-US',
-        Oe = function (e) {
+      var Le = 'en-US',
+        Se = function (e) {
           var t =
               arguments.length > 1 && void 0 !== arguments[1]
                 ? arguments[1]
                 : window.TVBEAT_SETTINGS.numberLocale,
             n = arguments.length > 2 ? arguments[2] : void 0,
-            r = Ee(
+            r = Oe(
               {
                 notation: 'compact',
                 minimumFractionDigits: 0,
@@ -9740,10 +10017,10 @@
           try {
             return i.toLocaleString(t, r);
           } catch (e) {
-            return i.toLocaleString(Ie, r);
+            return i.toLocaleString(Le, r);
           }
         },
-        Le =
+        Ae =
           (n(93162),
           function (e) {
             var t =
@@ -9757,10 +10034,10 @@
       'use strict';
       n.d(t, {
         Zu: function () {
-          return H;
+          return B;
         },
         t$: function () {
-          return x;
+          return R;
         },
         $G: function () {
           return r.$;
@@ -9768,15 +10045,16 @@
       });
       var r = n(26793),
         i = n(87757),
-        o = n.n(i),
-        a = (n(4485), n(67294)),
+        a = n.n(i),
+        o = (n(4485), n(67294)),
         s = n(4942),
         l = n(9669),
-        u = n.n(l),
-        c = n(87598),
+        c = n.n(l),
+        u = n(87598),
         d = n(61873),
-        m = (0, d.ej)(c.ZP.LOGIN_TOKEN_NAME);
-      var p = u().create({
+        m = (0, d.ej)(u.ZP.LOGIN_TOKEN_NAME);
+      m || console.log(1);
+      var p = c().create({
         paramsSerializer: function (e) {
           return d.qs.stringify(e, { encode: !1 });
         },
@@ -9793,7 +10071,7 @@
               (null !== (t = null == e ? void 0 : e.response) && void 0 !== t
                 ? t
                 : {}
-              ).status && ((0, d.kT)(c.ZP.LOGIN_TOKEN_NAME), console.log('1')),
+              ).status && ((0, d.kT)(u.ZP.LOGIN_TOKEN_NAME), console.log(1)),
             Promise.reject(e)
           );
         }
@@ -9822,42 +10100,42 @@
         h = n(15861),
         b = n(57557),
         y = n.n(b),
-        T = n(82729),
-        _ = n.n(T),
+        _ = n(82729),
+        T = n.n(_),
         M = n(89734),
         N = n.n(M),
-        w = c.ZP.ALL_VALUE,
+        w = u.ZP.ALL_VALUE,
         C = function (e, t) {
           var n = e.dataset,
             r = e.datasetDetails.dimensions,
             i = e.props.dimension,
-            o = (0, d.bE)(n, i, t);
-          i === c.m$.CHANNEL
-            ? (o = (function (e) {
+            a = (0, d.bE)(n, i, t);
+          i === u.m$.CHANNEL
+            ? (a = (function (e) {
                 var t = N()(
                     e.filter(function (e) {
                       return 'NA' !== e.label;
                     }),
                     'label'
                   ),
-                  n = _()(t, { value: w })[0];
+                  n = T()(t, { value: w })[0];
                 return n && ((n.label = 'All'), t.unshift(n)), t;
               })(t))
-            : i === c.m$.MODE
-            ? (o = (0, d.Du)(o))
-            : i === c.m$.PACKAGE
-            ? (o = (0, d.Qk)(o))
-            : i === c.m$.REGION && (o = (0, d.r$)(o));
-          var a = (
+            : i === u.m$.MODE
+            ? (a = (0, d.Du)(a))
+            : i === u.m$.PACKAGE
+            ? (a = (0, d.Qk)(a))
+            : i === u.m$.REGION && (a = (0, d.r$)(a));
+          var o = (
             r.find(function (e) {
               return e.value === i;
             }) || {}
           ).sort;
-          return (0, d.$4)(a, o);
+          return (0, d.$4)(o, a);
         },
         Z = function (e, t) {
           var n = e.dataset;
-          return e.props.dimension === c.m$.CHANNEL
+          return e.props.dimension === u.m$.CHANNEL
             ? (0, d.Lf)({ channels: t, userGroupSettings: n })
             : t;
         },
@@ -9873,9 +10151,9 @@
           },
           getDimensionValues:
             ((g = (0, h.Z)(
-              o().mark(function e(t) {
+              a().mark(function e(t) {
                 var n, r;
-                return o().wrap(
+                return a().wrap(
                   function (e) {
                     for (;;)
                       switch ((e.prev = e.next)) {
@@ -9964,8 +10242,8 @@
           },
           getParams:
             ((f = (0, h.Z)(
-              o().mark(function e(t, n) {
-                return o().wrap(function (e) {
+              a().mark(function e(t, n) {
+                return a().wrap(function (e) {
                   for (;;)
                     switch ((e.prev = e.next)) {
                       case 0:
@@ -10088,7 +10366,7 @@
         }
         return e;
       }
-      var A = {
+      var S = {
           getCampaigns: function (e, t) {
             return p.get('/api/campaigns/'.concat(e, '/campaign_data'), {
               params: t,
@@ -10124,7 +10402,7 @@
             });
           },
         },
-        S = {
+        A = {
           getAppsConfig: function () {
             return p.get('/apps/config');
           },
@@ -10140,7 +10418,7 @@
             return p.get('/api/segments', { params: { dataset: e.dataset } });
           },
         };
-      function j(e, t) {
+      function P(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var r = Object.getOwnPropertySymbols(e);
@@ -10152,16 +10430,16 @@
         }
         return n;
       }
-      function P(e) {
+      function j(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
           t % 2
-            ? j(Object(n), !0).forEach(function (t) {
+            ? P(Object(n), !0).forEach(function (t) {
                 (0, s.Z)(e, t, n[t]);
               })
             : Object.getOwnPropertyDescriptors
             ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : j(Object(n)).forEach(function (t) {
+            : P(Object(n)).forEach(function (t) {
                 Object.defineProperty(
                   e,
                   t,
@@ -10171,10 +10449,10 @@
         }
         return e;
       }
-      P(P(P(P(P(P({}, v), D), E), A), S), k);
+      j(j(j(j(j(j({}, v), D), E), S), A), k);
       n(68630);
-      var x = function (e, t) {
-        var n = (0, a.useCallback)(
+      var R = function (e, t) {
+        var n = (0, o.useCallback)(
           function (n) {
             Array.isArray(e)
               ? e.some(function (e) {
@@ -10184,7 +10462,7 @@
           },
           [t, e]
         );
-        (0, a.useEffect)(
+        (0, o.useEffect)(
           function () {
             var e = 'mousedown';
             return (
@@ -10206,26 +10484,26 @@
         n(3674),
         n(35161),
         n(84238);
-      c.ZP.ALL_VALUE,
-        c.m$.CHANNEL,
-        c.m$.MODE,
-        c.m$.PACKAGE,
-        c.m$.REGION,
-        c.m$.DAYPART,
-        c.m$.CONTENT_TYPE,
-        c.m$.CONTENT_VOD;
-      c.m$.CAMPAIGN, c.m$.CHANNEL, c.m$.CONTENT, c.m$.PLACEMENT, n(92667);
-      var R = n(22928),
+      u.ZP.ALL_VALUE,
+        u.m$.CHANNEL,
+        u.m$.MODE,
+        u.m$.PACKAGE,
+        u.m$.REGION,
+        u.m$.DAYPART,
+        u.m$.CONTENT_TYPE,
+        u.m$.CONTENT_VOD;
+      u.m$.CAMPAIGN, u.m$.CHANNEL, u.m$.CONTENT, u.m$.PLACEMENT, n(73270);
+      var x = n(22928),
         z = n(94184),
         F = n.n(z),
         U = 'ProgressBar_progressBar__3sZ0m',
         G = 'ProgressBar_progressBarTime__3FGd4',
         Y = 'ProgressBar_progressBarProgress__3JRbI',
         V = 'ProgressBar_isBorderRadius__3tO4N',
-        W = (0, a.forwardRef)(function (e, t) {
+        W = (0, o.forwardRef)(function (e, t) {
           var n = e.progress,
             r = e.time,
-            i = (0, a.useMemo)(
+            i = (0, o.useMemo)(
               function () {
                 return {
                   timeStyles: { width: ''.concat(r, '%') },
@@ -10234,20 +10512,20 @@
               },
               [n, r]
             ),
-            o = i.timeStyles,
+            a = i.timeStyles,
             l = i.progressStyles;
           return (0,
-          R.Z)(a.Fragment, {}, void 0, a.createElement('div', { ref: t, className: U }, (0, R.Z)('div', { className: G, style: o }), (0, R.Z)('div', { className: F()(Y, (0, s.Z)({}, V, n < 100)), style: l })), ' ', l.width);
+          x.Z)(o.Fragment, {}, void 0, o.createElement('div', { ref: t, className: U }, (0, x.Z)('div', { className: G, style: a }), (0, x.Z)('div', { className: F()(Y, (0, s.Z)({}, V, n < 100)), style: l })), ' ', l.width);
         });
       W.displayName = 'ProgressBar';
-      var H = function (e) {
-        var t = (0, a.useCallback)(
+      var B = function (e) {
+        var t = (0, o.useCallback)(
           function (t) {
             'Escape' === t.code && (null == e || e());
           },
           [e]
         );
-        (0, a.useEffect)(
+        (0, o.useEffect)(
           function () {
             return (
               window.addEventListener('keydown', t),
@@ -10268,13 +10546,13 @@
     },
     8686: function (e, t, n) {
       'use strict';
-      var r, i, o, a, s, l, u, c, d, m, p, g, f;
+      var r, i, a, o, s, l, c, u, d, m, p, g, f;
       n.d(t, {
         oX: function () {
           return r;
         },
         Db: function () {
-          return c;
+          return u;
         },
         oC: function () {
           return g;
@@ -10291,10 +10569,10 @@
         })(i || (i = {})),
         (function (e) {
           (e.Platform = 'platform'), (e.Country = 'country');
-        })(o || (o = {})),
+        })(a || (a = {})),
         (function (e) {
           (e.Master = 'Master'), (e.Admin = 'Admin');
-        })(a || (a = {})),
+        })(o || (o = {})),
         (function (e) {
           (e.Minutes = 'minute'), (e.Hours = 'hour');
         })(s || (s = {})),
@@ -10303,7 +10581,7 @@
         })(l || (l = {})),
         (function (e) {
           (e.Build = 'build'), (e.Import = 'import');
-        })(u || (u = {})),
+        })(c || (c = {})),
         (function (e) {
           (e.ADKIND = 'ad.ad_kind'),
             (e.AUDIENCE = 'target.audience'),
@@ -10336,7 +10614,7 @@
             (e.PLACEMENT = 'placement.id'),
             (e.CAMPAIGN_TYPE = 'ad.campaign_type'),
             (e.AD_TYPE = 'ad.adtype');
-        })(c || (c = {})),
+        })(u || (u = {})),
         (function (e) {
           (e.AVERAGE_DURATION = 'averageDuration'),
             (e.AVERAGE_DURATION_ALL = 'avgDurAll'),
