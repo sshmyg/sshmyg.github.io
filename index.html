@@ -27,15 +27,10 @@
     <link rel="stylesheet" href="./loader.css" />
 
     <style>
-      html {
-        box-sizing: border-box;
-        font-size: 16px;
-      }
-
       *,
       *:before,
       *:after {
-        box-sizing: inherit;
+        box-sizing: border-box;
       }
 
       body,
@@ -81,10 +76,15 @@
         display: none !important;
       }
 
+      .layout {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
       .content {
         width: 900px;
-        margin: 0 auto;
-        padding-top: 10%;
       }
 
       .content__logo {
@@ -206,59 +206,61 @@
     </style>
   </head>
   <body>
-    <main class="content">
-      <img src="./logo.png" width="200" height="200" alt="Дитячі розвивалки - Logo" class="content__logo" />
-      <h1 class="content__title">Дитячі розвивалки - Giveaway</h1>
+    <main class="layout">
+      <section class="content">
+        <img src="./logo.png" width="200" height="200" alt="Дитячі розвивалки - Logo" class="content__logo" />
+        <h1 class="content__title">Дитячі розвивалки - Giveaway</h1>
 
-      <form action="#" class="form js-form">
-        <input
-          type="text"
-          class="form__text-field"
-          name="url"
-          required
-          placeholder="Посилання на допис в TikTok: https://www.tiktok.com/@dityachi_rozvyvalky/video/7432963056130379013"
-        />
+        <form action="#" class="form js-form">
+          <input
+            type="text"
+            class="form__text-field"
+            name="url"
+            required
+            placeholder="Посилання на допис в TikTok: https://www.tiktok.com/@dityachi_rozvyvalky/video/7432963056130379013"
+          />
 
-        <div class="row__center">
-          <button type="submit" class="button">Дізнатись переможця 🥳</button>
+          <div class="row__center">
+            <button type="submit" class="button">Дізнатись переможця 🥳</button>
+          </div>
+        </form>
+
+        <div class="result">
+          <div class="loader hide js-loader">
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+              <div class="loader-line"></div>
+            </div>
+          </div>
         </div>
-      </form>
 
-      <div class="result">
-        <div class="loader hide js-loader">
-          <div class="loader-line-wrap">
-            <div class="loader-line"></div>
-          </div>
-          <div class="loader-line-wrap">
-            <div class="loader-line"></div>
-          </div>
-          <div class="loader-line-wrap">
-            <div class="loader-line"></div>
-          </div>
-          <div class="loader-line-wrap">
-            <div class="loader-line"></div>
-          </div>
-          <div class="loader-line-wrap">
-            <div class="loader-line"></div>
-          </div>
-        </div>
-      </div>
+        <dl class="list hide js-list">
+          <dt>Переміг коментар під номером</dt>
+          <dd class="js-comment-index"></dd>
 
-      <dl class="list hide js-list">
-        <dt>Переміг коментар під номером</dt>
-        <dd class="js-comment-index"></dd>
+          <dt>Текст коментаря</dt>
+          <dd class="js-comment-text"></dd>
 
-        <dt>Текст коментаря</dt>
-        <dd class="js-comment-text"></dd>
+          <dt>Нік-нейм</dt>
+          <dd class="js-username"></dd>
 
-        <dt>Нік-нейм</dt>
-        <dd class="js-username"></dd>
-
-        <dt>Посилання на профіль</dt>
-        <dd>
-          <a href="" class="js-profile-link"></a>
-        </dd>
-      </dl>
+          <dt>Посилання на профіль</dt>
+          <dd>
+            <a href="" class="js-profile-link"></a>
+          </dd>
+        </dl>
+      </section>
     </main>
 
     <script src="./main.js"></script>
