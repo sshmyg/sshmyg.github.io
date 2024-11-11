@@ -77,6 +77,9 @@
   };
 
   const formNode = document.querySelector('.js-form');
+  const loaderNode = document.querySelector('.js-loader');
+  const listNode = document.querySelector('.js-list');
+  const hideClass = 'hide';
 
   formNode.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -91,7 +94,18 @@
       return;
     }
 
+    loaderNode.classList.remove(hideClass);
+
     const result = await findWinner({ videoId });
+
+    loaderNode.classList.add(hideClass);
+    listNode.classList.remove(hideClass);
+
+    document.querySelector('.js-comment-index').innerText = result.commentNumber;
+    document.querySelector('.js-comment-text').innerText = result.text;
+    document.querySelector('.js-username').innerText = result.nickname;
+    document.querySelector('.js-profile-link').innerText = result.unique_id;
+    document.querySelector('.js-profile-link').href = result.userLink;
 
     console.log(result);
   });

@@ -15,6 +15,18 @@
     />
 
     <style>
+      :root {
+        --color-1: rgb(235, 71, 71);
+        --color-2: rgb(235, 235, 71);
+        --color-3: rgb(71, 235, 71);
+        --color-4: rgb(71, 235, 235);
+        --color-5: rgb(71, 71, 235);
+      }
+    </style>
+
+    <link rel="stylesheet" href="./loader.css" />
+
+    <style>
       html {
         box-sizing: border-box;
         font-size: 16px;
@@ -56,6 +68,19 @@
         font-family: 'Open Sans', serif;
       }
 
+      a {
+        color: var(--color-5);
+      }
+
+      *:focus,
+      *:focus-within {
+        outline: none;
+      }
+
+      .hide {
+        display: none !important;
+      }
+
       .content {
         width: 900px;
         margin: 0 auto;
@@ -64,7 +89,7 @@
 
       .content__logo {
         display: block;
-        margin: 0 auto 10px;
+        margin: 0 auto 20px;
       }
 
       .content__title {
@@ -73,12 +98,24 @@
         text-align: center;
         font-weight: bold;
         letter-spacing: 5px;
-        background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+        /* background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff); */
+        background: linear-gradient(
+          to right,
+          var(--color-1),
+          var(--color-2),
+          var(--color-3),
+          var(--color-4),
+          var(--color-5)
+        );
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         animation: rainbowAnimation 6s ease-in-out infinite;
         background-size: 400% 100%;
+      }
+
+      .form {
+        margin-bottom: 20px;
       }
 
       .form__text-field {
@@ -89,16 +126,16 @@
         display: block;
         width: 100%;
         font-size: 16px;
-        border: 1px solid tomato;
-        margin-bottom: 10px;
+        border: 1px solid var(--color-1);
+        margin-bottom: 20px;
       }
 
-      .form__text-field::focus {
-        outline: transparent;
-      }
-
-      .form__text-field::placeholder {
+      .form__text-field:placeholder {
         color: #c2bebe;
+      }
+
+      .form__text-field:focus {
+        box-shadow: 0 0 20px rgb(235, 71, 71, 0.5);
       }
 
       .button {
@@ -119,6 +156,43 @@
         justify-content: center;
       }
 
+      .list {
+        display: grid;
+        grid-template-columns: auto 1fr;
+      }
+
+      .list dt {
+        margin: 0 20px 20px;
+      }
+
+      .list dt:after {
+        content: ':';
+      }
+
+      .list dd {
+        margin: 0 0 20px;
+      }
+
+      .list dt:nth-of-type(1),
+      .list dd:nth-of-type(1) {
+        color: var(--color-1);
+      }
+
+      .list dt:nth-of-type(2),
+      .list dd:nth-of-type(2) {
+        color: var(--color-3);
+      }
+
+      .list dt:nth-of-type(3),
+      .list dd:nth-of-type(3) {
+        color: var(--color-4);
+      }
+
+      .list dt:nth-of-type(4),
+      .list dd:nth-of-type(4) {
+        color: var(--color-5);
+      }
+
       @keyframes rainbowAnimation {
         0%,
         100% {
@@ -136,7 +210,7 @@
       <img src="./logo.png" width="200" height="200" alt="Дитячі розвивалки - Logo" class="content__logo" />
       <h1 class="content__title">Дитячі розвивалки - Giveaway</h1>
 
-      <form action="#" class="js-form">
+      <form action="#" class="form js-form">
         <input
           type="text"
           class="form__text-field"
@@ -149,6 +223,42 @@
           <button type="submit" class="button">Дізнатись переможця 🥳</button>
         </div>
       </form>
+
+      <div class="result">
+        <div class="loader hide js-loader">
+          <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+          </div>
+          <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+          </div>
+          <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+          </div>
+          <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+          </div>
+          <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+          </div>
+        </div>
+      </div>
+
+      <dl class="list hide js-list">
+        <dt>Переміг коментар під номером</dt>
+        <dd class="js-comment-index"></dd>
+
+        <dt>Текст коментаря</dt>
+        <dd class="js-comment-text"></dd>
+
+        <dt>Нік-нейм</dt>
+        <dd class="js-username"></dd>
+
+        <dt>Посилання на профіль</dt>
+        <dd>
+          <a href="" class="js-profile-link"></a>
+        </dd>
+      </dl>
     </main>
 
     <script src="./main.js"></script>
