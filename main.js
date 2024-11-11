@@ -17,7 +17,19 @@
       aid: '1988',
     });
 
-    const response = await fetch(`https://www.tiktok.com/api/comment/list/?${qs}`);
+    const response = await fetch(`https://www.tiktok.com/api/comment/list/?${qs}`, {
+      headers: {
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+      },
+
+      method: 'GET',
+      mode: 'cors',
+      credentials: 'include',
+    });
 
     return response.json();
   };
