@@ -17,10 +17,7 @@
       aid: '1988',
     });
 
-    const response = await fetch(`https://www.tiktok.com/api/comment/list/?${qs}`, {
-      method: 'GET',
-      mode: 'no-cors',
-    });
+    const response = await fetch(`https://cors-anywhere.herokuapp.com/https://www.tiktok.com/api/comment/list/?${qs}`);
 
     return response.json();
   };
