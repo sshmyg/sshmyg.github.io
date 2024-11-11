@@ -72,7 +72,8 @@
         userLink: `https://www.tiktok.com/@${unique_id}`,
       };
     } catch (error) {
-      console.log(error.message);
+      console.log(error);
+      alert(`Сталась помилка, зверніься до служби підтримки: ${error.message}`);
     }
   };
 
