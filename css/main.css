@@ -63,8 +63,14 @@ a {
 }
 
 .content {
-  max-width: 900px;
+  width: 900px;
   padding: 2%;
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    width: 100%;
+  }
 }
 
 .content__logo {
